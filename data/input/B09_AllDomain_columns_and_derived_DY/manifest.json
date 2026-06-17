@@ -1,0 +1,6208 @@
+{
+  "generated_at": "2026-06-16T10:26:31.881079",
+  "seed": 42,
+  "mode": "compound",
+  "source_dir": "/tmp/sdtm_uploads_3uaxxvof",
+  "profile": "all",
+  "rate": 0.05,
+  "density_cap": 5,
+  "rules_available": 467,
+  "rules_injectable": 11,
+  "rules_skipped": 0,
+  "rules_injected": 11,
+  "total_mutations": 256,
+  "skipped_rules": [],
+  "errors": [
+    {
+      "error_id": "INJ-SD1089-SE-001",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SE",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0048",
+      "row_index": 130,
+      "csv_line": 132,
+      "seq_value": "2",
+      "variables_modified": {
+        "SESTDTC": {
+          "original": "2024-01-25",
+          "injected": "2024-01"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SESTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 130
+    },
+    {
+      "error_id": "INJ-SD1089-SE-002",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SE",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0024",
+      "row_index": 111,
+      "csv_line": 113,
+      "seq_value": "3",
+      "variables_modified": {
+        "SESTDTC": {
+          "original": "2025-02-15",
+          "injected": "2025-02"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SESTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 111
+    },
+    {
+      "error_id": "INJ-SD1089-SE-003",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SE",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0014",
+      "row_index": 56,
+      "csv_line": 58,
+      "seq_value": "1",
+      "variables_modified": {
+        "SESTDTC": {
+          "original": "2024-02-15",
+          "injected": "2024-02"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SESTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 56
+    },
+    {
+      "error_id": "INJ-SD1089-SE-004",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SE",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0044",
+      "row_index": 83,
+      "csv_line": 85,
+      "seq_value": "3",
+      "variables_modified": {
+        "SESTDTC": {
+          "original": "2025-04-21",
+          "injected": "2025-04"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SESTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 83
+    },
+    {
+      "error_id": "INJ-SD1089-SE-005",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SE",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0013",
+      "row_index": 11,
+      "csv_line": 13,
+      "seq_value": "1",
+      "variables_modified": {
+        "SESTDTC": {
+          "original": "2024-02-19",
+          "injected": "2024-02"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SESTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 11
+    },
+    {
+      "error_id": "INJ-SD1089-SE-006",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SE",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0012",
+      "row_index": 97,
+      "csv_line": 99,
+      "seq_value": "1",
+      "variables_modified": {
+        "SESTDTC": {
+          "original": "2024-01-27",
+          "injected": "2024-01"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SESTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 97
+    },
+    {
+      "error_id": "INJ-SD1089-SE-007",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SE",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0011",
+      "row_index": 55,
+      "csv_line": 57,
+      "seq_value": "3",
+      "variables_modified": {
+        "SESTDTC": {
+          "original": "2025-04-16",
+          "injected": "2025-04"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SESTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 55
+    },
+    {
+      "error_id": "INJ-SD1089-SV-008",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0046",
+      "row_index": 119,
+      "csv_line": 121,
+      "seq_value": "6",
+      "variables_modified": {
+        "SVSTDTC": {
+          "original": "2025-01-08",
+          "injected": "2025-01"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 119
+    },
+    {
+      "error_id": "INJ-SD1089-SV-009",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0016",
+      "row_index": 40,
+      "csv_line": 42,
+      "seq_value": "7",
+      "variables_modified": {
+        "SVSTDTC": {
+          "original": "2025-03-30",
+          "injected": "2025-03"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 40
+    },
+    {
+      "error_id": "INJ-SD1089-SV-010",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0012",
+      "row_index": 248,
+      "csv_line": 250,
+      "seq_value": "5",
+      "variables_modified": {
+        "SVSTDTC": {
+          "original": "2024-07-22",
+          "injected": "2024-07"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 248
+    },
+    {
+      "error_id": "INJ-SD1089-SV-011",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0018",
+      "row_index": 267,
+      "csv_line": 269,
+      "seq_value": "8",
+      "variables_modified": {
+        "SVSTDTC": {
+          "original": "2025-03-28",
+          "injected": "2025-03"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 267
+    },
+    {
+      "error_id": "INJ-SD1089-SV-012",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0033",
+      "row_index": 300,
+      "csv_line": 302,
+      "seq_value": "1",
+      "variables_modified": {
+        "SVSTDTC": {
+          "original": "2024-01-30",
+          "injected": "2024-01"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 300
+    },
+    {
+      "error_id": "INJ-SD1089-SV-013",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0008",
+      "row_index": 131,
+      "csv_line": 133,
+      "seq_value": "3",
+      "variables_modified": {
+        "SVSTDTC": {
+          "original": "2024-04-25",
+          "injected": "2024-04"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 131
+    },
+    {
+      "error_id": "INJ-SD1089-SV-014",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0044",
+      "row_index": 209,
+      "csv_line": 211,
+      "seq_value": "3",
+      "variables_modified": {
+        "SVSTDTC": {
+          "original": "2024-05-20",
+          "injected": "2024-05"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 209
+    },
+    {
+      "error_id": "INJ-SD1089-SV-015",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0015",
+      "row_index": 254,
+      "csv_line": 256,
+      "seq_value": "3",
+      "variables_modified": {
+        "SVSTDTC": {
+          "original": "2024-05-13",
+          "injected": "2024-05"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 254
+    },
+    {
+      "error_id": "INJ-SD1089-SV-016",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0032",
+      "row_index": 179,
+      "csv_line": 181,
+      "seq_value": "3",
+      "variables_modified": {
+        "SVSTDTC": {
+          "original": "2024-06-03",
+          "injected": "2024-06"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 179
+    },
+    {
+      "error_id": "INJ-SD1089-SV-017",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0009",
+      "row_index": 238,
+      "csv_line": 240,
+      "seq_value": "3",
+      "variables_modified": {
+        "SVSTDTC": {
+          "original": "2024-03-14",
+          "injected": "2024-03"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 238
+    },
+    {
+      "error_id": "INJ-SD1089-SV-018",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0025",
+      "row_index": 58,
+      "csv_line": 60,
+      "seq_value": "1",
+      "variables_modified": {
+        "SVSTDTC": {
+          "original": "2024-01-24",
+          "injected": "2024-01"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 58
+    },
+    {
+      "error_id": "INJ-SD1089-SV-019",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0021",
+      "row_index": 269,
+      "csv_line": 271,
+      "seq_value": "2",
+      "variables_modified": {
+        "SVSTDTC": {
+          "original": "2024-03-29",
+          "injected": "2024-03"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 269
+    },
+    {
+      "error_id": "INJ-SD1089-SV-020",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0003",
+      "row_index": 226,
+      "csv_line": 228,
+      "seq_value": "2",
+      "variables_modified": {
+        "SVSTDTC": {
+          "original": "2024-04-01",
+          "injected": "2024-04"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 226
+    },
+    {
+      "error_id": "INJ-SD1089-SV-021",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0020",
+      "row_index": 162,
+      "csv_line": 164,
+      "seq_value": "5",
+      "variables_modified": {
+        "SVSTDTC": {
+          "original": "2024-09-13",
+          "injected": "2024-09"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 162
+    },
+    {
+      "error_id": "INJ-SD1089-SV-022",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0014",
+      "row_index": 144,
+      "csv_line": 146,
+      "seq_value": "3",
+      "variables_modified": {
+        "SVSTDTC": {
+          "original": "2024-03-27",
+          "injected": "2024-03"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 144
+    },
+    {
+      "error_id": "INJ-SD1089-SV-023",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0020",
+      "row_index": 160,
+      "csv_line": 162,
+      "seq_value": "3",
+      "variables_modified": {
+        "SVSTDTC": {
+          "original": "2024-04-20",
+          "injected": "2024-04"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 160
+    },
+    {
+      "error_id": "INJ-SD1089-CM-024",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "CM",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0009",
+      "row_index": 167,
+      "csv_line": 169,
+      "seq_value": "2",
+      "variables_modified": {
+        "CMSTDTC": {
+          "original": "2024-03-17",
+          "injected": "2024-03"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "CMSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 167
+    },
+    {
+      "error_id": "INJ-SD1089-CM-025",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "CM",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0020",
+      "row_index": 111,
+      "csv_line": 113,
+      "seq_value": "3",
+      "variables_modified": {
+        "CMSTDTC": {
+          "original": "2024-03-30",
+          "injected": "2024-03"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "CMSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 111
+    },
+    {
+      "error_id": "INJ-SD1089-CM-026",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "CM",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0014",
+      "row_index": 96,
+      "csv_line": 98,
+      "seq_value": "3",
+      "variables_modified": {
+        "CMSTDTC": {
+          "original": "2024-05-09",
+          "injected": "2024-05"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "CMSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 96
+    },
+    {
+      "error_id": "INJ-SD1089-CM-027",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "CM",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0046",
+      "row_index": 80,
+      "csv_line": 82,
+      "seq_value": "3",
+      "variables_modified": {
+        "CMSTDTC": {
+          "original": "2025-02-06",
+          "injected": "2025-02"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "CMSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 80
+    },
+    {
+      "error_id": "INJ-SD1089-CM-028",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "CM",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0030",
+      "row_index": 193,
+      "csv_line": 195,
+      "seq_value": "1",
+      "variables_modified": {
+        "CMSTDTC": {
+          "original": "2018-02-17",
+          "injected": "2018-02"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "CMSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 193
+    },
+    {
+      "error_id": "INJ-SD1089-CM-029",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "CM",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0028",
+      "row_index": 43,
+      "csv_line": 45,
+      "seq_value": "2",
+      "variables_modified": {
+        "CMSTDTC": {
+          "original": "2024-09-17",
+          "injected": "2024-09"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "CMSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 43
+    },
+    {
+      "error_id": "INJ-SD1089-CM-030",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "CM",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0044",
+      "row_index": 147,
+      "csv_line": 149,
+      "seq_value": "5",
+      "variables_modified": {
+        "CMSTDTC": {
+          "original": "2024-06-13",
+          "injected": "2024-06"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "CMSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 147
+    },
+    {
+      "error_id": "INJ-SD1089-CM-031",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "CM",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0017",
+      "row_index": 104,
+      "csv_line": 106,
+      "seq_value": "1",
+      "variables_modified": {
+        "CMSTDTC": {
+          "original": "2021-02-09",
+          "injected": "2021-02"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "CMSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 104
+    },
+    {
+      "error_id": "INJ-SD1089-CM-032",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "CM",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0039",
+      "row_index": 208,
+      "csv_line": 210,
+      "seq_value": "5",
+      "variables_modified": {
+        "CMSTDTC": {
+          "original": "2024-10-03",
+          "injected": "2024-10"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "CMSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 208
+    },
+    {
+      "error_id": "INJ-SD1089-CM-033",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "CM",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0009",
+      "row_index": 170,
+      "csv_line": 172,
+      "seq_value": "5",
+      "variables_modified": {
+        "CMSTDTC": {
+          "original": "2024-09-04",
+          "injected": "2024-09"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "CMSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 170
+    },
+    {
+      "error_id": "INJ-SD1089-CM-034",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "CM",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0013",
+      "row_index": 14,
+      "csv_line": 16,
+      "seq_value": "1",
+      "variables_modified": {
+        "CMSTDTC": {
+          "original": "2016-02-15",
+          "injected": "2016-02"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "CMSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 14
+    },
+    {
+      "error_id": "INJ-SD1089-EC-035",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0018",
+      "row_index": 7650,
+      "csv_line": 7652,
+      "seq_value": "30",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-03-16",
+          "injected": "2024-03"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 7650
+    },
+    {
+      "error_id": "INJ-SD1089-EC-036",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0039",
+      "row_index": 8929,
+      "csv_line": 8931,
+      "seq_value": "30",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-05-15",
+          "injected": "2024-05"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 8929
+    },
+    {
+      "error_id": "INJ-SD1089-EC-037",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0025",
+      "row_index": 1902,
+      "csv_line": 1904,
+      "seq_value": "131",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-06-30",
+          "injected": "2024-06"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1902
+    },
+    {
+      "error_id": "INJ-SD1089-EC-038",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0003",
+      "row_index": 6492,
+      "csv_line": 6494,
+      "seq_value": "33",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-05-03",
+          "injected": "2024-05"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 6492
+    },
+    {
+      "error_id": "INJ-SD1089-EC-039",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0012",
+      "row_index": 7297,
+      "csv_line": 7299,
+      "seq_value": "253",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-10-19",
+          "injected": "2024-10"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 7297
+    },
+    {
+      "error_id": "INJ-SD1089-EC-040",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0014",
+      "row_index": 4392,
+      "csv_line": 4394,
+      "seq_value": "116",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-07-29",
+          "injected": "2024-07"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 4392
+    },
+    {
+      "error_id": "INJ-SD1089-EC-041",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0050",
+      "row_index": 6359,
+      "csv_line": 6361,
+      "seq_value": "145",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-08-27",
+          "injected": "2024-08"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 6359
+    },
+    {
+      "error_id": "INJ-SD1089-EC-042",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0017",
+      "row_index": 4514,
+      "csv_line": 4516,
+      "seq_value": "110",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-06-20",
+          "injected": "2024-06"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 4514
+    },
+    {
+      "error_id": "INJ-SD1089-EC-043",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0014",
+      "row_index": 4373,
+      "csv_line": 4375,
+      "seq_value": "97",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-07-10",
+          "injected": "2024-07"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 4373
+    },
+    {
+      "error_id": "INJ-SD1089-EC-044",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0015",
+      "row_index": 7492,
+      "csv_line": 7494,
+      "seq_value": "84",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-07-06",
+          "injected": "2024-07"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 7492
+    },
+    {
+      "error_id": "INJ-SD1089-EC-045",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0019",
+      "row_index": 1329,
+      "csv_line": 1331,
+      "seq_value": "189",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-09-29",
+          "injected": "2024-09"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1329
+    },
+    {
+      "error_id": "INJ-SD1089-EC-046",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0011",
+      "row_index": 4151,
+      "csv_line": 4153,
+      "seq_value": "126",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-08-20",
+          "injected": "2024-08"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 4151
+    },
+    {
+      "error_id": "INJ-SD1089-EC-047",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0011",
+      "row_index": 4137,
+      "csv_line": 4139,
+      "seq_value": "112",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-08-06",
+          "injected": "2024-08"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 4137
+    },
+    {
+      "error_id": "INJ-SD1089-EC-048",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0001",
+      "row_index": 70,
+      "csv_line": 72,
+      "seq_value": "71",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-04-28",
+          "injected": "2024-04"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 70
+    },
+    {
+      "error_id": "INJ-SD1089-EC-049",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0028",
+      "row_index": 2154,
+      "csv_line": 2156,
+      "seq_value": "115",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-07-16",
+          "injected": "2024-07"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 2154
+    },
+    {
+      "error_id": "INJ-SD1089-EC-050",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0044",
+      "row_index": 6058,
+      "csv_line": 6060,
+      "seq_value": "12",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-05-03",
+          "injected": "2024-05"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 6058
+    },
+    {
+      "error_id": "INJ-SD1089-EC-051",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0032",
+      "row_index": 5359,
+      "csv_line": 5361,
+      "seq_value": "251",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2025-01-14",
+          "injected": "2025-01"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 5359
+    },
+    {
+      "error_id": "INJ-SD1089-EC-052",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0017",
+      "row_index": 4453,
+      "csv_line": 4455,
+      "seq_value": "49",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-04-20",
+          "injected": "2024-04"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 4453
+    },
+    {
+      "error_id": "INJ-SD1089-EC-053",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0021",
+      "row_index": 8002,
+      "csv_line": 8004,
+      "seq_value": "159",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-09-03",
+          "injected": "2024-09"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 8002
+    },
+    {
+      "error_id": "INJ-SD1089-EC-054",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0050",
+      "row_index": 6331,
+      "csv_line": 6333,
+      "seq_value": "117",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-07-30",
+          "injected": "2024-07"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 6331
+    },
+    {
+      "error_id": "INJ-SD1089-EC-055",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0003",
+      "row_index": 6653,
+      "csv_line": 6655,
+      "seq_value": "194",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-10-11",
+          "injected": "2024-10"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 6653
+    },
+    {
+      "error_id": "INJ-SD1089-EC-056",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0019",
+      "row_index": 1232,
+      "csv_line": 1234,
+      "seq_value": "92",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-06-24",
+          "injected": "2024-06"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1232
+    },
+    {
+      "error_id": "INJ-SD1089-EC-057",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0032",
+      "row_index": 5294,
+      "csv_line": 5296,
+      "seq_value": "186",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-11-10",
+          "injected": "2024-11"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 5294
+    },
+    {
+      "error_id": "INJ-SD1089-EC-058",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0031",
+      "row_index": 2639,
+      "csv_line": 2641,
+      "seq_value": "338",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2025-02-14",
+          "injected": "2025-02"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 2639
+    },
+    {
+      "error_id": "INJ-SD1089-EC-059",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0034",
+      "row_index": 2742,
+      "csv_line": 2744,
+      "seq_value": "83",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-07-31",
+          "injected": "2024-07"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 2742
+    },
+    {
+      "error_id": "INJ-SD1089-EC-060",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0015",
+      "row_index": 7438,
+      "csv_line": 7440,
+      "seq_value": "30",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-05-13",
+          "injected": "2024-05"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 7438
+    },
+    {
+      "error_id": "INJ-SD1089-EC-061",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0018",
+      "row_index": 7661,
+      "csv_line": 7663,
+      "seq_value": "41",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-03-27",
+          "injected": "2024-03"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 7661
+    },
+    {
+      "error_id": "INJ-SD1089-EC-062",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0040",
+      "row_index": 3089,
+      "csv_line": 3091,
+      "seq_value": "16",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-02-21",
+          "injected": "2024-02"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 3089
+    },
+    {
+      "error_id": "INJ-SD1089-EC-063",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0028",
+      "row_index": 2278,
+      "csv_line": 2280,
+      "seq_value": "239",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-11-17",
+          "injected": "2024-11"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 2278
+    },
+    {
+      "error_id": "INJ-SD1089-EC-064",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0003",
+      "row_index": 6514,
+      "csv_line": 6516,
+      "seq_value": "55",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-05-25",
+          "injected": "2024-05"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 6514
+    },
+    {
+      "error_id": "INJ-SD1089-EC-065",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0021",
+      "row_index": 7910,
+      "csv_line": 7912,
+      "seq_value": "67",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-06-03",
+          "injected": "2024-06"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 7910
+    },
+    {
+      "error_id": "INJ-SD1089-EC-066",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0022",
+      "row_index": 1526,
+      "csv_line": 1528,
+      "seq_value": "22",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-05-17",
+          "injected": "2024-05"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1526
+    },
+    {
+      "error_id": "INJ-SD1089-EC-067",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0046",
+      "row_index": 3513,
+      "csv_line": 3515,
+      "seq_value": "2",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-04-28",
+          "injected": "2024-04"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 3513
+    },
+    {
+      "error_id": "INJ-SD1089-EC-068",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0021",
+      "row_index": 7909,
+      "csv_line": 7911,
+      "seq_value": "66",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-06-02",
+          "injected": "2024-06"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 7909
+    },
+    {
+      "error_id": "INJ-SD1089-EC-069",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0015",
+      "row_index": 7430,
+      "csv_line": 7432,
+      "seq_value": "22",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-05-05",
+          "injected": "2024-05"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 7430
+    },
+    {
+      "error_id": "INJ-SD1089-EC-070",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0015",
+      "row_index": 7585,
+      "csv_line": 7587,
+      "seq_value": "177",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-10-07",
+          "injected": "2024-10"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 7585
+    },
+    {
+      "error_id": "INJ-SD1089-EC-071",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0013",
+      "row_index": 923,
+      "csv_line": 925,
+      "seq_value": "176",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-08-26",
+          "injected": "2024-08"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 923
+    },
+    {
+      "error_id": "INJ-SD1089-EC-072",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0017",
+      "row_index": 4491,
+      "csv_line": 4493,
+      "seq_value": "87",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-05-28",
+          "injected": "2024-05"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 4491
+    },
+    {
+      "error_id": "INJ-SD1089-EC-073",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0007",
+      "row_index": 724,
+      "csv_line": 726,
+      "seq_value": "150",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-07-15",
+          "injected": "2024-07"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 724
+    },
+    {
+      "error_id": "INJ-SD1089-EC-074",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0037",
+      "row_index": 2968,
+      "csv_line": 2970,
+      "seq_value": "160",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-08-06",
+          "injected": "2024-08"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 2968
+    },
+    {
+      "error_id": "INJ-SD1089-EC-075",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0021",
+      "row_index": 7924,
+      "csv_line": 7926,
+      "seq_value": "81",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-06-17",
+          "injected": "2024-06"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 7924
+    },
+    {
+      "error_id": "INJ-SD1089-EC-076",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0003",
+      "row_index": 6716,
+      "csv_line": 6718,
+      "seq_value": "257",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-12-13",
+          "injected": "2024-12"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 6716
+    },
+    {
+      "error_id": "INJ-SD1089-EC-077",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0020",
+      "row_index": 4818,
+      "csv_line": 4820,
+      "seq_value": "50",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-05-14",
+          "injected": "2024-05"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 4818
+    },
+    {
+      "error_id": "INJ-SD1089-EC-078",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0030",
+      "row_index": 8540,
+      "csv_line": 8542,
+      "seq_value": "30",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-04-10",
+          "injected": "2024-04"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 8540
+    },
+    {
+      "error_id": "INJ-SD1089-EC-079",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0041",
+      "row_index": 5982,
+      "csv_line": 5984,
+      "seq_value": "184",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-08-03",
+          "injected": "2024-08"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 5982
+    },
+    {
+      "error_id": "INJ-SD1089-EC-080",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0015",
+      "row_index": 7547,
+      "csv_line": 7549,
+      "seq_value": "139",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-08-30",
+          "injected": "2024-08"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 7547
+    },
+    {
+      "error_id": "INJ-SD1089-EC-081",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0040",
+      "row_index": 3134,
+      "csv_line": 3136,
+      "seq_value": "61",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-04-07",
+          "injected": "2024-04"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 3134
+    },
+    {
+      "error_id": "INJ-SD1089-EC-082",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0025",
+      "row_index": 1797,
+      "csv_line": 1799,
+      "seq_value": "26",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-03-03",
+          "injected": "2024-03"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1797
+    },
+    {
+      "error_id": "INJ-SD1089-EC-083",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0030",
+      "row_index": 8586,
+      "csv_line": 8588,
+      "seq_value": "76",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-05-26",
+          "injected": "2024-05"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 8586
+    },
+    {
+      "error_id": "INJ-SD1089-EC-084",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0046",
+      "row_index": 3684,
+      "csv_line": 3686,
+      "seq_value": "173",
+      "variables_modified": {
+        "ECSTDTC": {
+          "original": "2024-10-16",
+          "injected": "2024-10"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 3684
+    },
+    {
+      "error_id": "INJ-SD1089-EX-085",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EX",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0031",
+      "row_index": 13,
+      "csv_line": 15,
+      "seq_value": "2",
+      "variables_modified": {
+        "EXSTDTC": {
+          "original": "2024-03-11",
+          "injected": "2024-03"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "EXSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 13
+    },
+    {
+      "error_id": "INJ-SD1089-EX-086",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EX",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0040",
+      "row_index": 25,
+      "csv_line": 27,
+      "seq_value": "3",
+      "variables_modified": {
+        "EXSTDTC": {
+          "original": "2024-08-16",
+          "injected": "2024-08"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "EXSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 25
+    },
+    {
+      "error_id": "INJ-SD1089-EX-087",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EX",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0008",
+      "row_index": 32,
+      "csv_line": 34,
+      "seq_value": "1",
+      "variables_modified": {
+        "EXSTDTC": {
+          "original": "2024-03-28",
+          "injected": "2024-03"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "EXSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 32
+    },
+    {
+      "error_id": "INJ-SD1089-EX-088",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EX",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0018",
+      "row_index": 64,
+      "csv_line": 66,
+      "seq_value": "1",
+      "variables_modified": {
+        "EXSTDTC": {
+          "original": "2024-02-16",
+          "injected": "2024-02"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "EXSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 64
+    },
+    {
+      "error_id": "INJ-SD1089-SU-089",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SU",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0009",
+      "row_index": 102,
+      "csv_line": 104,
+      "seq_value": "1",
+      "variables_modified": {
+        "SUSTDTC": {
+          "original": "2004-01-22",
+          "injected": "2004-01"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SUSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 102
+    },
+    {
+      "error_id": "INJ-SD1089-SU-090",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SU",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0006",
+      "row_index": 101,
+      "csv_line": 103,
+      "seq_value": "3",
+      "variables_modified": {
+        "SUSTDTC": {
+          "original": "2015-01-22",
+          "injected": "2015-01"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SUSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 101
+    },
+    {
+      "error_id": "INJ-SD1089-SU-091",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SU",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0012",
+      "row_index": 107,
+      "csv_line": 109,
+      "seq_value": "3",
+      "variables_modified": {
+        "SUSTDTC": {
+          "original": "1999-01-26",
+          "injected": "1999-01"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SUSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 107
+    },
+    {
+      "error_id": "INJ-SD1089-SU-092",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SU",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0013",
+      "row_index": 12,
+      "csv_line": 14,
+      "seq_value": "1",
+      "variables_modified": {
+        "SUSTDTC": {
+          "original": "2016-02-15",
+          "injected": "2016-02"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SUSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 12
+    },
+    {
+      "error_id": "INJ-SD1089-SU-093",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SU",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0017",
+      "row_index": 65,
+      "csv_line": 67,
+      "seq_value": "3",
+      "variables_modified": {
+        "SUSTDTC": {
+          "original": "2019-02-10",
+          "injected": "2019-02"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SUSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 65
+    },
+    {
+      "error_id": "INJ-SD1089-AE-095",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "AE",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0033",
+      "row_index": 369,
+      "csv_line": 371,
+      "seq_value": "3",
+      "variables_modified": {
+        "AESTDTC": {
+          "original": "2024-02-27",
+          "injected": "2024-02"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "AESTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 369
+    },
+    {
+      "error_id": "INJ-SD1089-AE-096",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "AE",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0011",
+      "row_index": 174,
+      "csv_line": 176,
+      "seq_value": "6",
+      "variables_modified": {
+        "AESTDTC": {
+          "original": "2024-11-10",
+          "injected": "2024-11"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "AESTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 174
+    },
+    {
+      "error_id": "INJ-SD1089-AE-097",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "AE",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0050",
+      "row_index": 270,
+      "csv_line": 272,
+      "seq_value": "13",
+      "variables_modified": {
+        "AESTDTC": {
+          "original": "2025-01-01",
+          "injected": "2025-01"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "AESTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 270
+    },
+    {
+      "error_id": "INJ-SD1089-AE-098",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "AE",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0039",
+      "row_index": 383,
+      "csv_line": 385,
+      "seq_value": "10",
+      "variables_modified": {
+        "AESTDTC": {
+          "original": "2024-10-15",
+          "injected": "2024-10"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "AESTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 383
+    },
+    {
+      "error_id": "INJ-SD1089-AE-099",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "AE",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0038",
+      "row_index": 241,
+      "csv_line": 243,
+      "seq_value": "6",
+      "variables_modified": {
+        "AESTDTC": {
+          "original": "2024-11-08",
+          "injected": "2024-11"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "AESTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 241
+    },
+    {
+      "error_id": "INJ-SD1089-AE-100",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "AE",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0040",
+      "row_index": 136,
+      "csv_line": 138,
+      "seq_value": "14",
+      "variables_modified": {
+        "AESTDTC": {
+          "original": "2025-01-29",
+          "injected": "2025-01"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "AESTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 136
+    },
+    {
+      "error_id": "INJ-SD1089-AE-101",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "AE",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0022",
+      "row_index": 65,
+      "csv_line": 67,
+      "seq_value": "6",
+      "variables_modified": {
+        "AESTDTC": {
+          "original": "2024-08-06",
+          "injected": "2024-08"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "AESTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 65
+    },
+    {
+      "error_id": "INJ-SD1089-AE-102",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "AE",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0041",
+      "row_index": 250,
+      "csv_line": 252,
+      "seq_value": "9",
+      "variables_modified": {
+        "AESTDTC": {
+          "original": "2024-12-31",
+          "injected": "2024-12"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "AESTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 250
+    },
+    {
+      "error_id": "INJ-SD1089-AE-103",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "AE",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0039",
+      "row_index": 389,
+      "csv_line": 391,
+      "seq_value": "16",
+      "variables_modified": {
+        "AESTDTC": {
+          "original": "2025-02-11",
+          "injected": "2025-02"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "AESTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 389
+    },
+    {
+      "error_id": "INJ-SD1089-AE-104",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "AE",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0040",
+      "row_index": 137,
+      "csv_line": 139,
+      "seq_value": "15",
+      "variables_modified": {
+        "AESTDTC": {
+          "original": "2025-02-03",
+          "injected": "2025-02"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "AESTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 137
+    },
+    {
+      "error_id": "INJ-SD1089-AE-105",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "AE",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0046",
+      "row_index": 149,
+      "csv_line": 151,
+      "seq_value": "3",
+      "variables_modified": {
+        "AESTDTC": {
+          "original": "2024-10-10",
+          "injected": "2024-10"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "AESTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 149
+    },
+    {
+      "error_id": "INJ-SD1089-AE-106",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "AE",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0013",
+      "row_index": 35,
+      "csv_line": 37,
+      "seq_value": "1",
+      "variables_modified": {
+        "AESTDTC": {
+          "original": "2024-04-09",
+          "injected": "2024-04"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "AESTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 35
+    },
+    {
+      "error_id": "INJ-SD1089-AE-107",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "AE",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0031",
+      "row_index": 94,
+      "csv_line": 96,
+      "seq_value": "12",
+      "variables_modified": {
+        "AESTDTC": {
+          "original": "2025-01-17",
+          "injected": "2025-01"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "AESTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 94
+    },
+    {
+      "error_id": "INJ-SD1089-AE-108",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "AE",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0046",
+      "row_index": 148,
+      "csv_line": 150,
+      "seq_value": "2",
+      "variables_modified": {
+        "AESTDTC": {
+          "original": "2024-10-03",
+          "injected": "2024-10"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "AESTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 148
+    },
+    {
+      "error_id": "INJ-SD1089-AE-109",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "AE",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0013",
+      "row_index": 47,
+      "csv_line": 49,
+      "seq_value": "13",
+      "variables_modified": {
+        "AESTDTC": {
+          "original": "2025-01-26",
+          "injected": "2025-01"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "AESTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 47
+    },
+    {
+      "error_id": "INJ-SD1089-AE-110",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "AE",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0037",
+      "row_index": 119,
+      "csv_line": 121,
+      "seq_value": "1",
+      "variables_modified": {
+        "AESTDTC": {
+          "original": "2024-04-23",
+          "injected": "2024-04"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "AESTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 119
+    },
+    {
+      "error_id": "INJ-SD1089-AE-111",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "AE",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0043",
+      "row_index": 144,
+      "csv_line": 146,
+      "seq_value": "7",
+      "variables_modified": {
+        "AESTDTC": {
+          "original": "2025-02-24",
+          "injected": "2025-02"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "AESTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 144
+    },
+    {
+      "error_id": "INJ-SD1089-DS-112",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0035",
+      "row_index": 84,
+      "csv_line": 86,
+      "seq_value": "3",
+      "variables_modified": {
+        "DSSTDTC": {
+          "original": "2025-05-25",
+          "injected": "2025-05"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DSSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 84
+    },
+    {
+      "error_id": "INJ-SD1089-DS-113",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0043",
+      "row_index": 44,
+      "csv_line": 46,
+      "seq_value": "3",
+      "variables_modified": {
+        "DSSTDTC": {
+          "original": "2025-06-04",
+          "injected": "2025-06"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DSSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 44
+    },
+    {
+      "error_id": "INJ-SD1089-DS-114",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DS",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0006",
+      "row_index": 103,
+      "csv_line": 105,
+      "seq_value": "1",
+      "variables_modified": {
+        "DSSTDTC": {
+          "original": "2024-01-20",
+          "injected": "2024-01"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DSSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 103
+    },
+    {
+      "error_id": "INJ-SD1089-DS-115",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0025",
+      "row_index": 26,
+      "csv_line": 28,
+      "seq_value": "3",
+      "variables_modified": {
+        "DSSTDTC": {
+          "original": "2025-03-20",
+          "injected": "2025-03"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DSSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 26
+    },
+    {
+      "error_id": "INJ-SD1089-DS-116",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0028",
+      "row_index": 28,
+      "csv_line": 30,
+      "seq_value": "2",
+      "variables_modified": {
+        "DSSTDTC": {
+          "original": "2024-03-24",
+          "injected": "2024-03"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DSSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 28
+    },
+    {
+      "error_id": "INJ-SD1089-DS-117",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0032",
+      "row_index": 80,
+      "csv_line": 82,
+      "seq_value": "2",
+      "variables_modified": {
+        "DSSTDTC": {
+          "original": "2024-05-09",
+          "injected": "2024-05"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DSSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 80
+    },
+    {
+      "error_id": "INJ-SD1089-DS-118",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DS",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0018",
+      "row_index": 117,
+      "csv_line": 119,
+      "seq_value": "3",
+      "variables_modified": {
+        "DSSTDTC": {
+          "original": "2025-03-29",
+          "injected": "2025-03"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DSSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 117
+    },
+    {
+      "error_id": "INJ-SD1089-DV-119",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0019",
+      "row_index": 111,
+      "csv_line": 113,
+      "seq_value": "5",
+      "variables_modified": {
+        "DVSTDTC": {
+          "original": "2025-05-03",
+          "injected": "2025-05"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 111
+    },
+    {
+      "error_id": "INJ-SD1089-DV-120",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0022",
+      "row_index": 114,
+      "csv_line": 116,
+      "seq_value": "3",
+      "variables_modified": {
+        "DVSTDTC": {
+          "original": "2024-05-18",
+          "injected": "2024-05"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 114
+    },
+    {
+      "error_id": "INJ-SD1089-DV-121",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0022",
+      "row_index": 115,
+      "csv_line": 117,
+      "seq_value": "4",
+      "variables_modified": {
+        "DVSTDTC": {
+          "original": "2024-06-05",
+          "injected": "2024-06"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 115
+    },
+    {
+      "error_id": "INJ-SD1089-DV-122",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0032",
+      "row_index": 370,
+      "csv_line": 372,
+      "seq_value": "7",
+      "variables_modified": {
+        "DVSTDTC": {
+          "original": "2024-07-12",
+          "injected": "2024-07"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 370
+    },
+    {
+      "error_id": "INJ-SD1089-DV-123",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0035",
+      "row_index": 397,
+      "csv_line": 399,
+      "seq_value": "17",
+      "variables_modified": {
+        "DVSTDTC": {
+          "original": "2024-09-16",
+          "injected": "2024-09"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 397
+    },
+    {
+      "error_id": "INJ-SD1089-DV-124",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0035",
+      "row_index": 382,
+      "csv_line": 384,
+      "seq_value": "2",
+      "variables_modified": {
+        "DVSTDTC": {
+          "original": "2024-04-22",
+          "injected": "2024-04"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 382
+    },
+    {
+      "error_id": "INJ-SD1089-DV-125",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0050",
+      "row_index": 440,
+      "csv_line": 442,
+      "seq_value": "2",
+      "variables_modified": {
+        "DVSTDTC": {
+          "original": "2024-05-03",
+          "injected": "2024-05"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 440
+    },
+    {
+      "error_id": "INJ-SD1089-DV-126",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0045",
+      "row_index": 651,
+      "csv_line": 653,
+      "seq_value": "3",
+      "variables_modified": {
+        "DVSTDTC": {
+          "original": "2024-05-21",
+          "injected": "2024-05"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 651
+    },
+    {
+      "error_id": "INJ-SD1089-DV-127",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0022",
+      "row_index": 121,
+      "csv_line": 123,
+      "seq_value": "10",
+      "variables_modified": {
+        "DVSTDTC": {
+          "original": "2024-07-30",
+          "injected": "2024-07"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 121
+    },
+    {
+      "error_id": "INJ-SD1089-DV-128",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0044",
+      "row_index": 428,
+      "csv_line": 430,
+      "seq_value": "4",
+      "variables_modified": {
+        "DVSTDTC": {
+          "original": "2024-06-04",
+          "injected": "2024-06"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 428
+    },
+    {
+      "error_id": "INJ-SD1089-DV-129",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0035",
+      "row_index": 401,
+      "csv_line": 403,
+      "seq_value": "21",
+      "variables_modified": {
+        "DVSTDTC": {
+          "original": "2024-10-26",
+          "injected": "2024-10"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 401
+    },
+    {
+      "error_id": "INJ-SD1089-DV-130",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0037",
+      "row_index": 195,
+      "csv_line": 197,
+      "seq_value": "13",
+      "variables_modified": {
+        "DVSTDTC": {
+          "original": "2024-09-09",
+          "injected": "2024-09"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 195
+    },
+    {
+      "error_id": "INJ-SD1089-DV-131",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0020",
+      "row_index": 318,
+      "csv_line": 320,
+      "seq_value": "5",
+      "variables_modified": {
+        "DVSTDTC": {
+          "original": "2024-04-15",
+          "injected": "2024-04"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 318
+    },
+    {
+      "error_id": "INJ-SD1089-DV-132",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0041",
+      "row_index": 413,
+      "csv_line": 415,
+      "seq_value": "7",
+      "variables_modified": {
+        "DVSTDTC": {
+          "original": "2024-05-13",
+          "injected": "2024-05"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 413
+    },
+    {
+      "error_id": "INJ-SD1089-DV-133",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0043",
+      "row_index": 229,
+      "csv_line": 231,
+      "seq_value": "7",
+      "variables_modified": {
+        "DVSTDTC": {
+          "original": "2024-05-23",
+          "injected": "2024-05"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 229
+    },
+    {
+      "error_id": "INJ-SD1089-DV-134",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0037",
+      "row_index": 196,
+      "csv_line": 198,
+      "seq_value": "14",
+      "variables_modified": {
+        "DVSTDTC": {
+          "original": "2024-09-10",
+          "injected": "2024-09"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 196
+    },
+    {
+      "error_id": "INJ-SD1089-DV-135",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0009",
+      "row_index": 484,
+      "csv_line": 486,
+      "seq_value": "18",
+      "variables_modified": {
+        "DVSTDTC": {
+          "original": "2025-03-20",
+          "injected": "2025-03"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 484
+    },
+    {
+      "error_id": "INJ-SD1089-DV-136",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0007",
+      "row_index": 60,
+      "csv_line": 62,
+      "seq_value": "34",
+      "variables_modified": {
+        "DVSTDTC": {
+          "original": "2024-10-25",
+          "injected": "2024-10"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 60
+    },
+    {
+      "error_id": "INJ-SD1089-DV-137",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0035",
+      "row_index": 383,
+      "csv_line": 385,
+      "seq_value": "3",
+      "variables_modified": {
+        "DVSTDTC": {
+          "original": "2024-04-23",
+          "injected": "2024-04"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 383
+    },
+    {
+      "error_id": "INJ-SD1089-DV-138",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0008",
+      "row_index": 272,
+      "csv_line": 274,
+      "seq_value": "8",
+      "variables_modified": {
+        "DVSTDTC": {
+          "original": "2024-07-08",
+          "injected": "2024-07"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 272
+    },
+    {
+      "error_id": "INJ-SD1089-DV-139",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0038",
+      "row_index": 405,
+      "csv_line": 407,
+      "seq_value": "3",
+      "variables_modified": {
+        "DVSTDTC": {
+          "original": "2024-06-11",
+          "injected": "2024-06"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 405
+    },
+    {
+      "error_id": "INJ-SD1089-DV-140",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0004",
+      "row_index": 26,
+      "csv_line": 28,
+      "seq_value": "2",
+      "variables_modified": {
+        "DVSTDTC": {
+          "original": "2024-12-13",
+          "injected": "2024-12"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 26
+    },
+    {
+      "error_id": "INJ-SD1089-DV-141",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0008",
+      "row_index": 266,
+      "csv_line": 268,
+      "seq_value": "2",
+      "variables_modified": {
+        "DVSTDTC": {
+          "original": "2024-05-09",
+          "injected": "2024-05"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 266
+    },
+    {
+      "error_id": "INJ-SD1089-DV-142",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0036",
+      "row_index": 607,
+      "csv_line": 609,
+      "seq_value": "1",
+      "variables_modified": {
+        "DVSTDTC": {
+          "original": "2024-02-23",
+          "injected": "2024-02"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 607
+    },
+    {
+      "error_id": "INJ-SD1089-DV-143",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0016",
+      "row_index": 88,
+      "csv_line": 90,
+      "seq_value": "4",
+      "variables_modified": {
+        "DVSTDTC": {
+          "original": "2024-04-28",
+          "injected": "2024-04"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 88
+    },
+    {
+      "error_id": "INJ-SD1089-DV-144",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0041",
+      "row_index": 417,
+      "csv_line": 419,
+      "seq_value": "11",
+      "variables_modified": {
+        "DVSTDTC": {
+          "original": "2024-07-19",
+          "injected": "2024-07"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 417
+    },
+    {
+      "error_id": "INJ-SD1089-DV-145",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0007",
+      "row_index": 53,
+      "csv_line": 55,
+      "seq_value": "27",
+      "variables_modified": {
+        "DVSTDTC": {
+          "original": "2024-06-28",
+          "injected": "2024-06"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 53
+    },
+    {
+      "error_id": "INJ-SD1089-DV-146",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0016",
+      "row_index": 93,
+      "csv_line": 95,
+      "seq_value": "9",
+      "variables_modified": {
+        "DVSTDTC": {
+          "original": "2024-06-28",
+          "injected": "2024-06"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DVSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 93
+    },
+    {
+      "error_id": "INJ-SD1089-HO-147",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "HO",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0039",
+      "row_index": 52,
+      "csv_line": 54,
+      "seq_value": "2",
+      "variables_modified": {
+        "HOSTDTC": {
+          "original": "2024-09-23",
+          "injected": "2024-09"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "HOSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 52
+    },
+    {
+      "error_id": "INJ-SD1089-HO-148",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "HO",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0024",
+      "row_index": 47,
+      "csv_line": 49,
+      "seq_value": "1",
+      "variables_modified": {
+        "HOSTDTC": {
+          "original": "2024-11-13",
+          "injected": "2024-11"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "HOSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 47
+    },
+    {
+      "error_id": "INJ-SD1089-HO-149",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "HO",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0001",
+      "row_index": 0,
+      "csv_line": 2,
+      "seq_value": "1",
+      "variables_modified": {
+        "HOSTDTC": {
+          "original": "2024-04-01",
+          "injected": "2024-04"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "HOSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 0
+    },
+    {
+      "error_id": "INJ-SD1089-MH-150",
+      "rule_id": "SD1089",
+      "rule_message": "--STDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "MH",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0050",
+      "row_index": 79,
+      "csv_line": 81,
+      "seq_value": "1",
+      "variables_modified": {
+        "MHSTDTC": {
+          "original": "2014-03-26",
+          "injected": "2014-03"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "MHSTDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 79
+    },
+    {
+      "error_id": "INJ-SD1090-SE-001",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "SE",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0030",
+      "row_index": 115,
+      "csv_line": 117,
+      "seq_value": "1",
+      "variables_modified": {
+        "SESTDY": {
+          "original": "-14",
+          "injected": "-7"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 115
+    },
+    {
+      "error_id": "INJ-SD1090-SE-002",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "SE",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0016",
+      "row_index": 14,
+      "csv_line": 16,
+      "seq_value": "1",
+      "variables_modified": {
+        "SESTDY": {
+          "original": "-14",
+          "injected": "-24"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 14
+    },
+    {
+      "error_id": "INJ-SD1090-SE-003",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "SE",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0006",
+      "row_index": 93,
+      "csv_line": 95,
+      "seq_value": "2",
+      "variables_modified": {
+        "SESTDY": {
+          "original": "1",
+          "injected": "-7"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 93
+    },
+    {
+      "error_id": "INJ-SD1090-SE-004",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "SE",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0008",
+      "row_index": 51,
+      "csv_line": 53,
+      "seq_value": "1",
+      "variables_modified": {
+        "SESTDY": {
+          "original": "-14",
+          "injected": "-11"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 51
+    },
+    {
+      "error_id": "INJ-SD1090-SV-005",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0031",
+      "row_index": 79,
+      "csv_line": 81,
+      "seq_value": "6",
+      "variables_modified": {
+        "SVSTDY": {
+          "original": "257",
+          "injected": "267"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 79
+    },
+    {
+      "error_id": "INJ-SD1090-SV-006",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0001",
+      "row_index": 7,
+      "csv_line": 9,
+      "seq_value": "8",
+      "variables_modified": {
+        "SVSTDY": {
+          "original": "389",
+          "injected": "395"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 7
+    },
+    {
+      "error_id": "INJ-SD1090-SV-007",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0041",
+      "row_index": 206,
+      "csv_line": 208,
+      "seq_value": "8",
+      "variables_modified": {
+        "SVSTDY": {
+          "original": "405",
+          "injected": "415"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 206
+    },
+    {
+      "error_id": "INJ-SD1090-SV-008",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0038",
+      "row_index": 198,
+      "csv_line": 200,
+      "seq_value": "6",
+      "variables_modified": {
+        "SVSTDY": {
+          "original": "259",
+          "injected": "254"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 198
+    },
+    {
+      "error_id": "INJ-SD1090-SV-009",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0024",
+      "row_index": 278,
+      "csv_line": 280,
+      "seq_value": "3",
+      "variables_modified": {
+        "SVSTDY": {
+          "original": "30",
+          "injected": "26"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 278
+    },
+    {
+      "error_id": "INJ-SD1090-SV-010",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0019",
+      "row_index": 46,
+      "csv_line": 48,
+      "seq_value": "5",
+      "variables_modified": {
+        "SVSTDY": {
+          "original": "162",
+          "injected": "169"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 46
+    },
+    {
+      "error_id": "INJ-SD1090-SV-011",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0027",
+      "row_index": 288,
+      "csv_line": 290,
+      "seq_value": "5",
+      "variables_modified": {
+        "SVSTDY": {
+          "original": "175",
+          "injected": "170"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 288
+    },
+    {
+      "error_id": "INJ-SD1090-SV-012",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0019",
+      "row_index": 43,
+      "csv_line": 45,
+      "seq_value": "2",
+      "variables_modified": {
+        "SVSTDY": {
+          "original": "1",
+          "injected": "-8"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 43
+    },
+    {
+      "error_id": "INJ-SD1090-SV-013",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0004",
+      "row_index": 9,
+      "csv_line": 11,
+      "seq_value": "2",
+      "variables_modified": {
+        "SVSTDY": {
+          "original": "1",
+          "injected": "5"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 9
+    },
+    {
+      "error_id": "INJ-SD1090-SV-014",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0024",
+      "row_index": 281,
+      "csv_line": 283,
+      "seq_value": "6",
+      "variables_modified": {
+        "SVSTDY": {
+          "original": "253",
+          "injected": "259"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 281
+    },
+    {
+      "error_id": "INJ-SD1090-SV-015",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0031",
+      "row_index": 78,
+      "csv_line": 80,
+      "seq_value": "5",
+      "variables_modified": {
+        "SVSTDY": {
+          "original": "168",
+          "injected": "178"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 78
+    },
+    {
+      "error_id": "INJ-SD1090-CM-016",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "CM",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0007",
+      "row_index": 8,
+      "csv_line": 10,
+      "seq_value": "3",
+      "variables_modified": {
+        "CMSTDY": {
+          "original": "225",
+          "injected": "224"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 8
+    },
+    {
+      "error_id": "INJ-SD1090-CM-017",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "CM",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0030",
+      "row_index": 198,
+      "csv_line": 200,
+      "seq_value": "6",
+      "variables_modified": {
+        "CMSTDY": {
+          "original": "338",
+          "injected": "331"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 198
+    },
+    {
+      "error_id": "INJ-SD1090-CM-018",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "CM",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0047",
+      "row_index": 152,
+      "csv_line": 154,
+      "seq_value": "3",
+      "variables_modified": {
+        "CMSTDY": {
+          "original": "13",
+          "injected": "20"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 152
+    },
+    {
+      "error_id": "INJ-SD1090-CM-019",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "CM",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0016",
+      "row_index": 25,
+      "csv_line": 27,
+      "seq_value": "2",
+      "variables_modified": {
+        "CMSTDY": {
+          "original": "-2214",
+          "injected": "-2209"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 25
+    },
+    {
+      "error_id": "INJ-SD1090-EC-020",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0004",
+      "row_index": 402,
+      "csv_line": 404,
+      "seq_value": "192",
+      "variables_modified": {
+        "ECSTDY": {
+          "original": "192",
+          "injected": "195"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 402
+    },
+    {
+      "error_id": "INJ-SD1090-EC-021",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0011",
+      "row_index": 4218,
+      "csv_line": 4220,
+      "seq_value": "193",
+      "variables_modified": {
+        "ECSTDY": {
+          "original": "193",
+          "injected": "195"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 4218
+    },
+    {
+      "error_id": "INJ-SD1090-EC-022",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0012",
+      "row_index": 7111,
+      "csv_line": 7113,
+      "seq_value": "67",
+      "variables_modified": {
+        "ECSTDY": {
+          "original": "67",
+          "injected": "63"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 7111
+    },
+    {
+      "error_id": "INJ-SD1090-EC-023",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0012",
+      "row_index": 7321,
+      "csv_line": 7323,
+      "seq_value": "277",
+      "variables_modified": {
+        "ECSTDY": {
+          "original": "277",
+          "injected": "272"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 7321
+    },
+    {
+      "error_id": "INJ-SD1090-EC-024",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0027",
+      "row_index": 8397,
+      "csv_line": 8399,
+      "seq_value": "126",
+      "variables_modified": {
+        "ECSTDY": {
+          "original": "126",
+          "injected": "132"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 8397
+    },
+    {
+      "error_id": "INJ-SD1090-EC-025",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0001",
+      "row_index": 149,
+      "csv_line": 151,
+      "seq_value": "150",
+      "variables_modified": {
+        "ECSTDY": {
+          "original": "150",
+          "injected": "147"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 149
+    },
+    {
+      "error_id": "INJ-SD1090-EC-026",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0025",
+      "row_index": 1830,
+      "csv_line": 1832,
+      "seq_value": "59",
+      "variables_modified": {
+        "ECSTDY": {
+          "original": "59",
+          "injected": "60"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1830
+    },
+    {
+      "error_id": "INJ-SD1090-EC-027",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0038",
+      "row_index": 5628,
+      "csv_line": 5630,
+      "seq_value": "48",
+      "variables_modified": {
+        "ECSTDY": {
+          "original": "48",
+          "injected": "42"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 5628
+    },
+    {
+      "error_id": "INJ-SD1090-EC-028",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0004",
+      "row_index": 502,
+      "csv_line": 504,
+      "seq_value": "292",
+      "variables_modified": {
+        "ECSTDY": {
+          "original": "292",
+          "injected": "291"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 502
+    },
+    {
+      "error_id": "INJ-SD1090-EC-029",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0028",
+      "row_index": 2081,
+      "csv_line": 2083,
+      "seq_value": "42",
+      "variables_modified": {
+        "ECSTDY": {
+          "original": "42",
+          "injected": "43"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 2081
+    },
+    {
+      "error_id": "INJ-SD1090-EC-030",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0023",
+      "row_index": 4957,
+      "csv_line": 4959,
+      "seq_value": "61",
+      "variables_modified": {
+        "ECSTDY": {
+          "original": "61",
+          "injected": "64"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 4957
+    },
+    {
+      "error_id": "INJ-SD1090-EC-031",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0027",
+      "row_index": 8303,
+      "csv_line": 8305,
+      "seq_value": "32",
+      "variables_modified": {
+        "ECSTDY": {
+          "original": "32",
+          "injected": "33"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 8303
+    },
+    {
+      "error_id": "INJ-SD1090-EC-032",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0004",
+      "row_index": 517,
+      "csv_line": 519,
+      "seq_value": "307",
+      "variables_modified": {
+        "ECSTDY": {
+          "original": "307",
+          "injected": "304"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 517
+    },
+    {
+      "error_id": "INJ-SD1090-EC-033",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0045",
+      "row_index": 9318,
+      "csv_line": 9320,
+      "seq_value": "82",
+      "variables_modified": {
+        "ECSTDY": {
+          "original": "82",
+          "injected": "92"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 9318
+    },
+    {
+      "error_id": "INJ-SD1090-EC-034",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0007",
+      "row_index": 666,
+      "csv_line": 668,
+      "seq_value": "92",
+      "variables_modified": {
+        "ECSTDY": {
+          "original": "92",
+          "injected": "97"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 666
+    },
+    {
+      "error_id": "INJ-SD1090-EC-035",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0001",
+      "row_index": 41,
+      "csv_line": 43,
+      "seq_value": "42",
+      "variables_modified": {
+        "ECSTDY": {
+          "original": "42",
+          "injected": "48"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 41
+    },
+    {
+      "error_id": "INJ-SD1090-EC-036",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0011",
+      "row_index": 4249,
+      "csv_line": 4251,
+      "seq_value": "224",
+      "variables_modified": {
+        "ECSTDY": {
+          "original": "251",
+          "injected": "256"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 4249
+    },
+    {
+      "error_id": "INJ-SD1090-EC-037",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0037",
+      "row_index": 2869,
+      "csv_line": 2871,
+      "seq_value": "61",
+      "variables_modified": {
+        "ECSTDY": {
+          "original": "61",
+          "injected": "62"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 2869
+    },
+    {
+      "error_id": "INJ-SD1090-EC-038",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0045",
+      "row_index": 9300,
+      "csv_line": 9302,
+      "seq_value": "64",
+      "variables_modified": {
+        "ECSTDY": {
+          "original": "64",
+          "injected": "72"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 9300
+    },
+    {
+      "error_id": "INJ-SD1090-SU-039",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "SU",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0026",
+      "row_index": 73,
+      "csv_line": 75,
+      "seq_value": "2",
+      "variables_modified": {
+        "SUSTDY": {
+          "original": "-2225",
+          "injected": "-2218"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 73
+    },
+    {
+      "error_id": "INJ-SD1090-SU-040",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "SU",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0034",
+      "row_index": 34,
+      "csv_line": 36,
+      "seq_value": "2",
+      "variables_modified": {
+        "SUSTDY": {
+          "original": "-5495",
+          "injected": "-5504"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 34
+    },
+    {
+      "error_id": "INJ-SD1090-SU-042",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "SU",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0024",
+      "row_index": 118,
+      "csv_line": 120,
+      "seq_value": "2",
+      "variables_modified": {
+        "SUSTDY": {
+          "original": "-12428",
+          "injected": "-12437"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 118
+    },
+    {
+      "error_id": "INJ-SD1090-AE-044",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "AE",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0048",
+      "row_index": 406,
+      "csv_line": 408,
+      "seq_value": "2",
+      "variables_modified": {
+        "AESTDY": {
+          "original": "25",
+          "injected": "34"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 406
+    },
+    {
+      "error_id": "INJ-SD1090-AE-045",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "AE",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0034",
+      "row_index": 109,
+      "csv_line": 111,
+      "seq_value": "14",
+      "variables_modified": {
+        "AESTDY": {
+          "original": "223",
+          "injected": "226"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 109
+    },
+    {
+      "error_id": "INJ-SD1090-AE-046",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "AE",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0034",
+      "row_index": 97,
+      "csv_line": 99,
+      "seq_value": "2",
+      "variables_modified": {
+        "AESTDY": {
+          "original": "42",
+          "injected": "39"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 97
+    },
+    {
+      "error_id": "INJ-SD1090-DS-047",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "DS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0047",
+      "row_index": 96,
+      "csv_line": 98,
+      "seq_value": "3",
+      "variables_modified": {
+        "DSSTDY": {
+          "original": "18",
+          "injected": "28"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 96
+    },
+    {
+      "error_id": "INJ-SD1090-DS-048",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "DS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0026",
+      "row_index": 76,
+      "csv_line": 78,
+      "seq_value": "3",
+      "variables_modified": {
+        "DSSTDY": {
+          "original": "5",
+          "injected": "6"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 76
+    },
+    {
+      "error_id": "INJ-SD1090-DV-049",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0045",
+      "row_index": 657,
+      "csv_line": 659,
+      "seq_value": "9",
+      "variables_modified": {
+        "DVSTDY": {
+          "original": "205",
+          "injected": "212"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 657
+    },
+    {
+      "error_id": "INJ-SD1090-DV-050",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0045",
+      "row_index": 659,
+      "csv_line": 661,
+      "seq_value": "11",
+      "variables_modified": {
+        "DVSTDY": {
+          "original": "252",
+          "injected": "249"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 659
+    },
+    {
+      "error_id": "INJ-SD1090-DV-051",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0043",
+      "row_index": 250,
+      "csv_line": 252,
+      "seq_value": "28",
+      "variables_modified": {
+        "DVSTDY": {
+          "original": "180",
+          "injected": "185"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 250
+    },
+    {
+      "error_id": "INJ-SD1090-DV-052",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "DV",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0036",
+      "row_index": 615,
+      "csv_line": 617,
+      "seq_value": "9",
+      "variables_modified": {
+        "DVSTDY": {
+          "original": "65",
+          "injected": "64"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 615
+    },
+    {
+      "error_id": "INJ-SD1090-MH-053",
+      "rule_id": "SD1090",
+      "rule_message": "Incorrect value for --STDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "MH",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0049",
+      "row_index": 39,
+      "csv_line": 41,
+      "seq_value": "2",
+      "variables_modified": {
+        "MHSTDY": {
+          "original": "-1477",
+          "injected": "-1468"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 39
+    },
+    {
+      "error_id": "INJ-SD1093-SE-001",
+      "rule_id": "SD1093",
+      "rule_message": "--ENDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SE",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0034",
+      "row_index": 32,
+      "csv_line": 34,
+      "seq_value": "1",
+      "variables_modified": {
+        "SEENDTC": {
+          "original": "2024-04-29",
+          "injected": "2024-04"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SEENDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 32
+    },
+    {
+      "error_id": "INJ-SD1093-SE-002",
+      "rule_id": "SD1093",
+      "rule_message": "--ENDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SE",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0048",
+      "row_index": 130,
+      "csv_line": 132,
+      "seq_value": "2",
+      "variables_modified": {
+        "SEENDTC": {
+          "original": "2024-03-23",
+          "injected": "2024-03"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SEENDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 130
+    },
+    {
+      "error_id": "INJ-SD1093-SV-003",
+      "rule_id": "SD1093",
+      "rule_message": "--ENDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0023",
+      "row_index": 167,
+      "csv_line": 169,
+      "seq_value": "2",
+      "variables_modified": {
+        "SVENDTC": {
+          "original": "2024-02-11",
+          "injected": "2024-02"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SVENDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 167
+    },
+    {
+      "error_id": "INJ-SD1093-SV-004",
+      "rule_id": "SD1093",
+      "rule_message": "--ENDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0036",
+      "row_index": 307,
+      "csv_line": 309,
+      "seq_value": "5",
+      "variables_modified": {
+        "SVENDTC": {
+          "original": "2024-08-08",
+          "injected": "2024-08"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SVENDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 307
+    },
+    {
+      "error_id": "INJ-SD1093-SV-005",
+      "rule_id": "SD1093",
+      "rule_message": "--ENDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0042",
+      "row_index": 315,
+      "csv_line": 317,
+      "seq_value": "2",
+      "variables_modified": {
+        "SVENDTC": {
+          "original": "2024-04-10",
+          "injected": "2024-04"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "SVENDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 315
+    },
+    {
+      "error_id": "INJ-SD1093-CM-006",
+      "rule_id": "SD1093",
+      "rule_message": "--ENDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "CM",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0036",
+      "row_index": 202,
+      "csv_line": 204,
+      "seq_value": "2",
+      "variables_modified": {
+        "CMENDTC": {
+          "original": "2024-06-13",
+          "injected": "2024-06"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "CMENDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 202
+    },
+    {
+      "error_id": "INJ-SD1093-CM-007",
+      "rule_id": "SD1093",
+      "rule_message": "--ENDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "CM",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0036",
+      "row_index": 201,
+      "csv_line": 203,
+      "seq_value": "1",
+      "variables_modified": {
+        "CMENDTC": {
+          "original": "2024-08-13",
+          "injected": "2024-08"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "CMENDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 201
+    },
+    {
+      "error_id": "INJ-SD1093-CM-008",
+      "rule_id": "SD1093",
+      "rule_message": "--ENDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "CM",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0042",
+      "row_index": 217,
+      "csv_line": 219,
+      "seq_value": "5",
+      "variables_modified": {
+        "CMENDTC": {
+          "original": "2024-08-26",
+          "injected": "2024-08"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "CMENDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 217
+    },
+    {
+      "error_id": "INJ-SD1093-EC-009",
+      "rule_id": "SD1093",
+      "rule_message": "--ENDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0027",
+      "row_index": 8442,
+      "csv_line": 8444,
+      "seq_value": "171",
+      "variables_modified": {
+        "ECENDTC": {
+          "original": "2024-08-24",
+          "injected": "2024-08"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECENDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 8442
+    },
+    {
+      "error_id": "INJ-SD1093-EC-010",
+      "rule_id": "SD1093",
+      "rule_message": "--ENDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0038",
+      "row_index": 5731,
+      "csv_line": 5733,
+      "seq_value": "151",
+      "variables_modified": {
+        "ECENDTC": {
+          "original": "2024-07-21",
+          "injected": "2024-07"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECENDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 5731
+    },
+    {
+      "error_id": "INJ-SD1093-EC-011",
+      "rule_id": "SD1093",
+      "rule_message": "--ENDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0038",
+      "row_index": 5793,
+      "csv_line": 5795,
+      "seq_value": "213",
+      "variables_modified": {
+        "ECENDTC": {
+          "original": "2024-09-21",
+          "injected": "2024-09"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECENDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 5793
+    },
+    {
+      "error_id": "INJ-SD1093-EC-012",
+      "rule_id": "SD1093",
+      "rule_message": "--ENDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0023",
+      "row_index": 5064,
+      "csv_line": 5066,
+      "seq_value": "168",
+      "variables_modified": {
+        "ECENDTC": {
+          "original": "2024-07-27",
+          "injected": "2024-07"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECENDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 5064
+    },
+    {
+      "error_id": "INJ-SD1093-EC-013",
+      "rule_id": "SD1093",
+      "rule_message": "--ENDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0005",
+      "row_index": 3895,
+      "csv_line": 3897,
+      "seq_value": "50",
+      "variables_modified": {
+        "ECENDTC": {
+          "original": "2024-06-02",
+          "injected": "2024-06"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "ECENDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 3895
+    },
+    {
+      "error_id": "INJ-SD1093-EX-014",
+      "rule_id": "SD1093",
+      "rule_message": "--ENDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "EX",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0048",
+      "row_index": 80,
+      "csv_line": 82,
+      "seq_value": "2",
+      "variables_modified": {
+        "EXENDTC": {
+          "original": "2024-03-03",
+          "injected": "2024-03"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "EXENDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 80
+    },
+    {
+      "error_id": "INJ-SD1093-AE-018",
+      "rule_id": "SD1093",
+      "rule_message": "--ENDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "AE",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0042",
+      "row_index": 397,
+      "csv_line": 399,
+      "seq_value": "4",
+      "variables_modified": {
+        "AEENDTC": {
+          "original": "2024-06-26",
+          "injected": "2024-06"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "AEENDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 397
+    },
+    {
+      "error_id": "INJ-SD1093-AE-019",
+      "rule_id": "SD1093",
+      "rule_message": "--ENDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "AE",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0023",
+      "row_index": 215,
+      "csv_line": 217,
+      "seq_value": "4",
+      "variables_modified": {
+        "AEENDTC": {
+          "original": "2024-10-22",
+          "injected": "2024-10"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "AEENDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 215
+    },
+    {
+      "error_id": "INJ-SD1093-AE-020",
+      "rule_id": "SD1093",
+      "rule_message": "--ENDY variable value is imputed",
+      "category": "GO2",
+      "primitive": "truncate_with_derived",
+      "domain": "AE",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0023",
+      "row_index": 214,
+      "csv_line": 216,
+      "seq_value": "3",
+      "variables_modified": {
+        "AEENDTC": {
+          "original": "2024-04-15",
+          "injected": "2024-04"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "AEENDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 214
+    },
+    {
+      "error_id": "INJ-SD1094-SE-001",
+      "rule_id": "SD1094",
+      "rule_message": "Incorrect value for --ENDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "SE",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0043",
+      "row_index": 43,
+      "csv_line": 45,
+      "seq_value": "3",
+      "variables_modified": {
+        "SEENDY": {
+          "original": "394",
+          "injected": "402"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 43
+    },
+    {
+      "error_id": "INJ-SD1094-SV-002",
+      "rule_id": "SD1094",
+      "rule_message": "Incorrect value for --ENDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "SV",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0010",
+      "row_index": 24,
+      "csv_line": 26,
+      "seq_value": "1",
+      "variables_modified": {
+        "SVENDY": {
+          "original": "-15",
+          "injected": "-10"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 24
+    },
+    {
+      "error_id": "INJ-SD1094-CM-003",
+      "rule_id": "SD1094",
+      "rule_message": "Incorrect value for --ENDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "CM",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0042",
+      "row_index": 214,
+      "csv_line": 216,
+      "seq_value": "2",
+      "variables_modified": {
+        "CMENDY": {
+          "original": "60",
+          "injected": "51"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 214
+    },
+    {
+      "error_id": "INJ-SD1094-EC-004",
+      "rule_id": "SD1094",
+      "rule_message": "Incorrect value for --ENDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0005",
+      "row_index": 3890,
+      "csv_line": 3892,
+      "seq_value": "45",
+      "variables_modified": {
+        "ECENDY": {
+          "original": "45",
+          "injected": "54"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 3890
+    },
+    {
+      "error_id": "INJ-SD1094-EC-005",
+      "rule_id": "SD1094",
+      "rule_message": "Incorrect value for --ENDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0033",
+      "row_index": 8827,
+      "csv_line": 8829,
+      "seq_value": "18",
+      "variables_modified": {
+        "ECENDY": {
+          "original": "18",
+          "injected": "20"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 8827
+    },
+    {
+      "error_id": "INJ-SD1094-EC-006",
+      "rule_id": "SD1094",
+      "rule_message": "Incorrect value for --ENDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "EC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0042",
+      "row_index": 9220,
+      "csv_line": 9222,
+      "seq_value": "81",
+      "variables_modified": {
+        "ECENDY": {
+          "original": "81",
+          "injected": "91"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 9220
+    },
+    {
+      "error_id": "INJ-SD1094-EX-007",
+      "rule_id": "SD1094",
+      "rule_message": "Incorrect value for --ENDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "EX",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0010",
+      "row_index": 3,
+      "csv_line": 5,
+      "seq_value": "1",
+      "variables_modified": {
+        "EXENDY": {
+          "original": "8",
+          "injected": "-1"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 3
+    },
+    {
+      "error_id": "INJ-SD1094-SU-008",
+      "rule_id": "SD1094",
+      "rule_message": "Incorrect value for --ENDY variable",
+      "category": "GO2",
+      "primitive": "wrong_derived",
+      "domain": "SU",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0027",
+      "row_index": 121,
+      "csv_line": 123,
+      "seq_value": "2",
+      "variables_modified": {
+        "SUENDY": {
+          "original": "-9133",
+          "injected": "-9124"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 121
+    },
+    {
+      "error_id": "INJ-SD1085-DA-007",
+      "rule_id": "SD1085",
+      "rule_message": "--DY variable value is imputed",
+      "category": "DTC2",
+      "primitive": "truncate_with_derived",
+      "domain": "DA",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0005",
+      "row_index": 11686,
+      "csv_line": 11688,
+      "seq_value": "149",
+      "variables_modified": {
+        "DADTC": {
+          "original": "2024-06-02",
+          "injected": "2024-06"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "DADY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 11686
+    },
+    {
+      "error_id": "INJ-SD1085-EG-008",
+      "rule_id": "SD1085",
+      "rule_message": "--DY variable value is imputed",
+      "category": "DTC2",
+      "primitive": "truncate_with_derived",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0049",
+      "row_index": 244,
+      "csv_line": 246,
+      "seq_value": "10",
+      "variables_modified": {
+        "EGDTC": {
+          "original": "2024-04-03",
+          "injected": "2024-04"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "EGDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 244
+    },
+    {
+      "error_id": "INJ-SD1085-EG-009",
+      "rule_id": "SD1085",
+      "rule_message": "--DY variable value is imputed",
+      "category": "DTC2",
+      "primitive": "truncate_with_derived",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0033",
+      "row_index": 622,
+      "csv_line": 624,
+      "seq_value": "8",
+      "variables_modified": {
+        "EGDTC": {
+          "original": "2024-02-15",
+          "injected": "2024-02"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "EGDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 622
+    },
+    {
+      "error_id": "INJ-SD1085-EG-010",
+      "rule_id": "SD1085",
+      "rule_message": "--DY variable value is imputed",
+      "category": "DTC2",
+      "primitive": "truncate_with_derived",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0048",
+      "row_index": 694,
+      "csv_line": 696,
+      "seq_value": "5",
+      "variables_modified": {
+        "EGDTC": {
+          "original": "2024-01-17",
+          "injected": "2024-01"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "EGDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 694
+    },
+    {
+      "error_id": "INJ-SD1085-EG-011",
+      "rule_id": "SD1085",
+      "rule_message": "--DY variable value is imputed",
+      "category": "DTC2",
+      "primitive": "truncate_with_derived",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0049",
+      "row_index": 249,
+      "csv_line": 251,
+      "seq_value": "15",
+      "variables_modified": {
+        "EGDTC": {
+          "original": "2024-05-01",
+          "injected": "2024-05"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "EGDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 249
+    },
+    {
+      "error_id": "INJ-SD1085-EG-012",
+      "rule_id": "SD1085",
+      "rule_message": "--DY variable value is imputed",
+      "category": "DTC2",
+      "primitive": "truncate_with_derived",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0047",
+      "row_index": 449,
+      "csv_line": 451,
+      "seq_value": "10",
+      "variables_modified": {
+        "EGDTC": {
+          "original": "2024-03-14",
+          "injected": "2024-03"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "EGDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 449
+    },
+    {
+      "error_id": "INJ-SD1085-LB-014",
+      "rule_id": "SD1085",
+      "rule_message": "--DY variable value is imputed",
+      "category": "DTC2",
+      "primitive": "truncate_with_derived",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0033",
+      "row_index": 1881,
+      "csv_line": 1883,
+      "seq_value": "20",
+      "variables_modified": {
+        "LBDTC": {
+          "original": "2024-03-16",
+          "injected": "2024-03"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "LBDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1881
+    },
+    {
+      "error_id": "INJ-SD1085-LB-015",
+      "rule_id": "SD1085",
+      "rule_message": "--DY variable value is imputed",
+      "category": "DTC2",
+      "primitive": "truncate_with_derived",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0026",
+      "row_index": 1091,
+      "csv_line": 1093,
+      "seq_value": "14",
+      "variables_modified": {
+        "LBDTC": {
+          "original": "2024-04-09",
+          "injected": "2024-04"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "LBDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1091
+    },
+    {
+      "error_id": "INJ-SD1085-PE-016",
+      "rule_id": "SD1085",
+      "rule_message": "--DY variable value is imputed",
+      "category": "DTC2",
+      "primitive": "truncate_with_derived",
+      "domain": "PE",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0026",
+      "row_index": 498,
+      "csv_line": 500,
+      "seq_value": "19",
+      "variables_modified": {
+        "PEDTC": {
+          "original": "2024-04-09",
+          "injected": "2024-04"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "PEDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 498
+    },
+    {
+      "error_id": "INJ-SD1085-PE-017",
+      "rule_id": "SD1085",
+      "rule_message": "--DY variable value is imputed",
+      "category": "DTC2",
+      "primitive": "truncate_with_derived",
+      "domain": "PE",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0049",
+      "row_index": 327,
+      "csv_line": 329,
+      "seq_value": "8",
+      "variables_modified": {
+        "PEDTC": {
+          "original": "2024-03-17",
+          "injected": "2024-03"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "PEDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 327
+    },
+    {
+      "error_id": "INJ-SD1085-PE-018",
+      "rule_id": "SD1085",
+      "rule_message": "--DY variable value is imputed",
+      "category": "DTC2",
+      "primitive": "truncate_with_derived",
+      "domain": "PE",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0026",
+      "row_index": 481,
+      "csv_line": 483,
+      "seq_value": "2",
+      "variables_modified": {
+        "PEDTC": {
+          "original": "2024-03-05",
+          "injected": "2024-03"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "PEDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 481
+    },
+    {
+      "error_id": "INJ-SD1085-PE-019",
+      "rule_id": "SD1085",
+      "rule_message": "--DY variable value is imputed",
+      "category": "DTC2",
+      "primitive": "truncate_with_derived",
+      "domain": "PE",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0026",
+      "row_index": 496,
+      "csv_line": 498,
+      "seq_value": "17",
+      "variables_modified": {
+        "PEDTC": {
+          "original": "2024-04-09",
+          "injected": "2024-04"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "PEDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 496
+    },
+    {
+      "error_id": "INJ-SD1085-PE-020",
+      "rule_id": "SD1085",
+      "rule_message": "--DY variable value is imputed",
+      "category": "DTC2",
+      "primitive": "truncate_with_derived",
+      "domain": "PE",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0010",
+      "row_index": 78,
+      "csv_line": 80,
+      "seq_value": "19",
+      "variables_modified": {
+        "PEDTC": {
+          "original": "2024-03-17",
+          "injected": "2024-03"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "PEDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 78
+    },
+    {
+      "error_id": "INJ-SD1085-PE-021",
+      "rule_id": "SD1085",
+      "rule_message": "--DY variable value is imputed",
+      "category": "DTC2",
+      "primitive": "truncate_with_derived",
+      "domain": "PE",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0026",
+      "row_index": 488,
+      "csv_line": 490,
+      "seq_value": "9",
+      "variables_modified": {
+        "PEDTC": {
+          "original": "2024-03-05",
+          "injected": "2024-03"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "PEDY left populated",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 488
+    },
+    {
+      "error_id": "INJ-SD1086-DA-008",
+      "rule_id": "SD1086",
+      "rule_message": "Incorrect value for --DY variable",
+      "category": "DTC2",
+      "primitive": "wrong_derived",
+      "domain": "DA",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0006",
+      "row_index": 20364,
+      "csv_line": 20366,
+      "seq_value": "52",
+      "variables_modified": {
+        "DADY": {
+          "original": "18",
+          "injected": "12"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 20364
+    },
+    {
+      "error_id": "INJ-SD1086-EG-009",
+      "rule_id": "SD1086",
+      "rule_message": "Incorrect value for --DY variable",
+      "category": "DTC2",
+      "primitive": "wrong_derived",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0006",
+      "row_index": 494,
+      "csv_line": 496,
+      "seq_value": "15",
+      "variables_modified": {
+        "EGDY": {
+          "original": "29",
+          "injected": "19"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 494
+    },
+    {
+      "error_id": "INJ-SD1086-EG-010",
+      "rule_id": "SD1086",
+      "rule_message": "Incorrect value for --DY variable",
+      "category": "DTC2",
+      "primitive": "wrong_derived",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0006",
+      "row_index": 488,
+      "csv_line": 490,
+      "seq_value": "9",
+      "variables_modified": {
+        "EGDY": {
+          "original": "1",
+          "injected": "-6"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 488
+    },
+    {
+      "error_id": "INJ-SD1086-EG-011",
+      "rule_id": "SD1086",
+      "rule_message": "Incorrect value for --DY variable",
+      "category": "DTC2",
+      "primitive": "wrong_derived",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0049",
+      "row_index": 244,
+      "csv_line": 246,
+      "seq_value": "10",
+      "variables_modified": {
+        "EGDY": {
+          "original": "1",
+          "injected": "9"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 244
+    },
+    {
+      "error_id": "INJ-SD1086-EG-012",
+      "rule_id": "SD1086",
+      "rule_message": "Incorrect value for --DY variable",
+      "category": "DTC2",
+      "primitive": "wrong_derived",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0005",
+      "row_index": 258,
+      "csv_line": 260,
+      "seq_value": "9",
+      "variables_modified": {
+        "EGDY": {
+          "original": "1",
+          "injected": "-2"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 258
+    },
+    {
+      "error_id": "INJ-SD1086-EG-013",
+      "rule_id": "SD1086",
+      "rule_message": "Incorrect value for --DY variable",
+      "category": "DTC2",
+      "primitive": "wrong_derived",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0005",
+      "row_index": 262,
+      "csv_line": 264,
+      "seq_value": "13",
+      "variables_modified": {
+        "EGDY": {
+          "original": "29",
+          "injected": "33"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 262
+    },
+    {
+      "error_id": "INJ-SD1086-LB-015",
+      "rule_id": "SD1086",
+      "rule_message": "Incorrect value for --DY variable",
+      "category": "DTC2",
+      "primitive": "wrong_derived",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0010",
+      "row_index": 147,
+      "csv_line": 149,
+      "seq_value": "8",
+      "variables_modified": {
+        "LBDY": {
+          "original": "1",
+          "injected": "-7"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 147
+    },
+    {
+      "error_id": "INJ-SD1086-PE-016",
+      "rule_id": "SD1086",
+      "rule_message": "Incorrect value for --DY variable",
+      "category": "DTC2",
+      "primitive": "wrong_derived",
+      "domain": "PE",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0010",
+      "row_index": 70,
+      "csv_line": 72,
+      "seq_value": "11",
+      "variables_modified": {
+        "PEDY": {
+          "original": "1",
+          "injected": "-5"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 70
+    },
+    {
+      "error_id": "INJ-SD1086-PE-017",
+      "rule_id": "SD1086",
+      "rule_message": "Incorrect value for --DY variable",
+      "category": "DTC2",
+      "primitive": "wrong_derived",
+      "domain": "PE",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0010",
+      "row_index": 64,
+      "csv_line": 66,
+      "seq_value": "5",
+      "variables_modified": {
+        "PEDY": {
+          "original": "-22",
+          "injected": "-23"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 64
+    },
+    {
+      "error_id": "INJ-SD1086-PE-018",
+      "rule_id": "SD1086",
+      "rule_message": "Incorrect value for --DY variable",
+      "category": "DTC2",
+      "primitive": "wrong_derived",
+      "domain": "PE",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0047",
+      "row_index": 603,
+      "csv_line": 605,
+      "seq_value": "4",
+      "variables_modified": {
+        "PEDY": {
+          "original": "-21",
+          "injected": "-28"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 603
+    },
+    {
+      "error_id": "INJ-SD1086-PE-019",
+      "rule_id": "SD1086",
+      "rule_message": "Incorrect value for --DY variable",
+      "category": "DTC2",
+      "primitive": "wrong_derived",
+      "domain": "PE",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0010",
+      "row_index": 62,
+      "csv_line": 64,
+      "seq_value": "3",
+      "variables_modified": {
+        "PEDY": {
+          "original": "-22",
+          "injected": "-21"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 62
+    },
+    {
+      "error_id": "INJ-SD1086-PE-020",
+      "rule_id": "SD1086",
+      "rule_message": "Incorrect value for --DY variable",
+      "category": "DTC2",
+      "primitive": "wrong_derived",
+      "domain": "PE",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0010",
+      "row_index": 63,
+      "csv_line": 65,
+      "seq_value": "4",
+      "variables_modified": {
+        "PEDY": {
+          "original": "-22",
+          "injected": "-32"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 63
+    },
+    {
+      "error_id": "INJ-SD0058-DM-001",
+      "rule_id": "SD0058",
+      "rule_message": "Variable appears in dataset, but is not in SDTM model",
+      "category": "ALL1",
+      "primitive": "add_column",
+      "domain": "DM",
+      "usubjid": null,
+      "row_index": null,
+      "csv_line": null,
+      "seq_value": null,
+      "variables_modified": {
+        "CUSTOMVAR": {
+          "original": "absent",
+          "injected": "X"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": null
+    },
+    {
+      "error_id": "INJ-SD1074-DM-001",
+      "rule_id": "SD1074",
+      "rule_message": "Variable which can be used only in SEND",
+      "category": "ALL2",
+      "primitive": "add_column",
+      "domain": "DM",
+      "usubjid": null,
+      "row_index": null,
+      "csv_line": null,
+      "seq_value": null,
+      "variables_modified": {
+        "AGETXT": {
+          "original": "absent",
+          "injected": "THIRTY-FIVE"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": null
+    },
+    {
+      "error_id": "INJ-SD1076-DM-001",
+      "rule_id": "SD1076",
+      "rule_message": "Model permissible variable added into standard domain",
+      "category": "ALL2",
+      "primitive": "add_column",
+      "domain": "DM",
+      "usubjid": null,
+      "row_index": null,
+      "csv_line": null,
+      "seq_value": null,
+      "variables_modified": {
+        "SETCD": {
+          "original": "absent",
+          "injected": "ITT"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": null
+    },
+    {
+      "error_id": "INJ-SD1079-DM-001",
+      "rule_id": "SD1079",
+      "rule_message": "Variable is in wrong order within domain",
+      "category": "ALL2",
+      "primitive": "reorder_columns",
+      "domain": "DM",
+      "usubjid": null,
+      "row_index": null,
+      "csv_line": null,
+      "seq_value": null,
+      "variables_modified": {
+        "STUDYID<->DOMAIN": {
+          "original": "in-order",
+          "injected": "swapped"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": null
+    },
+    {
+      "error_id": "INJ-SD1083-IE-016",
+      "rule_id": "SD1083",
+      "rule_message": "Missing --DY variable, when --DTC variable is present",
+      "category": "VI1 & VV1",
+      "primitive": "drop_column",
+      "domain": "IE",
+      "usubjid": null,
+      "row_index": null,
+      "csv_line": null,
+      "seq_value": null,
+      "variables_modified": {
+        "IEDY": {
+          "original": "present",
+          "injected": "removed"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": null
+    }
+  ],
+  "summary_by_rule": {
+    "SD1089": 149,
+    "SD1090": 51,
+    "SD1093": 17,
+    "SD1094": 8,
+    "SD1085": 14,
+    "SD1086": 12,
+    "SD0058": 1,
+    "SD1074": 1,
+    "SD1076": 1,
+    "SD1079": 1,
+    "SD1083": 1
+  },
+  "summary_by_category": {
+    "GO2": 225,
+    "DTC2": 26,
+    "ALL1": 1,
+    "ALL2": 3,
+    "VI1 & VV1": 1
+  },
+  "summary_by_domain": {
+    "SE": 14,
+    "SV": 31,
+    "CM": 19,
+    "EC": 77,
+    "EX": 6,
+    "SU": 9,
+    "AE": 23,
+    "DS": 9,
+    "DV": 32,
+    "HO": 3,
+    "MH": 2,
+    "DA": 2,
+    "EG": 10,
+    "LB": 3,
+    "PE": 11,
+    "DM": 4,
+    "IE": 1
+  },
+  "summary_status": {
+    "injected": 256,
+    "overwritten": 0,
+    "failed_self_validation": 0
+  },
+  "warnings": [
+    "Re-derivation skipped: ConformanceLayer not importable. Derived fields (--DY, EPOCH) may not reflect injected errors."
+  ]
+}

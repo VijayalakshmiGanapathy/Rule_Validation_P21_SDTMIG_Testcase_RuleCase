@@ -1,0 +1,309 @@
+{
+  "generated_at": "2026-06-16T11:18:35.732914",
+  "seed": 42,
+  "mode": "compound",
+  "source_dir": "/tmp/sdtm_uploads_5mbwcvj8",
+  "profile": "all",
+  "rate": 0.05,
+  "density_cap": 5,
+  "rules_available": 467,
+  "rules_injectable": 9,
+  "rules_skipped": 0,
+  "rules_injected": 9,
+  "total_mutations": 11,
+  "skipped_rules": [],
+  "errors": [
+    {
+      "error_id": "INJ-SD1064-TE-001",
+      "rule_id": "SD1064",
+      "rule_message": "Duplicate ETCD value",
+      "category": "TD01",
+      "primitive": "duplicate_record",
+      "domain": "TE",
+      "usubjid": null,
+      "row_index": 0,
+      "csv_line": 2,
+      "seq_value": null,
+      "variables_modified": {
+        "__row__": {
+          "original": "unique",
+          "injected": "duplicated"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated key_fields=['ETCD']",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 0
+    },
+    {
+      "error_id": "INJ-SD1068-TE-001",
+      "rule_id": "SD1068",
+      "rule_message": "Duplicate ELEMENT value",
+      "category": "TD01",
+      "primitive": "duplicate_record",
+      "domain": "TE",
+      "usubjid": null,
+      "row_index": 3,
+      "csv_line": 5,
+      "seq_value": null,
+      "variables_modified": {
+        "__row__": {
+          "original": "unique",
+          "injected": "duplicated"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated key_fields=['ELEMENT']",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 3
+    },
+    {
+      "error_id": "INJ-SD1378-TE-001",
+      "rule_id": "SD1378",
+      "rule_message": "ETCD value not present in TA",
+      "category": "TD01",
+      "primitive": "cross_domain_mismatch",
+      "domain": "TE",
+      "usubjid": null,
+      "row_index": 3,
+      "csv_line": 5,
+      "seq_value": null,
+      "variables_modified": {
+        "ETCD": {
+          "original": "FU",
+          "injected": "ZZZSD1378"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs TA.ETCD (not_in_target_set); target_set_size=3",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 3
+    },
+    {
+      "error_id": "INJ-SD1379-TE-001",
+      "rule_id": "SD1379",
+      "rule_message": "ETCD value not present in SE",
+      "category": "TD01",
+      "primitive": "cross_domain_mismatch",
+      "domain": "TE",
+      "usubjid": null,
+      "row_index": 2,
+      "csv_line": 4,
+      "seq_value": null,
+      "variables_modified": {
+        "ETCD": {
+          "original": "TRT",
+          "injected": "ZZZSD1379"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs SE.ETCD (not_in_target_set); target_set_size=3",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 2
+    },
+    {
+      "error_id": "INJ-SD1052-TA-001",
+      "rule_id": "SD1052",
+      "rule_message": "Non-unique value for TAETORD within ARMCD",
+      "category": "TD01",
+      "primitive": "duplicate_record",
+      "domain": "TA",
+      "usubjid": null,
+      "row_index": 3,
+      "csv_line": 5,
+      "seq_value": null,
+      "variables_modified": {
+        "__row__": {
+          "original": "unique",
+          "injected": "duplicated"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated key_fields=['ARMCD', 'TAETORD']",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 3
+    },
+    {
+      "error_id": "INJ-SD1267-TA-001",
+      "rule_id": "SD1267",
+      "rule_message": "Invalid value for TAETORD",
+      "category": "TD01",
+      "primitive": "set_invalid_value",
+      "domain": "TA",
+      "usubjid": null,
+      "row_index": 8,
+      "csv_line": 10,
+      "seq_value": null,
+      "variables_modified": {
+        "TAETORD": {
+          "original": "3",
+          "injected": "INVALID"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 8
+    },
+    {
+      "error_id": "INJ-SD1354-TA-001",
+      "rule_id": "SD1354",
+      "rule_message": "ARMCD value not present in DM",
+      "category": "TD01",
+      "primitive": "cross_domain_mismatch",
+      "domain": "TA",
+      "usubjid": null,
+      "row_index": 0,
+      "csv_line": 2,
+      "seq_value": null,
+      "variables_modified": {
+        "ARMCD": {
+          "original": "PSI1",
+          "injected": "ZZZSD1354"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs DM.ARMCD (not_in_target_set); target_set_size=3",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 0
+    },
+    {
+      "error_id": "INJ-SD1286-TI-001",
+      "rule_id": "SD1286",
+      "rule_message": "IETESTCD is not unique within TIVERS",
+      "category": "TD01",
+      "primitive": "duplicate_record",
+      "domain": "TI",
+      "usubjid": null,
+      "row_index": 6,
+      "csv_line": 8,
+      "seq_value": null,
+      "variables_modified": {
+        "__row__": {
+          "original": "unique",
+          "injected": "duplicated"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated key_fields=['TIVERS', 'IETESTCD']",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 6
+    },
+    {
+      "error_id": "INJ-SD1053-TA-001",
+      "rule_id": "SD1053",
+      "rule_message": "Unexpected value for ARMCD variable",
+      "category": "TD01",
+      "primitive": "set_invalid_value",
+      "domain": "TA",
+      "usubjid": null,
+      "row_index": 2,
+      "csv_line": 4,
+      "seq_value": null,
+      "variables_modified": {
+        "ARMCD": {
+          "original": "PSI1",
+          "injected": "SCRNFAIL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 2
+    },
+    {
+      "error_id": "INJ-SD1053-TV-002",
+      "rule_id": "SD1053",
+      "rule_message": "Unexpected value for ARMCD variable",
+      "category": "TD01",
+      "primitive": "set_invalid_value",
+      "domain": "TV",
+      "usubjid": null,
+      "row_index": 1,
+      "csv_line": 3,
+      "seq_value": null,
+      "variables_modified": {
+        "ARMCD": {
+          "original": "PSI10",
+          "injected": "SCRNFAIL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1
+    },
+    {
+      "error_id": "INJ-SD1053-TV-003",
+      "rule_id": "SD1053",
+      "rule_message": "Unexpected value for ARMCD variable",
+      "category": "TD01",
+      "primitive": "set_invalid_value",
+      "domain": "TV",
+      "usubjid": null,
+      "row_index": 11,
+      "csv_line": 13,
+      "seq_value": null,
+      "variables_modified": {
+        "ARMCD": {
+          "original": "PSI25",
+          "injected": "SCRNFAIL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 11
+    }
+  ],
+  "summary_by_rule": {
+    "SD1064": 1,
+    "SD1068": 1,
+    "SD1378": 1,
+    "SD1379": 1,
+    "SD1052": 1,
+    "SD1267": 1,
+    "SD1354": 1,
+    "SD1286": 1,
+    "SD1053": 3
+  },
+  "summary_by_category": {
+    "TD01": 11
+  },
+  "summary_by_domain": {
+    "TE": 4,
+    "TA": 4,
+    "TI": 1,
+    "TV": 2
+  },
+  "summary_status": {
+    "injected": 11,
+    "overwritten": 0,
+    "failed_self_validation": 0
+  },
+  "warnings": [
+    "Re-derivation skipped: ConformanceLayer not importable. Derived fields (--DY, EPOCH) may not reflect injected errors."
+  ]
+}

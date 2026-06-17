@@ -1,0 +1,2898 @@
+{
+  "study_id": "GB001-ASTHMA-201",
+  "generated_at": "2026-06-16T07:22:12.705831+00:00",
+  "sdtmig_version": "3.4",
+  "overall": {
+    "total_subjects": 500,
+    "total_records": 152989,
+    "domains_generated": 27,
+    "conformance_pass": false,
+    "error_count": 1,
+    "warning_count": 0,
+    "info_count": 138
+  },
+  "domains": {
+    "AE": {
+      "record_count": 1014,
+      "variable_count": 35,
+      "completeness": {
+        "required_vars_present": [
+          "STUDYID",
+          "DOMAIN",
+          "USUBJID",
+          "AESEQ",
+          "AETERM",
+          "AEDECOD",
+          "AESTDTC"
+        ],
+        "required_vars_missing": [],
+        "required_vars_pct": 100.0,
+        "key_fields_populated_pct": 100.0,
+        "date_fields": {
+          "AESTDTC": {
+            "populated_pct": 100.0
+          },
+          "AEENDTC": {
+            "populated_pct": 92.31
+          }
+        },
+        "variable_population": {
+          "STUDYID": 100.0,
+          "DOMAIN": 100.0,
+          "USUBJID": 100.0,
+          "AESEQ": 100.0,
+          "AELNKID": 100.0,
+          "AETERM": 100.0,
+          "AELLT": 100.0,
+          "AELLTCD": 0.0,
+          "AEDECOD": 100.0,
+          "AEPTCD": 100.0,
+          "AEHLT": 100.0,
+          "AEHLTCD": 100.0,
+          "AEHLGT": 100.0,
+          "AEHLGTCD": 100.0,
+          "AEBODSYS": 100.0,
+          "AEBDSYCD": 100.0,
+          "AESOC": 100.0,
+          "AESOCCD": 100.0,
+          "AESEV": 100.0,
+          "AESER": 100.0,
+          "AEACN": 100.0,
+          "AEREL": 100.0,
+          "AEOUT": 100.0,
+          "AESCONG": 100.0,
+          "AESDISAB": 100.0,
+          "AESDTH": 100.0,
+          "AESHOSP": 100.0,
+          "AESLIFE": 100.0,
+          "AESMIE": 100.0,
+          "EPOCH": 100.0,
+          "AESTDTC": 100.0,
+          "AEENDTC": 92.31,
+          "AESTDY": 100.0,
+          "AEENDY": 92.31,
+          "AEENRF": 7.69
+        }
+      },
+      "records_per_subject": {
+        "mean": 2.9,
+        "median": 3.0,
+        "min": 1,
+        "max": 10,
+        "p25": 2.0,
+        "p75": 4.0,
+        "total_subjects": 353
+      },
+      "value_distributions": {
+        "AESEV": {
+          "MILD": 420,
+          "MODERATE": 379,
+          "SEVERE": 215
+        },
+        "AESER": {
+          "N": 799,
+          "Y": 215
+        },
+        "AEOUT": {
+          "RECOVERED/RESOLVED": 747,
+          "RECOVERING/RESOLVING": 159,
+          "NOT RECOVERED/NOT RESOLVED": 78,
+          "RECOVERED/RESOLVED WITH SEQUELAE": 19,
+          "UNKNOWN": 11
+        },
+        "AEACN": {
+          "DOSE NOT CHANGED": 878,
+          "DRUG INTERRUPTED": 65,
+          "DOSE REDUCED": 56,
+          "DRUG WITHDRAWN": 15
+        },
+        "AEREL": {
+          "NOT RELATED": 538,
+          "UNLIKELY RELATED": 220,
+          "POSSIBLY RELATED": 169,
+          "PROBABLY RELATED": 54,
+          "RELATED": 33
+        },
+        "AEBODSYS": {
+          "Infections and infestations": 451,
+          "Respiratory, thoracic and mediastinal disorders": 195,
+          "Nervous system disorders": 125,
+          "Gastrointestinal disorders": 123,
+          "General disorders and administration site conditions": 61,
+          "Musculoskeletal and connective tissue disorders": 38,
+          "Immune system disorders": 14,
+          "Cardiac disorders": 7
+        }
+      },
+      "conformance_findings": {
+        "errors": [],
+        "warnings": [],
+        "infos": [
+          {
+            "rule_id": "G6_AE_DEATH",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1040)",
+            "description": "No adverse event end date (AEENDTC) should be after the subject's death date (DTHDTC)",
+            "result": "No deaths \u2014 skipped",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "G7_DUPLICATE_ROWS",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1042)",
+            "description": "No domain should contain exact duplicate rows (all columns identical)",
+            "result": "No duplicate rows",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "G10_AEOUT_FATAL",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1055)",
+            "description": "When AEOUT is FATAL, AESDTH (resulted in death) must be Y",
+            "result": "AEOUT=FATAL implies AESDTH=Y valid",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D1_AE_DATES",
+            "category": "Date and Temporal Integrity",
+            "source": "Pinnacle 21 (SD1015)",
+            "description": "Adverse event start date (AESTDTC) must be on or before end date (AEENDTC)",
+            "result": "AE date ordering valid",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D4_AEDECOD",
+            "category": "Domain Structure Rules",
+            "source": "Pinnacle 21",
+            "description": "AEDECOD (AE dictionary-derived term) must be populated for every AE record",
+            "result": "AEDECOD fully populated",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D17_EPOCH_AE",
+            "category": "Cross-domain Consistency",
+            "source": "Pinnacle 21",
+            "description": "EPOCH assignment must match Subject Elements (SE) timeline for records in AE",
+            "result": "EPOCH populated (1014/1014)",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D19_AE_DUPS",
+            "category": "Domain Structure Rules",
+            "source": "sdtmchecks R package",
+            "description": "No subject should have the same AEDECOD on the same AESTDTC (semantic duplicate)",
+            "result": "No semantic AE duplicates",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D20_DOMAIN_COL",
+            "category": "Cross-domain Consistency",
+            "source": "Pinnacle 21",
+            "description": "Every domain must have a DOMAIN column with the correct 2-letter code, positioned as the second column",
+            "result": "DOMAIN column correct",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "CN_AE_NOT_RECOV",
+            "category": "Clinical Plausibility",
+            "source": "Pinnacle 21 (SD1332)",
+            "description": "Adverse events with outcome NOT RECOVERED/NOT RESOLVED must not have an end date \u2014 the event is still ongoing",
+            "result": "NOT RECOVERED AEs have no end date",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "ST01_AE",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "All required variables present",
+            "affected_count": 0
+          },
+          {
+            "rule_id": "ST02_AE",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "Unique keys valid",
+            "affected_count": 0
+          },
+          {
+            "rule_id": "TE01_AE",
+            "category": "TEMPORAL",
+            "category_description": "Validates date logic within and across domains \u2014 reference dates are chronologically ordered, study day derivations are correct, and no temporal impossibilities exist.",
+            "result": "AE date intervals valid",
+            "affected_count": 0
+          },
+          {
+            "rule_id": "CT01_AESEV",
+            "category": "TERMINOLOGY",
+            "category_description": "Verifies that coded values (AESEV, AEOUT, SEX, RACE, etc.) use CDISC Controlled Terminology and that dictionary-derived terms (AEDECOD, CMDECOD) are populated.",
+            "result": "AESEV values valid",
+            "affected_count": 0
+          },
+          {
+            "rule_id": "CT02_AEOUT",
+            "category": "TERMINOLOGY",
+            "category_description": "Verifies that coded values (AESEV, AEOUT, SEX, RACE, etc.) use CDISC Controlled Terminology and that dictionary-derived terms (AEDECOD, CMDECOD) are populated.",
+            "result": "AEOUT values valid",
+            "affected_count": 0
+          },
+          {
+            "rule_id": "CT03_AESER",
+            "category": "TERMINOLOGY",
+            "category_description": "Verifies that coded values (AESEV, AEOUT, SEX, RACE, etc.) use CDISC Controlled Terminology and that dictionary-derived terms (AEDECOD, CMDECOD) are populated.",
+            "result": "AESER values valid",
+            "affected_count": 0
+          },
+          {
+            "rule_id": "CT04_MEDDRA",
+            "category": "TERMINOLOGY",
+            "category_description": "Verifies that coded values (AESEV, AEOUT, SEX, RACE, etc.) use CDISC Controlled Terminology and that dictionary-derived terms (AEDECOD, CMDECOD) are populated.",
+            "result": "All AEs have AEDECOD",
+            "affected_count": "0"
+          },
+          {
+            "rule_id": "CO01_AE",
+            "category": "COHERENCE",
+            "category_description": "Cross-domain logical consistency \u2014 subjects who died have matching DM/DS/AE records, ARM matches ACTARM for enrolled subjects, exposure aligns with disposition.",
+            "result": "All subjects in DM",
+            "affected_count": 0
+          },
+          {
+            "rule_id": "DV01_AESTDY",
+            "category": "DERIVED",
+            "category_description": "Validates computed variables \u2014 study day (--DY) correctly derived from reference start date, EPOCH assigned from Subject Elements timeline.",
+            "result": "AESTDY correctly derived",
+            "affected_count": 0
+          },
+          {
+            "rule_id": "DV02_AESEQ",
+            "category": "DERIVED",
+            "category_description": "Validates computed variables \u2014 study day (--DY) correctly derived from reference start date, EPOCH assigned from Subject Elements timeline.",
+            "result": "AESEQ monotonically increasing per subject",
+            "affected_count": 0
+          }
+        ]
+      }
+    },
+    "CM": {
+      "record_count": 1091,
+      "variable_count": 17,
+      "completeness": {
+        "required_vars_present": [
+          "STUDYID",
+          "DOMAIN",
+          "USUBJID",
+          "CMSEQ",
+          "CMTRT"
+        ],
+        "required_vars_missing": [],
+        "required_vars_pct": 100.0,
+        "key_fields_populated_pct": 100.0,
+        "date_fields": {
+          "CMSTDTC": {
+            "populated_pct": 100.0
+          },
+          "CMENDTC": {
+            "populated_pct": 100.0
+          }
+        },
+        "variable_population": {
+          "STUDYID": 100.0,
+          "DOMAIN": 100.0,
+          "USUBJID": 100.0,
+          "CMSEQ": 100.0,
+          "CMTRT": 100.0,
+          "CMDECOD": 100.0,
+          "CMCAT": 100.0,
+          "CMINDC": 76.35,
+          "CMDOSE": 76.35,
+          "CMDOSU": 76.35,
+          "CMDOSFRQ": 100.0,
+          "CMROUTE": 100.0,
+          "EPOCH": 100.0,
+          "CMSTDTC": 100.0,
+          "CMENDTC": 100.0,
+          "CMSTDY": 100.0,
+          "CMENDY": 100.0
+        }
+      },
+      "records_per_subject": {
+        "mean": 2.7,
+        "median": 3.0,
+        "min": 1,
+        "max": 9,
+        "p25": 1.5,
+        "p75": 4.0,
+        "total_subjects": 399
+      },
+      "value_distributions": {
+        "CMDECOD": {
+          "PARACETAMOL": 272,
+          "IBUPROFEN": 182,
+          "METFORMIN": 104,
+          "AMOXICILLIN": 72,
+          "OMEPRAZOLE": 70,
+          "SALBUTAMOL": 59,
+          "ASPIRIN": 57,
+          "DEXTROMETHORPHAN": 55,
+          "ROSUVASTATIN": 37,
+          "SERTRALINE": 33,
+          "ATORVASTATIN": 25,
+          "ESOMEPRAZOLE": 22,
+          "ESCITALOPRAM": 21,
+          "HYDROCHLOROTHIAZIDE": 18,
+          "LISINOPRIL": 17,
+          "ONDANSETRON": 17,
+          "AMLODIPINE": 14,
+          "METOCLOPRAMIDE": 13,
+          "AMOXICILLIN/CLAVULANATE": 3
+        },
+        "CMCAT": {
+          "CONCOMITANT": 768,
+          "PRIOR": 323
+        },
+        "CMDOSFRQ": {
+          "PRN": 512,
+          "QD": 314,
+          "BID": 107,
+          "TID": 93,
+          "QID": 65
+        },
+        "CMROUTE": {
+          "ORAL": 1032,
+          "RESPIRATORY (INHALATION)": 59
+        }
+      },
+      "conformance_findings": {
+        "errors": [
+          {
+            "rule_id": "CN_CM_DATES",
+            "category": "Clinical Plausibility",
+            "source": "Clinical validation rules",
+            "description": "Concomitant medication start date must be on or before end date",
+            "result": "1 CM record(s) with end before start",
+            "affected_count": 1,
+            "affected_usubjids": [
+              "GB001-ASTHMA-201-SITE001-0433"
+            ]
+          }
+        ],
+        "warnings": [],
+        "infos": [
+          {
+            "rule_id": "G7_DUPLICATE_ROWS",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1042)",
+            "description": "No domain should contain exact duplicate rows (all columns identical)",
+            "result": "No duplicate rows",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D4_CMDECOD",
+            "category": "Domain Structure Rules",
+            "source": "Pinnacle 21",
+            "description": "CMDECOD (CM dictionary-derived term) must be populated for every CM record",
+            "result": "CMDECOD fully populated",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D17_EPOCH_CM",
+            "category": "Cross-domain Consistency",
+            "source": "Pinnacle 21",
+            "description": "EPOCH assignment must match Subject Elements (SE) timeline for records in CM",
+            "result": "EPOCH populated (1091/1091)",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D20_DOMAIN_COL",
+            "category": "Cross-domain Consistency",
+            "source": "Pinnacle 21",
+            "description": "Every domain must have a DOMAIN column with the correct 2-letter code, positioned as the second column",
+            "result": "DOMAIN column correct",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "ST01_CM",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "All required variables present",
+            "affected_count": 0
+          },
+          {
+            "rule_id": "ST02_CM",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "Unique keys valid",
+            "affected_count": 0
+          }
+        ]
+      }
+    },
+    "DA": {
+      "record_count": 65793,
+      "variable_count": 16,
+      "completeness": {
+        "required_vars_present": [
+          "STUDYID",
+          "DOMAIN",
+          "USUBJID",
+          "DASEQ",
+          "DATESTCD",
+          "DATEST"
+        ],
+        "required_vars_missing": [],
+        "required_vars_pct": 100.0,
+        "key_fields_populated_pct": 100.0,
+        "date_fields": {},
+        "variable_population": {
+          "STUDYID": 100.0,
+          "DOMAIN": 100.0,
+          "USUBJID": 100.0,
+          "DASEQ": 100.0,
+          "DATESTCD": 100.0,
+          "DATEST": 100.0,
+          "DAORRES": 100.0,
+          "DAORRESU": 100.0,
+          "DASTRESC": 100.0,
+          "DASTRESN": 100.0,
+          "DASTRESU": 100.0,
+          "VISITNUM": 100.0,
+          "VISIT": 38.29,
+          "EPOCH": 100.0,
+          "DADTC": 100.0,
+          "DADY": 100.0
+        }
+      },
+      "records_per_subject": {
+        "mean": 144.9,
+        "median": 153.0,
+        "min": 3,
+        "max": 252,
+        "p25": 108.0,
+        "p75": 195.0,
+        "total_subjects": 454
+      },
+      "value_distributions": {},
+      "conformance_findings": {
+        "errors": [],
+        "warnings": [],
+        "infos": [
+          {
+            "rule_id": "G7_DUPLICATE_ROWS",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1042)",
+            "description": "No domain should contain exact duplicate rows (all columns identical)",
+            "result": "No duplicate rows",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D20_DOMAIN_COL",
+            "category": "Cross-domain Consistency",
+            "source": "Pinnacle 21",
+            "description": "Every domain must have a DOMAIN column with the correct 2-letter code, positioned as the second column",
+            "result": "DOMAIN column correct",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "ST01_DA",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "All required variables present",
+            "affected_count": 0
+          }
+        ]
+      }
+    },
+    "DM": {
+      "record_count": 500,
+      "variable_count": 27,
+      "completeness": {
+        "required_vars_present": [
+          "STUDYID",
+          "DOMAIN",
+          "USUBJID",
+          "SUBJID",
+          "SITEID",
+          "AGE",
+          "SEX",
+          "ARMCD",
+          "ARM"
+        ],
+        "required_vars_missing": [],
+        "required_vars_pct": 100.0,
+        "key_fields_populated_pct": 97.96,
+        "date_fields": {},
+        "variable_population": {
+          "STUDYID": 100.0,
+          "DOMAIN": 100.0,
+          "USUBJID": 100.0,
+          "SUBJID": 100.0,
+          "RFSTDTC": 90.8,
+          "RFENDTC": 90.8,
+          "RFXSTDTC": 90.8,
+          "RFXENDTC": 90.8,
+          "RFICDTC": 100.0,
+          "RFPENDTC": 90.8,
+          "DTHDTC": 0.0,
+          "DTHFL": 0.0,
+          "SITEID": 100.0,
+          "INVNAM": 100.0,
+          "BRTHDTC": 100.0,
+          "AGE": 100.0,
+          "AGEU": 100.0,
+          "SEX": 100.0,
+          "RACE": 100.0,
+          "ETHNIC": 100.0,
+          "ARMCD": 90.8,
+          "ARM": 90.8,
+          "ACTARMCD": 90.8,
+          "ACTARM": 90.8,
+          "ARMNRS": 9.2,
+          "ACTARMUD": 0.0,
+          "COUNTRY": 100.0
+        }
+      },
+      "records_per_subject": {
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1,
+        "max": 1,
+        "p25": 1.0,
+        "p75": 1.0,
+        "total_subjects": 500
+      },
+      "value_distributions": {
+        "SEX": {
+          "F": 257,
+          "M": 243
+        },
+        "RACE": {
+          "WHITE": 328,
+          "BLACK OR AFRICAN AMERICAN": 90,
+          "OTHER": 42,
+          "ASIAN": 40
+        },
+        "ETHNIC": {
+          "NOT HISPANIC OR LATINO": 428,
+          "HISPANIC OR LATINO": 54,
+          "UNKNOWN": 18
+        },
+        "COUNTRY": {
+          "USA": 500
+        },
+        "ARMCD": {
+          "GB40": 240,
+          "PBO": 214
+        },
+        "ARM": {
+          "GB001 40mg QD": 240,
+          "Placebo": 214
+        }
+      },
+      "conformance_findings": {
+        "errors": [],
+        "warnings": [],
+        "infos": [
+          {
+            "rule_id": "G4_RFSTDTC_ORDER",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1029)",
+            "description": "DM reference start/end dates must be in chronological order",
+            "result": "DM reference date ordering valid",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "G5_RFXSTDTC",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1030)",
+            "description": "RFXSTDTC (first study treatment date) must be populated for enrolled subjects and blank for screen failures",
+            "result": "RFXSTDTC enrollment rules valid",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "G7_DUPLICATE_ROWS",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1042)",
+            "description": "No domain should contain exact duplicate rows (all columns identical)",
+            "result": "No duplicate rows",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D5_ARM_ACTARM",
+            "category": "Cross-domain Consistency",
+            "source": "Pinnacle 21",
+            "description": "ARM and ACTARM must match for enrolled subjects (planned treatment equals actual)",
+            "result": "ARM/ACTARM consistent for enrolled subjects",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D18_DTHFL",
+            "category": "Domain Structure Rules",
+            "source": "sdtmchecks R package",
+            "description": "DTHFL=Y and DTHDTC must be mutually consistent \u2014 if one is populated, the other must be too",
+            "result": "DTHFL/DTHDTC consistent",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D20_DOMAIN_COL",
+            "category": "Cross-domain Consistency",
+            "source": "Pinnacle 21",
+            "description": "Every domain must have a DOMAIN column with the correct 2-letter code, positioned as the second column",
+            "result": "DOMAIN column correct",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "ST01_DM",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "All required variables present",
+            "affected_count": 0
+          },
+          {
+            "rule_id": "ST02_DM",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "Unique keys valid",
+            "affected_count": 0
+          },
+          {
+            "rule_id": "TE02_DM",
+            "category": "TEMPORAL",
+            "category_description": "Validates date logic within and across domains \u2014 reference dates are chronologically ordered, study day derivations are correct, and no temporal impossibilities exist.",
+            "result": "DM reference intervals valid",
+            "affected_count": 0
+          },
+          {
+            "rule_id": "CT05_SEX",
+            "category": "TERMINOLOGY",
+            "category_description": "Verifies that coded values (AESEV, AEOUT, SEX, RACE, etc.) use CDISC Controlled Terminology and that dictionary-derived terms (AEDECOD, CMDECOD) are populated.",
+            "result": "SEX values valid",
+            "affected_count": 0
+          },
+          {
+            "rule_id": "CO06_SF_DATES",
+            "category": "COHERENCE",
+            "category_description": "Cross-domain logical consistency \u2014 subjects who died have matching DM/DS/AE records, ARM matches ACTARM for enrolled subjects, exposure aligns with disposition.",
+            "result": "Screen failures have blank RFENDTC/RFPENDTC",
+            "affected_count": 0
+          }
+        ]
+      }
+    },
+    "DS": {
+      "record_count": 1454,
+      "variable_count": 10,
+      "completeness": {
+        "required_vars_present": [
+          "STUDYID",
+          "DOMAIN",
+          "USUBJID",
+          "DSSEQ",
+          "DSTERM",
+          "DSDECOD",
+          "DSCAT"
+        ],
+        "required_vars_missing": [],
+        "required_vars_pct": 100.0,
+        "key_fields_populated_pct": 100.0,
+        "date_fields": {
+          "DSSTDTC": {
+            "populated_pct": 100.0
+          }
+        },
+        "variable_population": {
+          "STUDYID": 100.0,
+          "DOMAIN": 100.0,
+          "USUBJID": 100.0,
+          "DSSEQ": 100.0,
+          "DSTERM": 100.0,
+          "DSDECOD": 100.0,
+          "DSCAT": 100.0,
+          "EPOCH": 100.0,
+          "DSSTDTC": 100.0,
+          "DSSTDY": 93.67
+        }
+      },
+      "records_per_subject": {
+        "mean": 2.9,
+        "median": 3.0,
+        "min": 2,
+        "max": 3,
+        "p25": 3.0,
+        "p75": 3.0,
+        "total_subjects": 500
+      },
+      "value_distributions": {
+        "DSDECOD": {
+          "INFORMED CONSENT OBTAINED": 500,
+          "RANDOMIZED": 454,
+          "COMPLETED": 373,
+          "ELIGIBILITY CRITERIA NOT MET": 46,
+          "ADVERSE EVENT": 27,
+          "WITHDRAWAL BY SUBJECT": 20,
+          "PHYSICIAN DECISION": 15,
+          "PROTOCOL VIOLATION": 12,
+          "LOST TO FOLLOW-UP": 7
+        },
+        "DSCAT": {
+          "PROTOCOL MILESTONE": 1000,
+          "DISPOSITION EVENT": 454
+        }
+      },
+      "conformance_findings": {
+        "errors": [],
+        "warnings": [],
+        "infos": [
+          {
+            "rule_id": "G7_DUPLICATE_ROWS",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1042)",
+            "description": "No domain should contain exact duplicate rows (all columns identical)",
+            "result": "No duplicate rows",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D11_DS_DEATH",
+            "category": "Domain Structure Rules",
+            "source": "sdtmchecks R package",
+            "description": "Subjects who died (DTHFL=Y in DM) must have a DEATH record in DS disposition",
+            "result": "No deaths \u2014 skipped",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D12_DS_DISCON",
+            "category": "Domain Structure Rules",
+            "source": "sdtmchecks R package",
+            "description": "Each subject should have at most one discontinuation record in DS disposition",
+            "result": "Single DISPOSITION EVENT per subject",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D20_DOMAIN_COL",
+            "category": "Cross-domain Consistency",
+            "source": "Pinnacle 21",
+            "description": "Every domain must have a DOMAIN column with the correct 2-letter code, positioned as the second column",
+            "result": "DOMAIN column correct",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "CN_DS_CONSENT",
+            "category": "Clinical Plausibility",
+            "source": "Clinical validation rules",
+            "description": "Every subject must have an INFORMED CONSENT record in DS disposition",
+            "result": "All subjects have INFORMED CONSENT record",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "ST01_DS",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "All required variables present",
+            "affected_count": 0
+          },
+          {
+            "rule_id": "ST02_DS",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "Unique keys valid",
+            "affected_count": 0
+          },
+          {
+            "rule_id": "CO01_DS",
+            "category": "COHERENCE",
+            "category_description": "Cross-domain logical consistency \u2014 subjects who died have matching DM/DS/AE records, ARM matches ACTARM for enrolled subjects, exposure aligns with disposition.",
+            "result": "All subjects in DM",
+            "affected_count": 0
+          }
+        ]
+      }
+    },
+    "DV": {
+      "record_count": 2071,
+      "variable_count": 11,
+      "completeness": {
+        "required_vars_present": [
+          "STUDYID",
+          "DOMAIN",
+          "USUBJID",
+          "DVSEQ",
+          "DVTERM",
+          "DVDECOD"
+        ],
+        "required_vars_missing": [],
+        "required_vars_pct": 100.0,
+        "key_fields_populated_pct": 100.0,
+        "date_fields": {
+          "DVSTDTC": {
+            "populated_pct": 100.0
+          }
+        },
+        "variable_population": {
+          "STUDYID": 100.0,
+          "DOMAIN": 100.0,
+          "USUBJID": 100.0,
+          "DVSEQ": 100.0,
+          "DVTERM": 100.0,
+          "DVDECOD": 100.0,
+          "DVCAT": 100.0,
+          "DVSCAT": 100.0,
+          "EPOCH": 100.0,
+          "DVSTDTC": 100.0,
+          "DVSTDY": 100.0
+        }
+      },
+      "records_per_subject": {
+        "mean": 5.1,
+        "median": 5.0,
+        "min": 1,
+        "max": 13,
+        "p25": 3.0,
+        "p75": 7.0,
+        "total_subjects": 403
+      },
+      "value_distributions": {
+        "DVCAT": {
+          "MINOR": 2071
+        },
+        "DVSCAT": {
+          "DOSING": 1406,
+          "VISIT WINDOW": 581,
+          "ASSESSMENT": 84
+        },
+        "DVDECOD": {
+          "MISSED DOSE": 1391,
+          "VISIT OCCURRED OUTSIDE VISIT WINDOW": 581,
+          "MISSED ASSESSMENT": 84,
+          "DOSE MODIFICATION": 15
+        }
+      },
+      "conformance_findings": {
+        "errors": [],
+        "warnings": [],
+        "infos": [
+          {
+            "rule_id": "G7_DUPLICATE_ROWS",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1042)",
+            "description": "No domain should contain exact duplicate rows (all columns identical)",
+            "result": "No duplicate rows",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D20_DOMAIN_COL",
+            "category": "Cross-domain Consistency",
+            "source": "Pinnacle 21",
+            "description": "Every domain must have a DOMAIN column with the correct 2-letter code, positioned as the second column",
+            "result": "DOMAIN column correct",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "ST01_DV",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "All required variables present",
+            "affected_count": 0
+          }
+        ]
+      }
+    },
+    "EC": {
+      "record_count": 21931,
+      "variable_count": 23,
+      "completeness": {
+        "required_vars_present": [
+          "STUDYID",
+          "DOMAIN",
+          "USUBJID",
+          "ECSEQ",
+          "ECTRT"
+        ],
+        "required_vars_missing": [],
+        "required_vars_pct": 100.0,
+        "key_fields_populated_pct": 100.0,
+        "date_fields": {},
+        "variable_population": {
+          "STUDYID": 100.0,
+          "DOMAIN": 100.0,
+          "USUBJID": 100.0,
+          "ECSEQ": 100.0,
+          "ECTRT": 100.0,
+          "ECPRESP": 100.0,
+          "ECOCCUR": 100.0,
+          "ECDOSE": 48.95,
+          "ECDOSTXT": 44.38,
+          "ECDOSU": 100.0,
+          "ECDOSFRM": 0.0,
+          "ECDOSFRQ": 100.0,
+          "ECROUTE": 100.0,
+          "ECMOOD": 100.0,
+          "ECSTAT": 6.66,
+          "ECREASND": 6.66,
+          "EPOCH": 100.0,
+          "ECSTDTC": 100.0,
+          "ECENDTC": 100.0,
+          "ECSTDY": 100.0,
+          "ECENDY": 100.0,
+          "VISITNUM": 100.0,
+          "VISIT": 38.29
+        }
+      },
+      "records_per_subject": {
+        "mean": 48.3,
+        "median": 51.0,
+        "min": 1,
+        "max": 84,
+        "p25": 36.0,
+        "p75": 65.0,
+        "total_subjects": 454
+      },
+      "value_distributions": {
+        "ECTRT": {
+          "GB001": 11485,
+          "PLACEBO": 10446
+        },
+        "ECMOOD": {
+          "PERFORMED": 20470,
+          "SCHEDULED": 1461
+        }
+      },
+      "conformance_findings": {
+        "errors": [],
+        "warnings": [],
+        "infos": [
+          {
+            "rule_id": "G7_DUPLICATE_ROWS",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1042)",
+            "description": "No domain should contain exact duplicate rows (all columns identical)",
+            "result": "No duplicate rows",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D20_DOMAIN_COL",
+            "category": "Cross-domain Consistency",
+            "source": "Pinnacle 21",
+            "description": "Every domain must have a DOMAIN column with the correct 2-letter code, positioned as the second column",
+            "result": "DOMAIN column correct",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "ST01_EC",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "All required variables present",
+            "affected_count": 0
+          }
+        ]
+      }
+    },
+    "EX": {
+      "record_count": 532,
+      "variable_count": 15,
+      "completeness": {
+        "required_vars_present": [
+          "STUDYID",
+          "DOMAIN",
+          "USUBJID",
+          "EXSEQ",
+          "EXTRT",
+          "EXSTDTC"
+        ],
+        "required_vars_missing": [],
+        "required_vars_pct": 100.0,
+        "key_fields_populated_pct": 100.0,
+        "date_fields": {
+          "EXSTDTC": {
+            "populated_pct": 100.0
+          },
+          "EXENDTC": {
+            "populated_pct": 100.0
+          }
+        },
+        "variable_population": {
+          "STUDYID": 100.0,
+          "DOMAIN": 100.0,
+          "USUBJID": 100.0,
+          "EXSEQ": 100.0,
+          "EXTRT": 100.0,
+          "EXDOSE": 100.0,
+          "EXDOSU": 100.0,
+          "EXDOSFRM": 0.0,
+          "EXDOSFRQ": 100.0,
+          "EXROUTE": 100.0,
+          "EPOCH": 100.0,
+          "EXSTDTC": 100.0,
+          "EXENDTC": 100.0,
+          "EXSTDY": 100.0,
+          "EXENDY": 100.0
+        }
+      },
+      "records_per_subject": {
+        "mean": 1.2,
+        "median": 1.0,
+        "min": 1,
+        "max": 4,
+        "p25": 1.0,
+        "p75": 1.0,
+        "total_subjects": 454
+      },
+      "value_distributions": {
+        "EXTRT": {
+          "GB001": 318,
+          "PLACEBO": 214
+        },
+        "EXDOSFRQ": {
+          "QD": 532
+        },
+        "EXROUTE": {
+          "ORAL": 532
+        }
+      },
+      "conformance_findings": {
+        "errors": [],
+        "warnings": [],
+        "infos": [
+          {
+            "rule_id": "G7_DUPLICATE_ROWS",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1042)",
+            "description": "No domain should contain exact duplicate rows (all columns identical)",
+            "result": "No duplicate rows",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D3_EX_DATES",
+            "category": "Domain Structure Rules",
+            "source": "sdtmchecks R package",
+            "description": "Exposure start date (EXSTDTC) must be on or before end date (EXENDTC)",
+            "result": "EX date ordering valid",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D10_EXDOSU",
+            "category": "Domain Structure Rules",
+            "source": "sdtmchecks R package",
+            "description": "Exposure dose units (EXDOSU) must be populated for all EX records",
+            "result": "EXDOSU fully populated",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D13_EX_DISCON",
+            "category": "Domain Structure Rules",
+            "source": "sdtmchecks R package",
+            "description": "No exposure records should have a start date after the subject's discontinuation date",
+            "result": "No EX after discontinuation (81 discontinued)",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D17_EPOCH_EX",
+            "category": "Cross-domain Consistency",
+            "source": "Pinnacle 21",
+            "description": "EPOCH assignment must match Subject Elements (SE) timeline for records in EX",
+            "result": "EPOCH populated (532/532)",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D20_DOMAIN_COL",
+            "category": "Cross-domain Consistency",
+            "source": "Pinnacle 21",
+            "description": "Every domain must have a DOMAIN column with the correct 2-letter code, positioned as the second column",
+            "result": "DOMAIN column correct",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "ST01_EX",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "All required variables present",
+            "affected_count": 0
+          },
+          {
+            "rule_id": "ST02_EX",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "Unique keys valid",
+            "affected_count": 0
+          },
+          {
+            "rule_id": "TE01_EX",
+            "category": "TEMPORAL",
+            "category_description": "Validates date logic within and across domains \u2014 reference dates are chronologically ordered, study day derivations are correct, and no temporal impossibilities exist.",
+            "result": "EX date intervals valid",
+            "affected_count": 0
+          },
+          {
+            "rule_id": "CO01_EX",
+            "category": "COHERENCE",
+            "category_description": "Cross-domain logical consistency \u2014 subjects who died have matching DM/DS/AE records, ARM matches ACTARM for enrolled subjects, exposure aligns with disposition.",
+            "result": "All subjects in DM",
+            "affected_count": 0
+          },
+          {
+            "rule_id": "CO04_EX",
+            "category": "COHERENCE",
+            "category_description": "Cross-domain logical consistency \u2014 subjects who died have matching DM/DS/AE records, ARM matches ACTARM for enrolled subjects, exposure aligns with disposition.",
+            "result": "All enrolled subjects have EX",
+            "affected_count": 0
+          }
+        ]
+      }
+    },
+    "HO": {
+      "record_count": 157,
+      "variable_count": 12,
+      "completeness": {
+        "required_vars_present": [
+          "STUDYID",
+          "DOMAIN",
+          "USUBJID",
+          "HOSEQ",
+          "HOTERM"
+        ],
+        "required_vars_missing": [],
+        "required_vars_pct": 100.0,
+        "key_fields_populated_pct": 100.0,
+        "date_fields": {},
+        "variable_population": {
+          "STUDYID": 100.0,
+          "DOMAIN": 100.0,
+          "USUBJID": 100.0,
+          "HOSEQ": 100.0,
+          "HOTERM": 100.0,
+          "HODECOD": 100.0,
+          "HOCAT": 100.0,
+          "EPOCH": 100.0,
+          "HOSTDTC": 100.0,
+          "HOENDTC": 100.0,
+          "HOSTDY": 100.0,
+          "HOENDY": 100.0
+        }
+      },
+      "records_per_subject": {
+        "mean": 1.3,
+        "median": 1.0,
+        "min": 1,
+        "max": 5,
+        "p25": 1.0,
+        "p75": 2.0,
+        "total_subjects": 120
+      },
+      "value_distributions": {
+        "HOTERM": {
+          "Headache": 26,
+          "Upper respiratory tract infection": 26,
+          "Nasopharyngitis": 24,
+          "Cough": 16,
+          "Sinusitis": 15,
+          "Asthma": 15,
+          "Oropharyngeal pain": 10,
+          "Nausea": 7,
+          "Fatigue": 5,
+          "Bronchitis": 3,
+          "Cytokine release syndrome": 3,
+          "Back pain": 3,
+          "Pneumonia": 3,
+          "Myocardial infarction": 1
+        }
+      },
+      "conformance_findings": {
+        "errors": [],
+        "warnings": [],
+        "infos": [
+          {
+            "rule_id": "G7_DUPLICATE_ROWS",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1042)",
+            "description": "No domain should contain exact duplicate rows (all columns identical)",
+            "result": "No duplicate rows",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D20_DOMAIN_COL",
+            "category": "Cross-domain Consistency",
+            "source": "Pinnacle 21",
+            "description": "Every domain must have a DOMAIN column with the correct 2-letter code, positioned as the second column",
+            "result": "DOMAIN column correct",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "ST01_HO",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "All required variables present",
+            "affected_count": 0
+          }
+        ]
+      }
+    },
+    "IE": {
+      "record_count": 46,
+      "variable_count": 14,
+      "completeness": {
+        "required_vars_present": [
+          "STUDYID",
+          "DOMAIN",
+          "USUBJID",
+          "IESEQ",
+          "IETESTCD",
+          "IETEST",
+          "IEORRES"
+        ],
+        "required_vars_missing": [],
+        "required_vars_pct": 100.0,
+        "key_fields_populated_pct": 100.0,
+        "date_fields": {},
+        "variable_population": {
+          "STUDYID": 100.0,
+          "DOMAIN": 100.0,
+          "USUBJID": 100.0,
+          "IESEQ": 100.0,
+          "IETESTCD": 100.0,
+          "IETEST": 100.0,
+          "IECAT": 100.0,
+          "IEORRES": 100.0,
+          "IESTRESC": 100.0,
+          "VISITNUM": 100.0,
+          "VISIT": 100.0,
+          "EPOCH": 100.0,
+          "IEDTC": 100.0,
+          "IEDY": 0.0
+        }
+      },
+      "records_per_subject": {
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1,
+        "max": 1,
+        "p25": 1.0,
+        "p75": 1.0,
+        "total_subjects": 46
+      },
+      "value_distributions": {
+        "IECAT": {
+          "EXCLUSION": 33,
+          "INCLUSION": 13
+        },
+        "IEORRES": {
+          "Y": 33,
+          "N": 13
+        }
+      },
+      "conformance_findings": {
+        "errors": [],
+        "warnings": [],
+        "infos": [
+          {
+            "rule_id": "G7_DUPLICATE_ROWS",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1042)",
+            "description": "No domain should contain exact duplicate rows (all columns identical)",
+            "result": "No duplicate rows",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D20_DOMAIN_COL",
+            "category": "Cross-domain Consistency",
+            "source": "Pinnacle 21",
+            "description": "Every domain must have a DOMAIN column with the correct 2-letter code, positioned as the second column",
+            "result": "DOMAIN column correct",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "ST01_IE",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "All required variables present",
+            "affected_count": 0
+          }
+        ]
+      }
+    },
+    "LB": {
+      "record_count": 17710,
+      "variable_count": 25,
+      "completeness": {
+        "required_vars_present": [
+          "STUDYID",
+          "DOMAIN",
+          "USUBJID",
+          "LBSEQ",
+          "LBTESTCD",
+          "LBTEST",
+          "LBORRES",
+          "LBORRESU"
+        ],
+        "required_vars_missing": [],
+        "required_vars_pct": 100.0,
+        "key_fields_populated_pct": 99.03,
+        "date_fields": {
+          "LBDTC": {
+            "populated_pct": 100.0
+          }
+        },
+        "variable_population": {
+          "STUDYID": 100.0,
+          "DOMAIN": 100.0,
+          "USUBJID": 100.0,
+          "LBSEQ": 100.0,
+          "LBTESTCD": 100.0,
+          "LBTEST": 100.0,
+          "LBCAT": 100.0,
+          "LBORRES": 96.14,
+          "LBORRESU": 96.14,
+          "LBORNRLO": 96.14,
+          "LBORNRHI": 96.14,
+          "LBSTRESC": 96.14,
+          "LBSTRESN": 96.14,
+          "LBSTRESU": 96.14,
+          "LBSTNRLO": 96.14,
+          "LBSTNRHI": 96.14,
+          "LBNRIND": 96.14,
+          "LBSTAT": 3.86,
+          "LBLOBXFL": 17.93,
+          "LBBLFL": 17.93,
+          "VISITNUM": 100.0,
+          "VISIT": 100.0,
+          "EPOCH": 100.0,
+          "LBDTC": 100.0,
+          "LBDY": 100.0
+        }
+      },
+      "records_per_subject": {
+        "mean": 39.0,
+        "median": 42.0,
+        "min": 14,
+        "max": 49,
+        "p25": 35.0,
+        "p75": 49.0,
+        "total_subjects": 454
+      },
+      "value_distributions": {
+        "LBTESTCD": {
+          "ALT": 2530,
+          "AST": 2530,
+          "CREAT": 2530,
+          "GLUC": 2530,
+          "HGB": 2530,
+          "PLAT": 2530,
+          "WBC": 2530
+        },
+        "LBCAT": {
+          "CHEMISTRY": 10120,
+          "HEMATOLOGY": 7590
+        },
+        "LBNRIND": {
+          "NORMAL": 14177,
+          "LOW": 1501,
+          "HIGH": 1348
+        }
+      },
+      "conformance_findings": {
+        "errors": [],
+        "warnings": [],
+        "infos": [
+          {
+            "rule_id": "G7_DUPLICATE_ROWS",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1042)",
+            "description": "No domain should contain exact duplicate rows (all columns identical)",
+            "result": "No duplicate rows",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "G12_LBNRIND",
+            "category": "Domain Structure Rules",
+            "source": "sdtmchecks R package",
+            "description": "Lab normal range indicator (LBNRIND) must be consistent with result vs reference range (LOW/NORMAL/HIGH)",
+            "result": "LBNRIND consistent with reference ranges (17026 checked)",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D7_VISIT_ORDER_LB",
+            "category": "Domain Structure Rules",
+            "source": "Pinnacle 21",
+            "description": "Visit dates must be in chronological order of VISITNUM within LB",
+            "result": "Visit dates chronological by VISITNUM",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D9_LBORNRLO",
+            "category": "Domain Structure Rules",
+            "source": "sdtmchecks R package",
+            "description": "Lab reference range column must be populated for quantitative results in LBORNRLO",
+            "result": "LBORNRLO populated (17026 rows)",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D9_LBORNRHI",
+            "category": "Domain Structure Rules",
+            "source": "sdtmchecks R package",
+            "description": "Lab reference range column must be populated for quantitative results in LBORNRHI",
+            "result": "LBORNRHI populated (17026 rows)",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D10_LBSTRESU",
+            "category": "Domain Structure Rules",
+            "source": "sdtmchecks R package",
+            "description": "Lab standard units (LBSTRESU) must be populated for all quantitative results",
+            "result": "LBSTRESU fully populated",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D17_EPOCH_LB",
+            "category": "Cross-domain Consistency",
+            "source": "Pinnacle 21",
+            "description": "EPOCH assignment must match Subject Elements (SE) timeline for records in LB",
+            "result": "EPOCH populated (17710/17710)",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D20_DOMAIN_COL",
+            "category": "Cross-domain Consistency",
+            "source": "Pinnacle 21",
+            "description": "Every domain must have a DOMAIN column with the correct 2-letter code, positioned as the second column",
+            "result": "DOMAIN column correct",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "CN_LB_RANGES",
+            "category": "Clinical Plausibility",
+            "source": "Clinical validation rules",
+            "description": "Lab results must fall within physiologically possible ranges (e.g., ALT 1\u20132000 U/L, HGB 40\u2013220 g/L)",
+            "result": "LB values within physiological ranges",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "ST01_LB",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "All required variables present",
+            "affected_count": 0
+          },
+          {
+            "rule_id": "ST02_LB",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "Unique keys valid",
+            "affected_count": 0
+          }
+        ]
+      }
+    },
+    "MH": {
+      "record_count": 1205,
+      "variable_count": 15,
+      "completeness": {
+        "required_vars_present": [
+          "STUDYID",
+          "DOMAIN",
+          "USUBJID",
+          "MHSEQ",
+          "MHTERM"
+        ],
+        "required_vars_missing": [],
+        "required_vars_pct": 100.0,
+        "key_fields_populated_pct": 100.0,
+        "date_fields": {
+          "MHSTDTC": {
+            "populated_pct": 100.0
+          }
+        },
+        "variable_population": {
+          "STUDYID": 100.0,
+          "DOMAIN": 100.0,
+          "USUBJID": 100.0,
+          "MHSEQ": 100.0,
+          "MHTERM": 100.0,
+          "MHDECOD": 100.0,
+          "MHCAT": 100.0,
+          "MHSCAT": 0.0,
+          "MHBODSYS": 0.0,
+          "EPOCH": 86.14,
+          "MHSTDTC": 100.0,
+          "MHENDTC": 61.33,
+          "MHSTDY": 100.0,
+          "MHENDY": 61.33,
+          "MHENRF": 100.0
+        }
+      },
+      "records_per_subject": {
+        "mean": 3.1,
+        "median": 3.0,
+        "min": 1,
+        "max": 5,
+        "p25": 2.0,
+        "p75": 4.0,
+        "total_subjects": 390
+      },
+      "value_distributions": {
+        "MHDECOD": {
+          "DIABETES MELLITUS TYPE 2": 212,
+          "HYPERLIPIDEMIA": 207,
+          "ASTHMA": 202,
+          "DEPRESSION": 200,
+          "GASTROESOPHAGEAL REFLUX DISEASE": 195,
+          "HYPERTENSION": 189
+        },
+        "MHCAT": {
+          "ENDOCRINE": 212,
+          "METABOLIC": 207,
+          "RESPIRATORY": 202,
+          "PSYCHIATRIC": 200,
+          "GASTROINTESTINAL": 195,
+          "CARDIOVASCULAR": 189
+        }
+      },
+      "conformance_findings": {
+        "errors": [],
+        "warnings": [],
+        "infos": [
+          {
+            "rule_id": "G7_DUPLICATE_ROWS",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1042)",
+            "description": "No domain should contain exact duplicate rows (all columns identical)",
+            "result": "No duplicate rows",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D20_DOMAIN_COL",
+            "category": "Cross-domain Consistency",
+            "source": "Pinnacle 21",
+            "description": "Every domain must have a DOMAIN column with the correct 2-letter code, positioned as the second column",
+            "result": "DOMAIN column correct",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "CN_MH_PRESTUDY",
+            "category": "Clinical Plausibility",
+            "source": "Clinical validation rules",
+            "description": "Medical history conditions should start before or on the study reference start date (pre-study events)",
+            "result": "MH conditions pre-date study start",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "ST01_MH",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "All required variables present",
+            "affected_count": 0
+          },
+          {
+            "rule_id": "ST02_MH",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "Unique keys valid",
+            "affected_count": 0
+          }
+        ]
+      }
+    },
+    "PE": {
+      "record_count": 9080,
+      "variable_count": 13,
+      "completeness": {
+        "required_vars_present": [
+          "STUDYID",
+          "DOMAIN",
+          "USUBJID",
+          "PESEQ",
+          "PETESTCD",
+          "PETEST"
+        ],
+        "required_vars_missing": [],
+        "required_vars_pct": 100.0,
+        "key_fields_populated_pct": 100.0,
+        "date_fields": {},
+        "variable_population": {
+          "STUDYID": 100.0,
+          "DOMAIN": 100.0,
+          "USUBJID": 100.0,
+          "PESEQ": 100.0,
+          "PETESTCD": 100.0,
+          "PETEST": 100.0,
+          "PEORRES": 100.0,
+          "PESTRESC": 100.0,
+          "VISITNUM": 100.0,
+          "VISIT": 100.0,
+          "EPOCH": 100.0,
+          "PEDTC": 100.0,
+          "PEDY": 100.0
+        }
+      },
+      "records_per_subject": {
+        "mean": 20.0,
+        "median": 20.0,
+        "min": 20,
+        "max": 20,
+        "p25": 20.0,
+        "p75": 20.0,
+        "total_subjects": 454
+      },
+      "value_distributions": {
+        "PETESTCD": {
+          "ABDOMEN": 908,
+          "CARDIOVA": 908,
+          "EARSNOSE": 908,
+          "EYES": 908,
+          "GENERALA": 908,
+          "HEADANDN": 908,
+          "MUSCULOS": 908,
+          "NEUROLOG": 908,
+          "RESPIRAT": 908,
+          "SKIN": 908
+        }
+      },
+      "conformance_findings": {
+        "errors": [],
+        "warnings": [],
+        "infos": [
+          {
+            "rule_id": "G7_DUPLICATE_ROWS",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1042)",
+            "description": "No domain should contain exact duplicate rows (all columns identical)",
+            "result": "No duplicate rows",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D20_DOMAIN_COL",
+            "category": "Cross-domain Consistency",
+            "source": "Pinnacle 21",
+            "description": "Every domain must have a DOMAIN column with the correct 2-letter code, positioned as the second column",
+            "result": "DOMAIN column correct",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "ST01_PE",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "All required variables present",
+            "affected_count": 0
+          }
+        ]
+      }
+    },
+    "RELREC": {
+      "record_count": 1050,
+      "variable_count": 7,
+      "completeness": {
+        "required_vars_present": [],
+        "required_vars_missing": [],
+        "required_vars_pct": 100.0,
+        "key_fields_populated_pct": 100.0,
+        "date_fields": {},
+        "variable_population": {
+          "STUDYID": 100.0,
+          "RDOMAIN": 100.0,
+          "USUBJID": 100.0,
+          "IDVAR": 100.0,
+          "IDVARVAL": 100.0,
+          "RELTYPE": 0.0,
+          "RELID": 100.0
+        }
+      },
+      "records_per_subject": {
+        "mean": 3.9,
+        "median": 4.0,
+        "min": 2,
+        "max": 14,
+        "p25": 2.0,
+        "p75": 4.0,
+        "total_subjects": 272
+      },
+      "value_distributions": {},
+      "conformance_findings": {
+        "errors": [],
+        "warnings": [],
+        "infos": [
+          {
+            "rule_id": "G7_DUPLICATE_ROWS",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1042)",
+            "description": "No domain should contain exact duplicate rows (all columns identical)",
+            "result": "No duplicate rows",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "ST01_RELREC",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "All required variables present",
+            "affected_count": 0
+          }
+        ]
+      }
+    },
+    "SC": {
+      "record_count": 1960,
+      "variable_count": 13,
+      "completeness": {
+        "required_vars_present": [
+          "STUDYID",
+          "DOMAIN",
+          "USUBJID",
+          "SCSEQ",
+          "SCTESTCD",
+          "SCTEST"
+        ],
+        "required_vars_missing": [],
+        "required_vars_pct": 100.0,
+        "key_fields_populated_pct": 100.0,
+        "date_fields": {},
+        "variable_population": {
+          "STUDYID": 100.0,
+          "DOMAIN": 100.0,
+          "USUBJID": 100.0,
+          "SCSEQ": 100.0,
+          "SCTESTCD": 100.0,
+          "SCTEST": 100.0,
+          "SCCAT": 100.0,
+          "SCORRES": 100.0,
+          "SCSTRESC": 100.0,
+          "SCSTRESN": 53.67,
+          "SCSTRESU": 53.67,
+          "SCDTC": 100.0,
+          "SCDY": 100.0
+        }
+      },
+      "records_per_subject": {
+        "mean": 4.3,
+        "median": 4.0,
+        "min": 3,
+        "max": 5,
+        "p25": 4.0,
+        "p75": 5.0,
+        "total_subjects": 454
+      },
+      "value_distributions": {
+        "SCTESTCD": {
+          "ALCUSE": 454,
+          "BMI": 454,
+          "TOBUSE": 454,
+          "DURDIS": 390,
+          "TOBPKYR": 208
+        }
+      },
+      "conformance_findings": {
+        "errors": [],
+        "warnings": [],
+        "infos": [
+          {
+            "rule_id": "G7_DUPLICATE_ROWS",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1042)",
+            "description": "No domain should contain exact duplicate rows (all columns identical)",
+            "result": "No duplicate rows",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D20_DOMAIN_COL",
+            "category": "Cross-domain Consistency",
+            "source": "Pinnacle 21",
+            "description": "Every domain must have a DOMAIN column with the correct 2-letter code, positioned as the second column",
+            "result": "DOMAIN column correct",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "ST01_SC",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "All required variables present",
+            "affected_count": 0
+          }
+        ]
+      }
+    },
+    "SE": {
+      "record_count": 1281,
+      "variable_count": 11,
+      "completeness": {
+        "required_vars_present": [
+          "STUDYID",
+          "DOMAIN",
+          "USUBJID",
+          "SESEQ",
+          "ETCD",
+          "ELEMENT"
+        ],
+        "required_vars_missing": [],
+        "required_vars_pct": 100.0,
+        "key_fields_populated_pct": 100.0,
+        "date_fields": {},
+        "variable_population": {
+          "STUDYID": 100.0,
+          "DOMAIN": 100.0,
+          "USUBJID": 100.0,
+          "SESEQ": 100.0,
+          "ETCD": 100.0,
+          "ELEMENT": 100.0,
+          "EPOCH": 100.0,
+          "SESTDTC": 100.0,
+          "SEENDTC": 100.0,
+          "SESTDY": 100.0,
+          "SEENDY": 100.0
+        }
+      },
+      "records_per_subject": {
+        "mean": 2.8,
+        "median": 3.0,
+        "min": 2,
+        "max": 3,
+        "p25": 3.0,
+        "p75": 3.0,
+        "total_subjects": 454
+      },
+      "value_distributions": {},
+      "conformance_findings": {
+        "errors": [],
+        "warnings": [],
+        "infos": [
+          {
+            "rule_id": "G7_DUPLICATE_ROWS",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1042)",
+            "description": "No domain should contain exact duplicate rows (all columns identical)",
+            "result": "No duplicate rows",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D6_SE_GAPS",
+            "category": "Domain Structure Rules",
+            "source": "SDTM-IG 3.4",
+            "description": "Subject Elements (SE) must have no gaps between consecutive epochs \u2014 SEENDTC of one element must equal SESTDTC of the next",
+            "result": "SE timeline continuity valid (827 transitions)",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D20_DOMAIN_COL",
+            "category": "Cross-domain Consistency",
+            "source": "Pinnacle 21",
+            "description": "Every domain must have a DOMAIN column with the correct 2-letter code, positioned as the second column",
+            "result": "DOMAIN column correct",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "ST01_SE",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "All required variables present",
+            "affected_count": 0
+          },
+          {
+            "rule_id": "ST02_SE",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "Unique keys valid",
+            "affected_count": 0
+          }
+        ]
+      }
+    },
+    "SS": {
+      "record_count": 454,
+      "variable_count": 14,
+      "completeness": {
+        "required_vars_present": [
+          "STUDYID",
+          "DOMAIN",
+          "USUBJID",
+          "SSSEQ",
+          "SSTESTCD",
+          "SSTEST"
+        ],
+        "required_vars_missing": [],
+        "required_vars_pct": 100.0,
+        "key_fields_populated_pct": 100.0,
+        "date_fields": {},
+        "variable_population": {
+          "STUDYID": 100.0,
+          "DOMAIN": 100.0,
+          "USUBJID": 100.0,
+          "SSSEQ": 100.0,
+          "SSTESTCD": 100.0,
+          "SSTEST": 100.0,
+          "SSCAT": 0.0,
+          "SSORRES": 100.0,
+          "SSSTRESC": 100.0,
+          "VISITNUM": 100.0,
+          "VISIT": 100.0,
+          "EPOCH": 100.0,
+          "SSDTC": 100.0,
+          "SSDY": 100.0
+        }
+      },
+      "records_per_subject": {
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1,
+        "max": 1,
+        "p25": 1.0,
+        "p75": 1.0,
+        "total_subjects": 454
+      },
+      "value_distributions": {
+        "SSTESTCD": {
+          "SURVSTAT": 454
+        }
+      },
+      "conformance_findings": {
+        "errors": [],
+        "warnings": [],
+        "infos": [
+          {
+            "rule_id": "G7_DUPLICATE_ROWS",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1042)",
+            "description": "No domain should contain exact duplicate rows (all columns identical)",
+            "result": "No duplicate rows",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D20_DOMAIN_COL",
+            "category": "Cross-domain Consistency",
+            "source": "Pinnacle 21",
+            "description": "Every domain must have a DOMAIN column with the correct 2-letter code, positioned as the second column",
+            "result": "DOMAIN column correct",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "ST01_SS",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "All required variables present",
+            "affected_count": 0
+          }
+        ]
+      }
+    },
+    "SU": {
+      "record_count": 1362,
+      "variable_count": 18,
+      "completeness": {
+        "required_vars_present": [
+          "STUDYID",
+          "DOMAIN",
+          "USUBJID",
+          "SUSEQ",
+          "SUTRT"
+        ],
+        "required_vars_missing": [],
+        "required_vars_pct": 100.0,
+        "key_fields_populated_pct": 100.0,
+        "date_fields": {},
+        "variable_population": {
+          "STUDYID": 100.0,
+          "DOMAIN": 100.0,
+          "USUBJID": 100.0,
+          "SUSEQ": 100.0,
+          "SUTRT": 100.0,
+          "SUDECOD": 100.0,
+          "SUCAT": 100.0,
+          "SUSCAT": 33.33,
+          "SUOCCUR": 100.0,
+          "SUSTAT": 0.0,
+          "SUDOSE": 43.91,
+          "SUDOSU": 43.91,
+          "SUDOSFRQ": 43.91,
+          "EPOCH": 100.0,
+          "SUSTDTC": 62.7,
+          "SUENDTC": 18.8,
+          "SUSTDY": 62.7,
+          "SUENDY": 18.8
+        }
+      },
+      "records_per_subject": {
+        "mean": 3.0,
+        "median": 3.0,
+        "min": 3,
+        "max": 3,
+        "p25": 3.0,
+        "p75": 3.0,
+        "total_subjects": 454
+      },
+      "value_distributions": {
+        "SUTRT": {
+          "ALCOHOL": 454,
+          "COFFEE": 454,
+          "CIGARETTES": 454
+        },
+        "SUCAT": {
+          "ALCOHOL": 454,
+          "CAFFEINE": 454,
+          "TOBACCO": 454
+        }
+      },
+      "conformance_findings": {
+        "errors": [],
+        "warnings": [],
+        "infos": [
+          {
+            "rule_id": "G7_DUPLICATE_ROWS",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1042)",
+            "description": "No domain should contain exact duplicate rows (all columns identical)",
+            "result": "No duplicate rows",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D20_DOMAIN_COL",
+            "category": "Cross-domain Consistency",
+            "source": "Pinnacle 21",
+            "description": "Every domain must have a DOMAIN column with the correct 2-letter code, positioned as the second column",
+            "result": "DOMAIN column correct",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "ST01_SU",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "All required variables present",
+            "affected_count": 0
+          }
+        ]
+      }
+    },
+    "SUPPAE": {
+      "record_count": 1014,
+      "variable_count": 10,
+      "completeness": {
+        "required_vars_present": [],
+        "required_vars_missing": [],
+        "required_vars_pct": 100.0,
+        "key_fields_populated_pct": 100.0,
+        "date_fields": {},
+        "variable_population": {
+          "STUDYID": 100.0,
+          "RDOMAIN": 100.0,
+          "USUBJID": 100.0,
+          "IDVAR": 100.0,
+          "IDVARVAL": 100.0,
+          "QNAM": 100.0,
+          "QLABEL": 100.0,
+          "QVAL": 100.0,
+          "QORIG": 100.0,
+          "QEVAL": 0.0
+        }
+      },
+      "records_per_subject": {
+        "mean": 2.9,
+        "median": 3.0,
+        "min": 1,
+        "max": 10,
+        "p25": 2.0,
+        "p75": 4.0,
+        "total_subjects": 353
+      },
+      "value_distributions": {},
+      "conformance_findings": {
+        "errors": [],
+        "warnings": [],
+        "infos": [
+          {
+            "rule_id": "G7_DUPLICATE_ROWS",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1042)",
+            "description": "No domain should contain exact duplicate rows (all columns identical)",
+            "result": "No duplicate rows",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "ST01_SUPPAE",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "All required variables present",
+            "affected_count": 0
+          }
+        ]
+      }
+    },
+    "SV": {
+      "record_count": 2864,
+      "variable_count": 13,
+      "completeness": {
+        "required_vars_present": [
+          "STUDYID",
+          "DOMAIN",
+          "USUBJID",
+          "SVSEQ",
+          "VISITNUM"
+        ],
+        "required_vars_missing": [],
+        "required_vars_pct": 100.0,
+        "key_fields_populated_pct": 100.0,
+        "date_fields": {
+          "SVSTDTC": {
+            "populated_pct": 100.0
+          },
+          "SVENDTC": {
+            "populated_pct": 100.0
+          }
+        },
+        "variable_population": {
+          "STUDYID": 100.0,
+          "DOMAIN": 100.0,
+          "USUBJID": 100.0,
+          "SVSEQ": 100.0,
+          "VISITNUM": 100.0,
+          "VISIT": 100.0,
+          "SVPRESP": 100.0,
+          "SVOCCUR": 100.0,
+          "EPOCH": 100.0,
+          "SVSTDTC": 100.0,
+          "SVENDTC": 100.0,
+          "SVSTDY": 98.39,
+          "SVENDY": 98.39
+        }
+      },
+      "records_per_subject": {
+        "mean": 5.7,
+        "median": 7.0,
+        "min": 1,
+        "max": 7,
+        "p25": 5.0,
+        "p75": 7.0,
+        "total_subjects": 500
+      },
+      "value_distributions": {},
+      "conformance_findings": {
+        "errors": [],
+        "warnings": [],
+        "infos": [
+          {
+            "rule_id": "G7_DUPLICATE_ROWS",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1042)",
+            "description": "No domain should contain exact duplicate rows (all columns identical)",
+            "result": "No duplicate rows",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D20_DOMAIN_COL",
+            "category": "Cross-domain Consistency",
+            "source": "Pinnacle 21",
+            "description": "Every domain must have a DOMAIN column with the correct 2-letter code, positioned as the second column",
+            "result": "DOMAIN column correct",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "ST01_SV",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "All required variables present",
+            "affected_count": 0
+          },
+          {
+            "rule_id": "ST02_SV",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "Unique keys valid",
+            "affected_count": 0
+          }
+        ]
+      }
+    },
+    "TA": {
+      "record_count": 6,
+      "variable_count": 10,
+      "completeness": {
+        "required_vars_present": [],
+        "required_vars_missing": [],
+        "required_vars_pct": 100.0,
+        "key_fields_populated_pct": 100.0,
+        "date_fields": {},
+        "variable_population": {
+          "STUDYID": 100.0,
+          "DOMAIN": 100.0,
+          "ARMCD": 100.0,
+          "ARM": 100.0,
+          "TAETORD": 100.0,
+          "ETCD": 100.0,
+          "ELEMENT": 100.0,
+          "TABRANCH": 0.0,
+          "TATRANS": 66.67,
+          "EPOCH": 100.0
+        }
+      },
+      "records_per_subject": {},
+      "value_distributions": {},
+      "conformance_findings": {
+        "errors": [],
+        "warnings": [],
+        "infos": [
+          {
+            "rule_id": "G7_DUPLICATE_ROWS",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1042)",
+            "description": "No domain should contain exact duplicate rows (all columns identical)",
+            "result": "No duplicate rows",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "TD_TA_ARM",
+            "category": "Trial Design Integrity",
+            "source": "SDTM-IG 3.4",
+            "description": "Every ARMCD in Trial Arms (TA) must match an ARMCD assigned to enrolled subjects in DM, and vice versa",
+            "result": "TA arms match DM enrolled arms",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "ST01_TA",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "All required variables present",
+            "affected_count": 0
+          }
+        ]
+      }
+    },
+    "TE": {
+      "record_count": 3,
+      "variable_count": 7,
+      "completeness": {
+        "required_vars_present": [],
+        "required_vars_missing": [],
+        "required_vars_pct": 100.0,
+        "key_fields_populated_pct": 100.0,
+        "date_fields": {},
+        "variable_population": {
+          "STUDYID": 100.0,
+          "DOMAIN": 100.0,
+          "ETCD": 100.0,
+          "ELEMENT": 100.0,
+          "TESTRL": 100.0,
+          "TEENRL": 100.0,
+          "TEDUR": 100.0
+        }
+      },
+      "records_per_subject": {},
+      "value_distributions": {},
+      "conformance_findings": {
+        "errors": [],
+        "warnings": [],
+        "infos": [
+          {
+            "rule_id": "G7_DUPLICATE_ROWS",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1042)",
+            "description": "No domain should contain exact duplicate rows (all columns identical)",
+            "result": "No duplicate rows",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "TD_TE_ELEMENT",
+            "category": "Trial Design Integrity",
+            "source": "SDTM-IG 3.4",
+            "description": "Every trial element defined in TE must appear as an actual element in at least one Subject Element (SE) record",
+            "result": "All TE elements appear in SE",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "ST01_TE",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "All required variables present",
+            "affected_count": 0
+          }
+        ]
+      }
+    },
+    "TI": {
+      "record_count": 10,
+      "variable_count": 8,
+      "completeness": {
+        "required_vars_present": [],
+        "required_vars_missing": [],
+        "required_vars_pct": 100.0,
+        "key_fields_populated_pct": 100.0,
+        "date_fields": {},
+        "variable_population": {
+          "STUDYID": 100.0,
+          "DOMAIN": 100.0,
+          "IETESTCD": 100.0,
+          "IETEST": 100.0,
+          "IECAT": 100.0,
+          "IESCAT": 0.0,
+          "TIRL": 0.0,
+          "TIVERS": 100.0
+        }
+      },
+      "records_per_subject": {},
+      "value_distributions": {},
+      "conformance_findings": {
+        "errors": [],
+        "warnings": [],
+        "infos": [
+          {
+            "rule_id": "G7_DUPLICATE_ROWS",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1042)",
+            "description": "No domain should contain exact duplicate rows (all columns identical)",
+            "result": "No duplicate rows",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "TD_TI_IE",
+            "category": "Trial Design Integrity",
+            "source": "SDTM-IG 3.4",
+            "description": "Every inclusion/exclusion criterion defined in TI should be assessed in at least one IE record (criteria never triggered are acceptable)",
+            "result": "3 TI criteria never assessed in IE (normal if all subjects passed): ['INCL01', 'INCL02', 'INCL05']",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "ST01_TI",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "All required variables present",
+            "affected_count": 0
+          }
+        ]
+      }
+    },
+    "TS": {
+      "record_count": 45,
+      "variable_count": 11,
+      "completeness": {
+        "required_vars_present": [],
+        "required_vars_missing": [],
+        "required_vars_pct": 100.0,
+        "key_fields_populated_pct": 100.0,
+        "date_fields": {},
+        "variable_population": {
+          "STUDYID": 100.0,
+          "DOMAIN": 100.0,
+          "TSSEQ": 100.0,
+          "TSGRPID": 0.0,
+          "TSPARMCD": 100.0,
+          "TSPARM": 100.0,
+          "TSVAL": 100.0,
+          "TSVALNF": 0.0,
+          "TSVALCD": 42.22,
+          "TSVCDREF": 48.89,
+          "TSVCDVER": 46.67
+        }
+      },
+      "records_per_subject": {},
+      "value_distributions": {},
+      "conformance_findings": {
+        "errors": [],
+        "warnings": [],
+        "infos": [
+          {
+            "rule_id": "G7_DUPLICATE_ROWS",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1042)",
+            "description": "No domain should contain exact duplicate rows (all columns identical)",
+            "result": "No duplicate rows",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "TD_TS_PARAMS",
+            "category": "Trial Design Integrity",
+            "source": "Pinnacle 21 (SD0036)",
+            "description": "Trial Summary (TS) must contain FDA-recommended parameters: TITLE, TPHASE, STYPE, TBLIND, SSTDTC, SENDTC, NARMS, PCLAS with non-blank values",
+            "result": "All 8 recommended TS parameters present with values",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "ST01_TS",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "All required variables present",
+            "affected_count": 0
+          }
+        ]
+      }
+    },
+    "TV": {
+      "record_count": 14,
+      "variable_count": 9,
+      "completeness": {
+        "required_vars_present": [],
+        "required_vars_missing": [],
+        "required_vars_pct": 100.0,
+        "key_fields_populated_pct": 100.0,
+        "date_fields": {},
+        "variable_population": {
+          "STUDYID": 100.0,
+          "DOMAIN": 100.0,
+          "VISITNUM": 100.0,
+          "VISIT": 100.0,
+          "VISITDY": 100.0,
+          "ARMCD": 100.0,
+          "ARM": 100.0,
+          "TVSTRL": 100.0,
+          "TVENRL": 100.0
+        }
+      },
+      "records_per_subject": {},
+      "value_distributions": {},
+      "conformance_findings": {
+        "errors": [],
+        "warnings": [],
+        "infos": [
+          {
+            "rule_id": "G7_DUPLICATE_ROWS",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1042)",
+            "description": "No domain should contain exact duplicate rows (all columns identical)",
+            "result": "No duplicate rows",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "TD_TV_VISIT",
+            "category": "Trial Design Integrity",
+            "source": "SDTM-IG 3.4",
+            "description": "Every planned visit in Trial Visits (TV) should be attended by at least one subject in Subject Visits (SV)",
+            "result": "All planned visits attended by at least one subject",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "ST01_TV",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "All required variables present",
+            "affected_count": 0
+          }
+        ]
+      }
+    },
+    "VS": {
+      "record_count": 20342,
+      "variable_count": 19,
+      "completeness": {
+        "required_vars_present": [
+          "STUDYID",
+          "DOMAIN",
+          "USUBJID",
+          "VSSEQ",
+          "VSTESTCD",
+          "VSTEST",
+          "VSORRES",
+          "VSORRESU"
+        ],
+        "required_vars_missing": [],
+        "required_vars_pct": 100.0,
+        "key_fields_populated_pct": 99.57,
+        "date_fields": {
+          "VSDTC": {
+            "populated_pct": 100.0
+          }
+        },
+        "variable_population": {
+          "STUDYID": 100.0,
+          "DOMAIN": 100.0,
+          "USUBJID": 100.0,
+          "VSSEQ": 100.0,
+          "VSTESTCD": 100.0,
+          "VSTEST": 100.0,
+          "VSORRES": 98.29,
+          "VSORRESU": 98.29,
+          "VSSTRESC": 98.29,
+          "VSSTRESN": 98.29,
+          "VSSTRESU": 98.29,
+          "VSSTAT": 1.71,
+          "VSLOBXFL": 17.85,
+          "VSBLFL": 17.85,
+          "VISITNUM": 100.0,
+          "VISIT": 100.0,
+          "EPOCH": 100.0,
+          "VSDTC": 100.0,
+          "VSDY": 100.0
+        }
+      },
+      "records_per_subject": {
+        "mean": 44.8,
+        "median": 48.0,
+        "min": 15,
+        "max": 56,
+        "p25": 40.0,
+        "p75": 56.0,
+        "total_subjects": 454
+      },
+      "value_distributions": {
+        "VSTESTCD": {
+          "DIABP": 2555,
+          "HEIGHT": 2555,
+          "PULSE": 2555,
+          "RESP": 2555,
+          "SYSBP": 2555,
+          "TEMP": 2555,
+          "WEIGHT": 2555,
+          "BMI": 2457
+        }
+      },
+      "conformance_findings": {
+        "errors": [],
+        "warnings": [],
+        "infos": [
+          {
+            "rule_id": "G7_DUPLICATE_ROWS",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1042)",
+            "description": "No domain should contain exact duplicate rows (all columns identical)",
+            "result": "No duplicate rows",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D7_VISIT_ORDER_VS",
+            "category": "Domain Structure Rules",
+            "source": "Pinnacle 21",
+            "description": "Visit dates must be in chronological order of VISITNUM within VS",
+            "result": "Visit dates chronological by VISITNUM",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D8_SBP_DBP",
+            "category": "Domain Structure Rules",
+            "source": "sdtmchecks R package",
+            "description": "Systolic blood pressure must be greater than or equal to diastolic blood pressure for the same time point",
+            "result": "SBP \u2265 DBP valid (2458 paired readings)",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D17_EPOCH_VS",
+            "category": "Cross-domain Consistency",
+            "source": "Pinnacle 21",
+            "description": "EPOCH assignment must match Subject Elements (SE) timeline for records in VS",
+            "result": "EPOCH populated (20342/20342)",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D20_DOMAIN_COL",
+            "category": "Cross-domain Consistency",
+            "source": "Pinnacle 21",
+            "description": "Every domain must have a DOMAIN column with the correct 2-letter code, positioned as the second column",
+            "result": "DOMAIN column correct",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "CN_VS_RANGES",
+            "category": "Clinical Plausibility",
+            "source": "Clinical validation rules",
+            "description": "Vital sign results must fall within physiologically possible ranges (e.g., SBP 60\u2013220 mmHg, TEMP 34\u201342\u00b0C)",
+            "result": "VS values within physiological ranges",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "ST01_VS",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "All required variables present",
+            "affected_count": 0
+          },
+          {
+            "rule_id": "ST02_VS",
+            "category": "STRUCTURAL",
+            "category_description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+            "result": "Unique keys valid",
+            "affected_count": 0
+          }
+        ]
+      }
+    },
+    "_cross_domain": {
+      "record_count": 0,
+      "variable_count": 0,
+      "completeness": {},
+      "conformance_findings": {
+        "errors": [],
+        "warnings": [],
+        "infos": [
+          {
+            "rule_id": "G8_VISITNUM_VISIT",
+            "category": "FDA Submission Rules",
+            "source": "Pinnacle 21 (SD1050)",
+            "description": "Each VISITNUM value must map to exactly one VISIT label across all domains",
+            "result": "VISITNUM-VISIT mapping consistent (7 visit numbers)",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D2_AFTER_DEATH",
+            "category": "Domain Structure Rules",
+            "source": "sdtmchecks R package",
+            "description": "No clinical events (AE, EX, LB, VS, CM) should occur after the subject's death date",
+            "result": "No deaths \u2014 skipped",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D14_ISO8601",
+            "category": "Date and Temporal Integrity",
+            "source": "FDA Technical Rejection Criteria",
+            "description": "All date/time variables (--DTC) must be valid ISO 8601 format across every domain",
+            "result": "All 57752 date values are valid ISO 8601",
+            "affected_count": 0,
+            "affected_usubjids": []
+          },
+          {
+            "rule_id": "D15_STUDYID",
+            "category": "Date and Temporal Integrity",
+            "source": "FDA Technical Rejection Criteria",
+            "description": "STUDYID must be identical and single-valued across all domains",
+            "result": "STUDYID consistent across 26 domains",
+            "affected_count": 0,
+            "affected_usubjids": []
+          }
+        ]
+      }
+    }
+  },
+  "cross_domain": {
+    "subject_set_consistency": {
+      "dm_subjects": 500,
+      "ae_subjects": 353,
+      "subjects_in_ae_not_dm": [],
+      "enrolled_subjects_without_ae": 101
+    },
+    "exposure_coverage": {
+      "enrolled_subjects": 454,
+      "subjects_with_exposure": 454,
+      "missing_exposure_usubjids": []
+    },
+    "disposition_coverage": {
+      "enrolled_subjects": 454,
+      "subjects_with_disposition": 454
+    },
+    "domain_coverage_matrix": {
+      "all_domains": [
+        "AE",
+        "CM",
+        "DA",
+        "DM",
+        "DS",
+        "DV",
+        "EC",
+        "EX",
+        "HO",
+        "IE",
+        "LB",
+        "MH",
+        "PE",
+        "RELREC",
+        "SC",
+        "SE",
+        "SS",
+        "SU",
+        "SUPPAE",
+        "SV",
+        "VS"
+      ],
+      "subjects_per_domain": {
+        "AE": 353,
+        "CM": 399,
+        "DA": 454,
+        "DM": 500,
+        "DS": 500,
+        "DV": 403,
+        "EC": 454,
+        "EX": 454,
+        "HO": 120,
+        "IE": 46,
+        "LB": 454,
+        "MH": 390,
+        "PE": 454,
+        "RELREC": 272,
+        "SC": 454,
+        "SE": 454,
+        "SS": 454,
+        "SU": 454,
+        "SUPPAE": 353,
+        "SV": 500,
+        "VS": 454
+      },
+      "enrolled_subjects_missing_from": {
+        "AE": [
+          "GB001-ASTHMA-201-SITE001-0019",
+          "GB001-ASTHMA-201-SITE001-0058",
+          "GB001-ASTHMA-201-SITE001-0061",
+          "GB001-ASTHMA-201-SITE001-0073",
+          "GB001-ASTHMA-201-SITE001-0076",
+          "GB001-ASTHMA-201-SITE001-0082",
+          "GB001-ASTHMA-201-SITE001-0085",
+          "GB001-ASTHMA-201-SITE001-0091",
+          "GB001-ASTHMA-201-SITE001-0094",
+          "GB001-ASTHMA-201-SITE001-0109",
+          "GB001-ASTHMA-201-SITE001-0127",
+          "GB001-ASTHMA-201-SITE001-0133",
+          "GB001-ASTHMA-201-SITE001-0139",
+          "GB001-ASTHMA-201-SITE001-0145",
+          "GB001-ASTHMA-201-SITE001-0151",
+          "GB001-ASTHMA-201-SITE001-0157",
+          "GB001-ASTHMA-201-SITE001-0160",
+          "GB001-ASTHMA-201-SITE001-0166",
+          "GB001-ASTHMA-201-SITE001-0184",
+          "GB001-ASTHMA-201-SITE001-0193"
+        ]
+      }
+    }
+  },
+  "conformance_summary": {
+    "categories": {
+      "STRUCTURAL": {
+        "description": "Checks that every domain has the correct SDTM-IG 3.4 column structure \u2014 required variables present, proper column ordering (STUDYID first, DOMAIN second), and correct data types.",
+        "errors": 0,
+        "warnings": 0,
+        "passed": 36
+      },
+      "TEMPORAL": {
+        "description": "Validates date logic within and across domains \u2014 reference dates are chronologically ordered, study day derivations are correct, and no temporal impossibilities exist.",
+        "errors": 0,
+        "warnings": 0,
+        "passed": 3
+      },
+      "TERMINOLOGY": {
+        "description": "Verifies that coded values (AESEV, AEOUT, SEX, RACE, etc.) use CDISC Controlled Terminology and that dictionary-derived terms (AEDECOD, CMDECOD) are populated.",
+        "errors": 0,
+        "warnings": 0,
+        "passed": 5
+      },
+      "COHERENCE": {
+        "description": "Cross-domain logical consistency \u2014 subjects who died have matching DM/DS/AE records, ARM matches ACTARM for enrolled subjects, exposure aligns with disposition.",
+        "errors": 0,
+        "warnings": 0,
+        "passed": 5
+      },
+      "DERIVED": {
+        "description": "Validates computed variables \u2014 study day (--DY) correctly derived from reference start date, EPOCH assigned from Subject Elements timeline.",
+        "errors": 0,
+        "warnings": 0,
+        "passed": 2
+      }
+    }
+  },
+  "quality_checks_summary": {
+    "total_checks": 88,
+    "total_errors": 1,
+    "total_warnings": 0,
+    "total_passed": 87,
+    "by_category": {
+      "FDA Submission Rules": {
+        "description": "Checks required by FDA for electronic submissions \u2014 derived from Pinnacle 21 Community validation rules (SD-series). Errors here would cause a Technical Rejection of the submission.",
+        "checks_run": 31,
+        "errors": 0,
+        "warnings": 0,
+        "passed": 31
+      },
+      "Domain Structure Rules": {
+        "description": "Domain-specific structural rules \u2014 SE epochs have no gaps, DS has at most one discontinuation per subject, reference ranges are populated for quantitative labs, no semantic duplicates.",
+        "checks_run": 18,
+        "errors": 0,
+        "warnings": 0,
+        "passed": 18
+      },
+      "Date and Temporal Integrity": {
+        "description": "Validates that all dates are valid ISO 8601, in logical chronological order, and consistent across domains (e.g., no events after death).",
+        "checks_run": 3,
+        "errors": 0,
+        "warnings": 0,
+        "passed": 3
+      },
+      "Cross-domain Consistency": {
+        "description": "Ensures values that appear in multiple domains are aligned \u2014 ARM matches ACTARM, STUDYID is uniform, EPOCH matches SE timeline, dictionary-derived terms are populated.",
+        "checks_run": 25,
+        "errors": 0,
+        "warnings": 0,
+        "passed": 25
+      },
+      "Clinical Plausibility": {
+        "description": "Checks that clinical values fall within physiologically possible ranges and that the clinical narrative is internally consistent (e.g., medical history pre-dates study start).",
+        "checks_run": 6,
+        "errors": 1,
+        "warnings": 0,
+        "passed": 5
+      },
+      "Trial Design Integrity": {
+        "description": "Validates consistency between trial design domains (TA, TE, TV, TS, TI) and the subject-level data \u2014 arms match between TA and DM, planned visits in TV appear in SV, elements in TE appear in SE, required TS parameters are present.",
+        "checks_run": 5,
+        "errors": 0,
+        "warnings": 0,
+        "passed": 5
+      }
+    }
+  }
+}

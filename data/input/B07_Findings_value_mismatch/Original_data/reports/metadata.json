@@ -1,0 +1,770 @@
+{
+  "generator_version": "2.0",
+  "sdtmig_version": "3.4",
+  "generated_at": "2026-06-16T09:54:04.223741+00:00",
+  "study_id": "EMPEROR-HFPEF",
+  "protocol_name": "cardiovascular_hfpef",
+  "seed": 1,
+  "subjects": {
+    "total_generated": 50,
+    "enrolled": 48,
+    "screen_failures": 2,
+    "completed": 35,
+    "deaths": 2,
+    "total_adverse_events": 409
+  },
+  "arms": [
+    {
+      "armcd": "EMPA10",
+      "arm": "Empagliflozin 10mg QD",
+      "type": "",
+      "n_randomized": 22,
+      "n_completed": 14,
+      "n_discontinued": 8,
+      "discontinuation_reasons": {
+        "ADVERSE EVENT": 6,
+        "PROTOCOL VIOLATION": 1,
+        "DEATH": 1
+      },
+      "mean_exposure_days": 199.7,
+      "total_aes": 215,
+      "ae_rate_per_subject": 9.8,
+      "subjects_with_ae": 22,
+      "serious_ae_count": 47
+    },
+    {
+      "armcd": "PBO",
+      "arm": "Placebo",
+      "type": "",
+      "n_randomized": 26,
+      "n_completed": 21,
+      "n_discontinued": 5,
+      "discontinuation_reasons": {
+        "WITHDRAWAL BY SUBJECT": 2,
+        "ADVERSE EVENT": 2,
+        "DEATH": 1
+      },
+      "mean_exposure_days": 205.8,
+      "total_aes": 194,
+      "ae_rate_per_subject": 7.5,
+      "subjects_with_ae": 24,
+      "serious_ae_count": 42
+    }
+  ],
+  "sites": [
+    {
+      "siteid": "SITE001",
+      "n_subjects": 17,
+      "n_enrolled": 17,
+      "n_screen_failures": 0,
+      "country": "USA",
+      "investigator": "Dr. Robert Chen",
+      "n_completed": 15,
+      "n_deaths": 0
+    },
+    {
+      "siteid": "SITE002",
+      "n_subjects": 17,
+      "n_enrolled": 15,
+      "n_screen_failures": 2,
+      "country": "USA",
+      "investigator": "Dr. Maria Santos",
+      "n_completed": 10,
+      "n_deaths": 1
+    },
+    {
+      "siteid": "SITE003",
+      "n_subjects": 16,
+      "n_enrolled": 16,
+      "n_screen_failures": 0,
+      "country": "USA",
+      "investigator": "Dr. James Wilson",
+      "n_completed": 10,
+      "n_deaths": 1
+    }
+  ],
+  "domains": {
+    "AE": {
+      "record_count": 409,
+      "variable_count": 35,
+      "file": "ae.csv",
+      "variables": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "AESEQ",
+        "AELNKID",
+        "AETERM",
+        "AELLT",
+        "AELLTCD",
+        "AEDECOD",
+        "AEPTCD",
+        "AEHLT",
+        "AEHLTCD",
+        "AEHLGT",
+        "AEHLGTCD",
+        "AEBODSYS",
+        "AEBDSYCD",
+        "AESOC",
+        "AESOCCD",
+        "AESEV",
+        "AESER",
+        "AEACN",
+        "AEREL",
+        "AEOUT",
+        "AESCONG",
+        "AESDISAB",
+        "AESDTH",
+        "AESHOSP",
+        "AESLIFE",
+        "AESMIE",
+        "EPOCH",
+        "AESTDTC",
+        "AEENDTC",
+        "AESTDY",
+        "AEENDY",
+        "AEENRF"
+      ]
+    },
+    "CM": {
+      "record_count": 224,
+      "variable_count": 17,
+      "file": "cm.csv",
+      "variables": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "CMSEQ",
+        "CMTRT",
+        "CMDECOD",
+        "CMCAT",
+        "CMINDC",
+        "CMDOSE",
+        "CMDOSU",
+        "CMDOSFRQ",
+        "CMROUTE",
+        "EPOCH",
+        "CMSTDTC",
+        "CMENDTC",
+        "CMSTDY",
+        "CMENDY"
+      ]
+    },
+    "DA": {
+      "record_count": 28590,
+      "variable_count": 16,
+      "file": "da.csv",
+      "variables": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "DASEQ",
+        "DATESTCD",
+        "DATEST",
+        "DAORRES",
+        "DAORRESU",
+        "DASTRESC",
+        "DASTRESN",
+        "DASTRESU",
+        "VISITNUM",
+        "VISIT",
+        "EPOCH",
+        "DADTC",
+        "DADY"
+      ]
+    },
+    "DD": {
+      "record_count": 6,
+      "variable_count": 9,
+      "file": "dd.csv",
+      "variables": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "DDSEQ",
+        "DDTESTCD",
+        "DDTEST",
+        "DDORRES",
+        "DDSTRESC",
+        "DDDTC"
+      ]
+    },
+    "DM": {
+      "record_count": 50,
+      "variable_count": 27,
+      "file": "dm.csv",
+      "variables": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "SUBJID",
+        "RFSTDTC",
+        "RFENDTC",
+        "RFXSTDTC",
+        "RFXENDTC",
+        "RFICDTC",
+        "RFPENDTC",
+        "DTHDTC",
+        "DTHFL",
+        "SITEID",
+        "INVNAM",
+        "BRTHDTC",
+        "AGE",
+        "AGEU",
+        "SEX",
+        "RACE",
+        "ETHNIC",
+        "ARMCD",
+        "ARM",
+        "ACTARMCD",
+        "ACTARM",
+        "ARMNRS",
+        "ACTARMUD",
+        "COUNTRY"
+      ]
+    },
+    "DS": {
+      "record_count": 148,
+      "variable_count": 10,
+      "file": "ds.csv",
+      "variables": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "DSSEQ",
+        "DSTERM",
+        "DSDECOD",
+        "DSCAT",
+        "EPOCH",
+        "DSSTDTC",
+        "DSSTDY"
+      ]
+    },
+    "DV": {
+      "record_count": 662,
+      "variable_count": 11,
+      "file": "dv.csv",
+      "variables": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "DVSEQ",
+        "DVTERM",
+        "DVDECOD",
+        "DVCAT",
+        "DVSCAT",
+        "EPOCH",
+        "DVSTDTC",
+        "DVSTDY"
+      ]
+    },
+    "EC": {
+      "record_count": 9530,
+      "variable_count": 23,
+      "file": "ec.csv",
+      "variables": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "ECSEQ",
+        "ECTRT",
+        "ECPRESP",
+        "ECOCCUR",
+        "ECDOSE",
+        "ECDOSTXT",
+        "ECDOSU",
+        "ECDOSFRM",
+        "ECDOSFRQ",
+        "ECROUTE",
+        "ECMOOD",
+        "ECSTAT",
+        "ECREASND",
+        "EPOCH",
+        "ECSTDTC",
+        "ECENDTC",
+        "ECSTDY",
+        "ECENDY",
+        "VISITNUM",
+        "VISIT"
+      ]
+    },
+    "EG": {
+      "record_count": 705,
+      "variable_count": 20,
+      "file": "eg.csv",
+      "variables": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "EGSEQ",
+        "EGTESTCD",
+        "EGTEST",
+        "EGORRES",
+        "EGORRESU",
+        "EGSTRESC",
+        "EGSTRESN",
+        "EGSTRESU",
+        "EGSTAT",
+        "EGNRIND",
+        "EGLOBXFL",
+        "EGBLFL",
+        "VISITNUM",
+        "VISIT",
+        "EPOCH",
+        "EGDTC",
+        "EGDY"
+      ]
+    },
+    "EX": {
+      "record_count": 81,
+      "variable_count": 15,
+      "file": "ex.csv",
+      "variables": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "EXSEQ",
+        "EXTRT",
+        "EXDOSE",
+        "EXDOSU",
+        "EXDOSFRM",
+        "EXDOSFRQ",
+        "EXROUTE",
+        "EPOCH",
+        "EXSTDTC",
+        "EXENDTC",
+        "EXSTDY",
+        "EXENDY"
+      ]
+    },
+    "HO": {
+      "record_count": 59,
+      "variable_count": 12,
+      "file": "ho.csv",
+      "variables": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "HOSEQ",
+        "HOTERM",
+        "HODECOD",
+        "HOCAT",
+        "EPOCH",
+        "HOSTDTC",
+        "HOENDTC",
+        "HOSTDY",
+        "HOENDY"
+      ]
+    },
+    "IE": {
+      "record_count": 2,
+      "variable_count": 14,
+      "file": "ie.csv",
+      "variables": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "IESEQ",
+        "IETESTCD",
+        "IETEST",
+        "IECAT",
+        "IEORRES",
+        "IESTRESC",
+        "VISITNUM",
+        "VISIT",
+        "EPOCH",
+        "IEDTC",
+        "IEDY"
+      ]
+    },
+    "LB": {
+      "record_count": 2044,
+      "variable_count": 25,
+      "file": "lb.csv",
+      "variables": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "LBSEQ",
+        "LBTESTCD",
+        "LBTEST",
+        "LBCAT",
+        "LBORRES",
+        "LBORRESU",
+        "LBORNRLO",
+        "LBORNRHI",
+        "LBSTRESC",
+        "LBSTRESN",
+        "LBSTRESU",
+        "LBSTNRLO",
+        "LBSTNRHI",
+        "LBNRIND",
+        "LBSTAT",
+        "LBLOBXFL",
+        "LBBLFL",
+        "VISITNUM",
+        "VISIT",
+        "EPOCH",
+        "LBDTC",
+        "LBDY"
+      ]
+    },
+    "MH": {
+      "record_count": 119,
+      "variable_count": 15,
+      "file": "mh.csv",
+      "variables": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "MHSEQ",
+        "MHTERM",
+        "MHDECOD",
+        "MHCAT",
+        "MHSCAT",
+        "MHBODSYS",
+        "EPOCH",
+        "MHSTDTC",
+        "MHENDTC",
+        "MHSTDY",
+        "MHENDY",
+        "MHENRF"
+      ]
+    },
+    "PE": {
+      "record_count": 960,
+      "variable_count": 13,
+      "file": "pe.csv",
+      "variables": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "PESEQ",
+        "PETESTCD",
+        "PETEST",
+        "PEORRES",
+        "PESTRESC",
+        "VISITNUM",
+        "VISIT",
+        "EPOCH",
+        "PEDTC",
+        "PEDY"
+      ]
+    },
+    "RELREC": {
+      "record_count": 330,
+      "variable_count": 7,
+      "file": "relrec.csv",
+      "variables": [
+        "STUDYID",
+        "RDOMAIN",
+        "USUBJID",
+        "IDVAR",
+        "IDVARVAL",
+        "RELTYPE",
+        "RELID"
+      ]
+    },
+    "SC": {
+      "record_count": 205,
+      "variable_count": 13,
+      "file": "sc.csv",
+      "variables": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "SCSEQ",
+        "SCTESTCD",
+        "SCTEST",
+        "SCCAT",
+        "SCORRES",
+        "SCSTRESC",
+        "SCSTRESN",
+        "SCSTRESU",
+        "SCDTC",
+        "SCDY"
+      ]
+    },
+    "SE": {
+      "record_count": 131,
+      "variable_count": 11,
+      "file": "se.csv",
+      "variables": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "SESEQ",
+        "ETCD",
+        "ELEMENT",
+        "EPOCH",
+        "SESTDTC",
+        "SEENDTC",
+        "SESTDY",
+        "SEENDY"
+      ]
+    },
+    "SS": {
+      "record_count": 37,
+      "variable_count": 14,
+      "file": "ss.csv",
+      "variables": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "SSSEQ",
+        "SSTESTCD",
+        "SSTEST",
+        "SSCAT",
+        "SSORRES",
+        "SSSTRESC",
+        "VISITNUM",
+        "VISIT",
+        "EPOCH",
+        "SSDTC",
+        "SSDY"
+      ]
+    },
+    "SU": {
+      "record_count": 144,
+      "variable_count": 18,
+      "file": "su.csv",
+      "variables": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "SUSEQ",
+        "SUTRT",
+        "SUDECOD",
+        "SUCAT",
+        "SUSCAT",
+        "SUOCCUR",
+        "SUSTAT",
+        "SUDOSE",
+        "SUDOSU",
+        "SUDOSFRQ",
+        "EPOCH",
+        "SUSTDTC",
+        "SUENDTC",
+        "SUSTDY",
+        "SUENDY"
+      ]
+    },
+    "SV": {
+      "record_count": 329,
+      "variable_count": 13,
+      "file": "sv.csv",
+      "variables": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "SVSEQ",
+        "VISITNUM",
+        "VISIT",
+        "SVPRESP",
+        "SVOCCUR",
+        "EPOCH",
+        "SVSTDTC",
+        "SVENDTC",
+        "SVSTDY",
+        "SVENDY"
+      ]
+    },
+    "TA": {
+      "record_count": 6,
+      "variable_count": 10,
+      "file": "ta.csv",
+      "variables": [
+        "STUDYID",
+        "DOMAIN",
+        "ARMCD",
+        "ARM",
+        "TAETORD",
+        "ETCD",
+        "ELEMENT",
+        "TABRANCH",
+        "TATRANS",
+        "EPOCH"
+      ]
+    },
+    "TE": {
+      "record_count": 3,
+      "variable_count": 7,
+      "file": "te.csv",
+      "variables": [
+        "STUDYID",
+        "DOMAIN",
+        "ETCD",
+        "ELEMENT",
+        "TESTRL",
+        "TEENRL",
+        "TEDUR"
+      ]
+    },
+    "TI": {
+      "record_count": 10,
+      "variable_count": 8,
+      "file": "ti.csv",
+      "variables": [
+        "STUDYID",
+        "DOMAIN",
+        "IETESTCD",
+        "IETEST",
+        "IECAT",
+        "IESCAT",
+        "TIRL",
+        "TIVERS"
+      ]
+    },
+    "TS": {
+      "record_count": 45,
+      "variable_count": 11,
+      "file": "ts.csv",
+      "variables": [
+        "STUDYID",
+        "DOMAIN",
+        "TSSEQ",
+        "TSGRPID",
+        "TSPARMCD",
+        "TSPARM",
+        "TSVAL",
+        "TSVALNF",
+        "TSVALCD",
+        "TSVCDREF",
+        "TSVCDVER"
+      ]
+    },
+    "TV": {
+      "record_count": 16,
+      "variable_count": 9,
+      "file": "tv.csv",
+      "variables": [
+        "STUDYID",
+        "DOMAIN",
+        "VISITNUM",
+        "VISIT",
+        "VISITDY",
+        "ARMCD",
+        "ARM",
+        "TVSTRL",
+        "TVENRL"
+      ]
+    },
+    "VS": {
+      "record_count": 2415,
+      "variable_count": 19,
+      "file": "vs.csv",
+      "variables": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "VSSEQ",
+        "VSTESTCD",
+        "VSTEST",
+        "VSORRES",
+        "VSORRESU",
+        "VSSTRESC",
+        "VSSTRESN",
+        "VSSTRESU",
+        "VSSTAT",
+        "VSLOBXFL",
+        "VSBLFL",
+        "VISITNUM",
+        "VISIT",
+        "EPOCH",
+        "VSDTC",
+        "VSDY"
+      ]
+    }
+  },
+  "disposition_flow": {
+    "nodes": [
+      "SCREENED",
+      "ENROLLED",
+      "SCREEN FAILURE",
+      "COMPLETED",
+      "ADVERSE EVENT",
+      "WITHDRAWAL BY SUBJECT",
+      "DEATH",
+      "PROTOCOL VIOLATION"
+    ],
+    "links": [
+      {
+        "source": "SCREENED",
+        "target": "ENROLLED",
+        "value": 48
+      },
+      {
+        "source": "SCREENED",
+        "target": "SCREEN FAILURE",
+        "value": 2
+      },
+      {
+        "source": "ENROLLED",
+        "target": "COMPLETED",
+        "value": 35
+      },
+      {
+        "source": "ENROLLED",
+        "target": "ADVERSE EVENT",
+        "value": 8
+      },
+      {
+        "source": "ENROLLED",
+        "target": "WITHDRAWAL BY SUBJECT",
+        "value": 2
+      },
+      {
+        "source": "ENROLLED",
+        "target": "DEATH",
+        "value": 2
+      },
+      {
+        "source": "ENROLLED",
+        "target": "PROTOCOL VIOLATION",
+        "value": 1
+      }
+    ]
+  },
+  "config_snapshot": {
+    "study_id": "EMPEROR-HFPEF",
+    "phase": "3",
+    "n_subjects_default": 300,
+    "demographics": {
+      "age_min": 18,
+      "age_max": 75,
+      "sex_distribution": {
+        "M": 0.5,
+        "F": 0.5
+      },
+      "race_distribution": {
+        "WHITE": 0.65,
+        "BLACK OR AFRICAN AMERICAN": 0.15,
+        "ASIAN": 0.1,
+        "OTHER": 0.1
+      }
+    },
+    "enabled_domains": [
+      "DM",
+      "AE",
+      "DS",
+      "EX",
+      "EC",
+      "CM",
+      "MH",
+      "SE",
+      "SV",
+      "VS",
+      "LB",
+      "IE",
+      "PE",
+      "DA",
+      "DD",
+      "HO",
+      "DV",
+      "SC",
+      "SU",
+      "SS",
+      "EG"
+    ]
+  }
+}

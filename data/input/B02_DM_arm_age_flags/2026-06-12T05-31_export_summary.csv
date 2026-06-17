@@ -1,0 +1,32 @@
+﻿rule_id,injected,overwritten,failed_self_validation,total,failure_reason
+SD1322,50,0,0,50,
+SD1240,47,0,0,47,
+SD0066,46,0,0,46,
+SD1121,45,0,1,46,"guard no longer holds: ARMCD not in (SCRNFAIL,NOTASSGN,)"
+SD1358,46,0,0,46,
+SD2003,46,0,0,46,
+SD0070,45,0,0,45,
+SD1033,45,0,0,45,
+SD1133,45,0,0,45,
+SD1360,40,0,5,45,guard no longer holds: ARMCD != '' and ACTARMCD != ''
+SD1362,45,0,0,45,
+SD0071,44,0,0,44,self-validator exception: TypeError: unhashable type: 'list'
+SD0084,44,0,0,44,
+SD1134,44,0,0,44,
+SD1374,42,0,0,42,
+SD1034,41,0,0,41,
+SD2022,40,0,1,41,guard no longer holds: AGE != '' or AGETXT != ''
+SD2237,39,0,2,41,ARM='Placebo_X' unexpectedly equals ACTARM
+SD2021,40,0,0,40,
+SD2001,38,0,0,38,
+SD2002,36,0,0,36,
+SD2023,36,0,0,36,
+SD1361,35,0,0,35,
+SD1004,33,0,0,33,
+SD2236,26,0,2,28,ARMCD='AV200_X' unexpectedly equals ACTARMCD | ARMCD='PBO_X' unexpectedly equals ACTARMCD
+SD0079,16,0,0,16,
+SD1340,15,0,0,15,
+SD1363,8,0,0,8,
+SD1364,8,0,0,8,
+SD1359,4,0,0,4,
+SD1377,4,0,0,4,

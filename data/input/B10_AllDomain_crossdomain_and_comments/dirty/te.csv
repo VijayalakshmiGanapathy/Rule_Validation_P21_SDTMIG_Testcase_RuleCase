@@ -1,0 +1,7 @@
+STUDYID,DOMAIN,ETCD,ELEMENT,TESTRL,TEENRL,TEDUR
+VISION-NSCLC,aaa,FU,Follow-up,End of treatment,End of study,NOT-ISO8601
+VISION-NSCLC,aaa,SCRN,Screening,Informed consent,Before randomization,NOT-ISO8601
+VISION-NSCLC,aaa,TRT,Treatment,Randomization,End of treatment,NOT-ISO8601
+VISION-NSCLC,INVALID,FU,Follow-up,End of treatment,End of study,NOT-ISO8601
+VISION-NSCLC,INVALID,SCRN,Screening,Informed consent,Before randomization,NOT-ISO8601
+VISION-NSCLC,INVALID,TRT,Treatment,Randomization,End of treatment,NOT-ISO8601

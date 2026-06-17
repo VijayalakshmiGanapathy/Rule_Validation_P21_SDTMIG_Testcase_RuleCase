@@ -1,0 +1,11 @@
+STUDYID,DOMAIN,IETESTCD,IETEST,IECAT,IESCAT,TIRL,TIVERS
+EMPEROR-HFPEF,TI,EXCL01,Subject has a known hypersensitivity to study drug or excipients,EXCLUSION,,,1
+EMPEROR-HFPEF,TI,EXCL02,Subject is pregnant or breastfeeding,EXCLUSION,,,1
+EMPEROR-HFPEF,TI,EXCL03,Subject has severe hepatic impairment (ALT/AST > 5x ULN),EXCLUSION,,,1
+EMPEROR-HFPEF,TI,EXCL04,Subject has uncontrolled concurrent illness,EXCLUSION,,,1
+EMPEROR-HFPEF,TI,EXCL05,Subject has participated in another clinical trial within 30 days,EXCLUSION,,,1
+EMPEROR-HFPEF,TI,INCL01,Subject is >= 18 years of age,INCLUSION,,,1
+EMPEROR-HFPEF,TI,INCL02,Subject has provided written informed consent,INCLUSION,,,1
+EMPEROR-HFPEF,TI,INCL03,Subject meets diagnosis criteria for the study indication,INCLUSION,,,1
+EMPEROR-HFPEF,TI,INCL04,Subject has adequate organ function based on screening labs,INCLUSION,,,1
+EMPEROR-HFPEF,TI,INCL05,Subject is willing to comply with study procedures,INCLUSION,,,1

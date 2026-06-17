@@ -1,0 +1,3388 @@
+{
+  "study_id": "TERPSIS-MDD-201",
+  "generated_at": "2026-06-16T11:15:07.642145+00:00",
+  "summary": {
+    "total_enrolled": 43,
+    "subjects_with_deviations": 42,
+    "total_deviations": 201,
+    "deviation_rate_pct": 97.7,
+    "overall_visit_compliance_pct": 97.0,
+    "overall_dose_compliance_pct": 3.3
+  },
+  "protocol_deviations": {
+    "by_category": {
+      "MINOR": 201
+    },
+    "by_decod": {
+      "MISSED ASSESSMENT": 10,
+      "VISIT OCCURRED OUTSIDE VISIT WINDOW": 39,
+      "MISSED DOSE": 147,
+      "DOSE MODIFICATION": 5
+    },
+    "by_arm": {
+      "Psilocybin 1mg (Control)": 76,
+      "Psilocybin 25mg": 50,
+      "Psilocybin 10mg": 75
+    },
+    "by_visit": {},
+    "deviations_leading_to_discontinuation": 0,
+    "subject_level": [
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0001",
+        "arm": "Psilocybin 1mg (Control)",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Vital signs assessment not performed at DAY 2",
+            "decod": "MISSED ASSESSMENT",
+            "cat": "MINOR",
+            "scat": "ASSESSMENT",
+            "start_dtc": "2024-04-27",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Visit WEEK 1 occurred 0 days late (Day 8 vs planned Day 8)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-05-03",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Missed PSILOCYBIN dose on 2024-05-31",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-31",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "4",
+            "term": "Missed PSILOCYBIN dose on 2024-06-02",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-06-02",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "5",
+            "term": "Visit WEEK 12 occurred 5 days late (Day 90 vs planned Day 85)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-07-24",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 5
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0004",
+        "arm": "Psilocybin 25mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Missed PSILOCYBIN dose on 2024-04-04",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-04",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-04-05",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-05",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Missed PSILOCYBIN dose on 2024-04-12",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-12",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "4",
+            "term": "Missed PSILOCYBIN dose on 2024-04-24",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-24",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "5",
+            "term": "Missed PSILOCYBIN dose on 2024-05-06",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-06",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "6",
+            "term": "Missed PSILOCYBIN dose on 2024-05-19",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-19",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "7",
+            "term": "Visit WEEK 12 occurred 5 days late (Day 90 vs planned Day 85)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-07-01",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 7
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0010",
+        "arm": "Psilocybin 10mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Missed PSILOCYBIN dose on 2024-03-12",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-12",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-03-28",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-28",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Missed PSILOCYBIN dose on 2024-04-02",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-02",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "4",
+            "term": "Missed PSILOCYBIN dose on 2024-04-07",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-07",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "5",
+            "term": "Missed PSILOCYBIN dose on 2024-04-08",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-08",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "6",
+            "term": "Missed PSILOCYBIN dose on 2024-04-09",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-09",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "7",
+            "term": "Visit WEEK 6 occurred 3 days early (Day 40 vs planned Day 43)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-04-17",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 7
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0013",
+        "arm": "Psilocybin 25mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Missed PSILOCYBIN dose on 2024-03-11",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-11",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-03-24",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-24",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Missed PSILOCYBIN dose on 2024-04-02",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-02",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "4",
+            "term": "Visit WEEK 6 occurred 2 days early (Day 41 vs planned Day 43)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-04-20",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "5",
+            "term": "Missed PSILOCYBIN dose on 2024-04-25",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-25",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "6",
+            "term": "Missed PSILOCYBIN dose on 2024-05-02",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-02",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "7",
+            "term": "Missed PSILOCYBIN dose on 2024-05-08",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-08",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "8",
+            "term": "Missed PSILOCYBIN dose on 2024-05-11",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-11",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "9",
+            "term": "Visit WEEK 12 occurred 0 days late (Day 85 vs planned Day 85)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-06-03",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 9
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0016",
+        "arm": "Psilocybin 25mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Visit WEEK 1 occurred 0 days late (Day 8 vs planned Day 8)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-05-15",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Visit WEEK 3 occurred 2 days early (Day 20 vs planned Day 22)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-05-27",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Vital signs assessment not performed at WEEK 3",
+            "decod": "MISSED ASSESSMENT",
+            "cat": "MINOR",
+            "scat": "ASSESSMENT",
+            "start_dtc": "2024-05-27",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "4",
+            "term": "Missed PSILOCYBIN dose on 2024-05-28",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-28",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 4
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0019",
+        "arm": "Psilocybin 1mg (Control)",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Missed PSILOCYBIN dose on 2024-04-12",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-12",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-04-24",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-24",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Missed PSILOCYBIN dose on 2024-05-06",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-06",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "4",
+            "term": "Visit WEEK 6 occurred 2 days late (Day 45 vs planned Day 43)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-05-21",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 4
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0022",
+        "arm": "Psilocybin 25mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Missed PSILOCYBIN dose on 2024-03-20",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-20",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 1
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0025",
+        "arm": "Psilocybin 10mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Visit WEEK 3 occurred 1 days early (Day 21 vs planned Day 22)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-04-25",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-05-27",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-27",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 2
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0028",
+        "arm": "Psilocybin 1mg (Control)",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Missed PSILOCYBIN dose on 2024-03-21",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-21",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-03-22",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-22",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Missed PSILOCYBIN dose on 2024-03-23",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-23",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "4",
+            "term": "Visit WEEK 1 occurred 0 days late (Day 8 vs planned Day 8)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-03-25",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "5",
+            "term": "Missed PSILOCYBIN dose on 2024-04-01",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-01",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "6",
+            "term": "Missed PSILOCYBIN dose on 2024-04-18",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-18",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "7",
+            "term": "Missed PSILOCYBIN dose on 2024-04-22",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-22",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "8",
+            "term": "Missed PSILOCYBIN dose on 2024-04-25",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-25",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "9",
+            "term": "Visit WEEK 12 occurred 0 days late (Day 85 vs planned Day 85)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-06-10",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "10",
+            "term": "Vital signs assessment not performed at WEEK 12",
+            "decod": "MISSED ASSESSMENT",
+            "cat": "MINOR",
+            "scat": "ASSESSMENT",
+            "start_dtc": "2024-06-10",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 10
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0031",
+        "arm": "Psilocybin 10mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Vital signs assessment not performed at WEEK 3",
+            "decod": "MISSED ASSESSMENT",
+            "cat": "MINOR",
+            "scat": "ASSESSMENT",
+            "start_dtc": "2024-03-17",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-04-30",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-30",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 2
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0034",
+        "arm": "Psilocybin 10mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Missed PSILOCYBIN dose on 2024-04-07",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-07",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-04-14",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-14",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Visit WEEK 6 occurred 2 days early (Day 41 vs planned Day 43)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-05-10",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "4",
+            "term": "Missed PSILOCYBIN dose on 2024-05-12",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-12",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "5",
+            "term": "Missed PSILOCYBIN dose on 2024-05-20",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-20",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "6",
+            "term": "Missed PSILOCYBIN dose on 2024-05-21",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-21",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "7",
+            "term": "Visit WEEK 12 occurred 6 days early (Day 79 vs planned Day 85)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-06-17",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 7
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0037",
+        "arm": "Psilocybin 25mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Visit WEEK 1 occurred 1 days early (Day 7 vs planned Day 8)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-02-11",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-04-04",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-04",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 2
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0040",
+        "arm": "Psilocybin 10mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Missed PSILOCYBIN dose on 2024-04-29",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-29",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-05-05",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-05",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Missed PSILOCYBIN dose on 2024-05-09",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-09",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "4",
+            "term": "Missed PSILOCYBIN dose on 2024-05-20",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-20",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "5",
+            "term": "Missed PSILOCYBIN dose on 2024-05-27",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-27",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 5
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0043",
+        "arm": "Psilocybin 10mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Missed PSILOCYBIN dose on 2024-03-10",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-10",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-03-30",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-30",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Visit WEEK 12 occurred 3 days early (Day 82 vs planned Day 85)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-05-26",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 3
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0046",
+        "arm": "Psilocybin 10mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Visit WEEK 1 occurred 1 days early (Day 7 vs planned Day 8)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-04-19",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-04-20",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-20",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 2
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0049",
+        "arm": "Psilocybin 1mg (Control)",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Missed PSILOCYBIN dose on 2024-05-19",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-19",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-06-10",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-06-10",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Missed PSILOCYBIN dose on 2024-06-12",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-06-12",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "4",
+            "term": "Visit WEEK 6 occurred 0 days late (Day 43 vs planned Day 43)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-06-20",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "5",
+            "term": "Missed PSILOCYBIN dose on 2024-07-02",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-07-02",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "6",
+            "term": "Visit WEEK 12 occurred 3 days early (Day 82 vs planned Day 85)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-07-29",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 6
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0008",
+        "arm": "Psilocybin 10mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Visit WEEK 3 occurred 0 days late (Day 22 vs planned Day 22)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-05-23",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 1
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0011",
+        "arm": "Psilocybin 1mg (Control)",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Missed PSILOCYBIN dose on 2024-03-29",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-29",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-04-03",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-03",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Missed PSILOCYBIN dose on 2024-04-21",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-21",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "4",
+            "term": "Missed PSILOCYBIN dose on 2024-04-24",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-24",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "5",
+            "term": "Missed PSILOCYBIN dose on 2024-04-27",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-27",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "6",
+            "term": "Missed PSILOCYBIN dose on 2024-04-29",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-29",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "7",
+            "term": "Missed PSILOCYBIN dose on 2024-05-02",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-02",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "8",
+            "term": "Missed PSILOCYBIN dose on 2024-05-08",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-08",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "9",
+            "term": "Missed PSILOCYBIN dose on 2024-05-15",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-15",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 9
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0014",
+        "arm": "Psilocybin 1mg (Control)",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Missed PSILOCYBIN dose on 2024-03-11",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-11",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-03-18",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-18",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Missed PSILOCYBIN dose on 2024-03-21",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-21",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 3
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0017",
+        "arm": "Psilocybin 1mg (Control)",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Missed PSILOCYBIN dose on 2024-04-10",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-10",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-04-26",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-26",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 2
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0020",
+        "arm": "Psilocybin 10mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Dose modified from 10.0 to 5.0 mg",
+            "decod": "DOSE MODIFICATION",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-08",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 1
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0026",
+        "arm": "Psilocybin 25mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Missed PSILOCYBIN dose on 2024-03-31",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-31",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-05-05",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-05",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 2
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0029",
+        "arm": "Psilocybin 25mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Missed PSILOCYBIN dose on 2024-03-07",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-07",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-03-27",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-27",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 2
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0041",
+        "arm": "Psilocybin 10mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Dose modified from 10.0 to 5.0 mg",
+            "decod": "DOSE MODIFICATION",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-03",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Visit WEEK 1 occurred 1 days early (Day 7 vs planned Day 8)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-03-09",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Visit WEEK 3 occurred 2 days late (Day 24 vs planned Day 22)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-03-26",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "4",
+            "term": "Missed PSILOCYBIN dose on 2024-04-28",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-28",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "5",
+            "term": "Missed PSILOCYBIN dose on 2024-05-05",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-05",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 5
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0044",
+        "arm": "Psilocybin 25mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Visit WEEK 1 occurred 1 days early (Day 7 vs planned Day 8)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-03-29",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-04-04",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-04",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Missed PSILOCYBIN dose on 2024-04-05",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-05",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "4",
+            "term": "Missed PSILOCYBIN dose on 2024-04-20",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-20",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 4
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0047",
+        "arm": "Psilocybin 10mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Missed PSILOCYBIN dose on 2024-04-12",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-12",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-04-18",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-18",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Missed PSILOCYBIN dose on 2024-04-22",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-22",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "4",
+            "term": "Missed PSILOCYBIN dose on 2024-04-28",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-28",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "5",
+            "term": "Dose modified from 10.0 to 5.0 mg",
+            "decod": "DOSE MODIFICATION",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-08",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "6",
+            "term": "Missed PSILOCYBIN dose on 2024-05-10",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-10",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 6
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0050",
+        "arm": "Psilocybin 25mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Visit WEEK 1 occurred 1 days early (Day 7 vs planned Day 8)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-03-19",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Vital signs assessment not performed at WEEK 3",
+            "decod": "MISSED ASSESSMENT",
+            "cat": "MINOR",
+            "scat": "ASSESSMENT",
+            "start_dtc": "2024-04-01",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Visit WEEK 6 occurred 2 days late (Day 45 vs planned Day 43)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-04-26",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 3
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0003",
+        "arm": "Psilocybin 1mg (Control)",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Missed PSILOCYBIN dose on 2024-03-02",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-02",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-03-22",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-22",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 2
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0006",
+        "arm": "Psilocybin 10mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Vital signs assessment not performed at DAY 2",
+            "decod": "MISSED ASSESSMENT",
+            "cat": "MINOR",
+            "scat": "ASSESSMENT",
+            "start_dtc": "2024-05-01",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-05-08",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-08",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Missed PSILOCYBIN dose on 2024-05-10",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-10",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "4",
+            "term": "Missed PSILOCYBIN dose on 2024-05-17",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-17",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "5",
+            "term": "Missed PSILOCYBIN dose on 2024-05-18",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-18",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "6",
+            "term": "Missed PSILOCYBIN dose on 2024-06-05",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-06-05",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "7",
+            "term": "Visit WEEK 6 occurred 0 days late (Day 43 vs planned Day 43)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-06-11",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "8",
+            "term": "Missed PSILOCYBIN dose on 2024-06-11",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-06-11",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "9",
+            "term": "Visit WEEK 12 occurred 6 days early (Day 79 vs planned Day 85)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-07-17",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 9
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0009",
+        "arm": "Psilocybin 10mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Visit WEEK 3 occurred 2 days late (Day 24 vs planned Day 22)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-04-13",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-04-29",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-29",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Visit WEEK 6 occurred 0 days late (Day 43 vs planned Day 43)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-05-02",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 3
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0012",
+        "arm": "Psilocybin 25mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Visit WEEK 3 occurred 1 days late (Day 23 vs planned Day 22)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-03-06",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-04-12",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-12",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 2
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0015",
+        "arm": "Psilocybin 10mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Missed PSILOCYBIN dose on 2024-04-27",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-27",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Visit WEEK 12 occurred 2 days late (Day 87 vs planned Day 85)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-06-15",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 2
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0018",
+        "arm": "Psilocybin 25mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Missed PSILOCYBIN dose on 2024-04-07",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-07",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-04-10",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-10",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Missed PSILOCYBIN dose on 2024-04-14",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-14",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "4",
+            "term": "Missed PSILOCYBIN dose on 2024-04-28",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-28",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "5",
+            "term": "Missed PSILOCYBIN dose on 2024-05-05",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-05",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "6",
+            "term": "Missed PSILOCYBIN dose on 2024-05-07",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-07",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 6
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0021",
+        "arm": "Psilocybin 1mg (Control)",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Missed PSILOCYBIN dose on 2024-04-16",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-16",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-04-19",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-19",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Missed PSILOCYBIN dose on 2024-04-20",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-20",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "4",
+            "term": "Missed PSILOCYBIN dose on 2024-04-30",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-30",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "5",
+            "term": "Missed PSILOCYBIN dose on 2024-05-05",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-05",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "6",
+            "term": "Missed PSILOCYBIN dose on 2024-05-08",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-08",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "7",
+            "term": "Dose modified from 1.0 to 0.5 mg",
+            "decod": "DOSE MODIFICATION",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-08",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "8",
+            "term": "Missed PSILOCYBIN dose on 2024-05-19",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-19",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "9",
+            "term": "Missed PSILOCYBIN dose on 2024-05-24",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-24",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 9
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0024",
+        "arm": "Psilocybin 1mg (Control)",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Missed PSILOCYBIN dose on 2024-03-12",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-12",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-03-16",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-16",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Visit WEEK 3 occurred 2 days early (Day 20 vs planned Day 22)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-03-17",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "4",
+            "term": "Missed PSILOCYBIN dose on 2024-03-23",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-23",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "5",
+            "term": "Missed PSILOCYBIN dose on 2024-03-26",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-26",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "6",
+            "term": "Missed PSILOCYBIN dose on 2024-03-27",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-27",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 6
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0027",
+        "arm": "Psilocybin 1mg (Control)",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Missed PSILOCYBIN dose on 2024-03-26",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-26",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-03-27",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-27",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Missed PSILOCYBIN dose on 2024-04-16",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-16",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "4",
+            "term": "Missed PSILOCYBIN dose on 2024-04-18",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-18",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "5",
+            "term": "Visit WEEK 6 occurred 0 days late (Day 43 vs planned Day 43)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-04-28",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "6",
+            "term": "Vital signs assessment not performed at WEEK 6",
+            "decod": "MISSED ASSESSMENT",
+            "cat": "MINOR",
+            "scat": "ASSESSMENT",
+            "start_dtc": "2024-04-28",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "7",
+            "term": "Missed PSILOCYBIN dose on 2024-05-02",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-02",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 7
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0030",
+        "arm": "Psilocybin 10mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Missed PSILOCYBIN dose on 2024-04-24",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-24",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-05-12",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-12",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Visit WEEK 6 occurred 3 days early (Day 40 vs planned Day 43)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-05-13",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "4",
+            "term": "Missed PSILOCYBIN dose on 2024-05-13",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-13",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "5",
+            "term": "Vital signs assessment not performed at WEEK 6",
+            "decod": "MISSED ASSESSMENT",
+            "cat": "MINOR",
+            "scat": "ASSESSMENT",
+            "start_dtc": "2024-05-13",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "6",
+            "term": "Missed PSILOCYBIN dose on 2024-05-19",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-19",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "7",
+            "term": "Missed PSILOCYBIN dose on 2024-05-21",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-21",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "8",
+            "term": "Missed PSILOCYBIN dose on 2024-05-22",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-22",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "9",
+            "term": "Visit WEEK 12 occurred 2 days early (Day 83 vs planned Day 85)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-06-25",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 9
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0033",
+        "arm": "Psilocybin 25mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Missed PSILOCYBIN dose on 2024-02-12",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-02-12",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-02-13",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-02-13",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Missed PSILOCYBIN dose on 2024-02-22",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-02-22",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "4",
+            "term": "Visit WEEK 3 occurred 2 days early (Day 20 vs planned Day 22)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-02-23",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "5",
+            "term": "Dose modified from 25.0 to 12.5 mg",
+            "decod": "DOSE MODIFICATION",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-06",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "6",
+            "term": "Missed PSILOCYBIN dose on 2024-03-19",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-19",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "7",
+            "term": "Missed PSILOCYBIN dose on 2024-04-02",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-02",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "8",
+            "term": "Missed PSILOCYBIN dose on 2024-04-04",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-04",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 8
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0036",
+        "arm": "Psilocybin 1mg (Control)",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Missed PSILOCYBIN dose on 2024-03-10",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-10",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Visit WEEK 1 occurred 1 days early (Day 7 vs planned Day 8)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-03-11",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Missed PSILOCYBIN dose on 2024-03-11",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-11",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "4",
+            "term": "Missed PSILOCYBIN dose on 2024-03-16",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-16",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "5",
+            "term": "Missed PSILOCYBIN dose on 2024-03-20",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-20",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "6",
+            "term": "Missed PSILOCYBIN dose on 2024-03-22",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-22",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "7",
+            "term": "Missed PSILOCYBIN dose on 2024-03-28",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-28",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "8",
+            "term": "Missed PSILOCYBIN dose on 2024-04-06",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-04-06",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "9",
+            "term": "Vital signs assessment not performed at WEEK 6",
+            "decod": "MISSED ASSESSMENT",
+            "cat": "MINOR",
+            "scat": "ASSESSMENT",
+            "start_dtc": "2024-04-14",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 9
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0039",
+        "arm": "Psilocybin 10mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Missed PSILOCYBIN dose on 2024-05-21",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-21",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-05-26",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-26",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Missed PSILOCYBIN dose on 2024-05-31",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-31",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "4",
+            "term": "Missed PSILOCYBIN dose on 2024-06-03",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-06-03",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "5",
+            "term": "Missed PSILOCYBIN dose on 2024-06-13",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-06-13",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 5
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0042",
+        "arm": "Psilocybin 10mg",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Missed PSILOCYBIN dose on 2024-03-05",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-05",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Missed PSILOCYBIN dose on 2024-03-16",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-16",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Missed PSILOCYBIN dose on 2024-03-20",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-20",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "4",
+            "term": "Missed PSILOCYBIN dose on 2024-03-22",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-22",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "5",
+            "term": "Missed PSILOCYBIN dose on 2024-03-28",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-28",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "6",
+            "term": "Missed PSILOCYBIN dose on 2024-03-31",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-03-31",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 6
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0045",
+        "arm": "Psilocybin 1mg (Control)",
+        "deviations": [],
+        "total_deviations": 0
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0048",
+        "arm": "Psilocybin 1mg (Control)",
+        "deviations": [
+          {
+            "seq": "1",
+            "term": "Missed PSILOCYBIN dose on 2024-05-15",
+            "decod": "MISSED DOSE",
+            "cat": "MINOR",
+            "scat": "DOSING",
+            "start_dtc": "2024-05-15",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "2",
+            "term": "Visit WEEK 3 occurred 1 days late (Day 23 vs planned Day 22)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-05-16",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "3",
+            "term": "Visit WEEK 12 occurred 4 days early (Day 81 vs planned Day 85)",
+            "decod": "VISIT OCCURRED OUTSIDE VISIT WINDOW",
+            "cat": "MINOR",
+            "scat": "VISIT WINDOW",
+            "start_dtc": "2024-07-13",
+            "end_dtc": null,
+            "visit": null
+          },
+          {
+            "seq": "4",
+            "term": "Vital signs assessment not performed at WEEK 12",
+            "decod": "MISSED ASSESSMENT",
+            "cat": "MINOR",
+            "scat": "ASSESSMENT",
+            "start_dtc": "2024-07-13",
+            "end_dtc": null,
+            "visit": null
+          }
+        ],
+        "total_deviations": 4
+      }
+    ]
+  },
+  "visit_compliance": {
+    "planned_visits": [
+      "SCREENING",
+      "DOSING DAY",
+      "DAY 2",
+      "WEEK 1",
+      "WEEK 3",
+      "WEEK 6",
+      "WEEK 12"
+    ],
+    "per_visit": {
+      "SCREENING": {
+        "planned": 43,
+        "attended": 43,
+        "compliance_pct": 100.0,
+        "planned_study_day": -28.0,
+        "median_actual_study_day": -35.0,
+        "within_window_pct": 9.3,
+        "out_of_window_count": 39
+      },
+      "DOSING DAY": {
+        "planned": 43,
+        "attended": 43,
+        "compliance_pct": 100.0,
+        "planned_study_day": 1.0,
+        "median_actual_study_day": 1.0,
+        "within_window_pct": 100.0,
+        "out_of_window_count": 0
+      },
+      "DAY 2": {
+        "planned": 43,
+        "attended": 43,
+        "compliance_pct": 100.0,
+        "planned_study_day": 2.0,
+        "median_actual_study_day": 2.0,
+        "within_window_pct": 100.0,
+        "out_of_window_count": 0
+      },
+      "WEEK 1": {
+        "planned": 43,
+        "attended": 42,
+        "compliance_pct": 97.7,
+        "planned_study_day": 8.0,
+        "median_actual_study_day": 8.0,
+        "within_window_pct": 100.0,
+        "out_of_window_count": 0
+      },
+      "WEEK 3": {
+        "planned": 43,
+        "attended": 41,
+        "compliance_pct": 95.3,
+        "planned_study_day": 22.0,
+        "median_actual_study_day": 22.0,
+        "within_window_pct": 100.0,
+        "out_of_window_count": 0
+      },
+      "WEEK 6": {
+        "planned": 43,
+        "attended": 41,
+        "compliance_pct": 95.3,
+        "planned_study_day": 43.0,
+        "median_actual_study_day": 43.0,
+        "within_window_pct": 100.0,
+        "out_of_window_count": 0
+      },
+      "WEEK 12": {
+        "planned": 43,
+        "attended": 39,
+        "compliance_pct": 90.7,
+        "planned_study_day": 85.0,
+        "median_actual_study_day": 83.0,
+        "within_window_pct": 51.3,
+        "out_of_window_count": 19
+      }
+    },
+    "per_subject": [
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0001",
+        "arm": "Psilocybin 1mg (Control)",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0004",
+        "arm": "Psilocybin 25mg",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0010",
+        "arm": "Psilocybin 10mg",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0013",
+        "arm": "Psilocybin 25mg",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0016",
+        "arm": "Psilocybin 25mg",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0019",
+        "arm": "Psilocybin 1mg (Control)",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0022",
+        "arm": "Psilocybin 25mg",
+        "visits_planned": 7,
+        "visits_attended": 3,
+        "compliance_pct": 42.9,
+        "missed_visits": [
+          "WEEK 1",
+          "WEEK 3",
+          "WEEK 6",
+          "WEEK 12"
+        ]
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0025",
+        "arm": "Psilocybin 10mg",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0028",
+        "arm": "Psilocybin 1mg (Control)",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0031",
+        "arm": "Psilocybin 10mg",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0034",
+        "arm": "Psilocybin 10mg",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0037",
+        "arm": "Psilocybin 25mg",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0040",
+        "arm": "Psilocybin 10mg",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0043",
+        "arm": "Psilocybin 10mg",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0046",
+        "arm": "Psilocybin 10mg",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0049",
+        "arm": "Psilocybin 1mg (Control)",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0008",
+        "arm": "Psilocybin 10mg",
+        "visits_planned": 7,
+        "visits_attended": 6,
+        "compliance_pct": 85.7,
+        "missed_visits": [
+          "WEEK 12"
+        ]
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0011",
+        "arm": "Psilocybin 1mg (Control)",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0014",
+        "arm": "Psilocybin 1mg (Control)",
+        "visits_planned": 7,
+        "visits_attended": 6,
+        "compliance_pct": 85.7,
+        "missed_visits": [
+          "WEEK 12"
+        ]
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0017",
+        "arm": "Psilocybin 1mg (Control)",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0020",
+        "arm": "Psilocybin 10mg",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0026",
+        "arm": "Psilocybin 25mg",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0029",
+        "arm": "Psilocybin 25mg",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0041",
+        "arm": "Psilocybin 10mg",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0044",
+        "arm": "Psilocybin 25mg",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0047",
+        "arm": "Psilocybin 10mg",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0050",
+        "arm": "Psilocybin 25mg",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0003",
+        "arm": "Psilocybin 1mg (Control)",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0006",
+        "arm": "Psilocybin 10mg",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0009",
+        "arm": "Psilocybin 10mg",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0012",
+        "arm": "Psilocybin 25mg",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0015",
+        "arm": "Psilocybin 10mg",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0018",
+        "arm": "Psilocybin 25mg",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0021",
+        "arm": "Psilocybin 1mg (Control)",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0024",
+        "arm": "Psilocybin 1mg (Control)",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0027",
+        "arm": "Psilocybin 1mg (Control)",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0030",
+        "arm": "Psilocybin 10mg",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0033",
+        "arm": "Psilocybin 25mg",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0036",
+        "arm": "Psilocybin 1mg (Control)",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0039",
+        "arm": "Psilocybin 10mg",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0042",
+        "arm": "Psilocybin 10mg",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0045",
+        "arm": "Psilocybin 1mg (Control)",
+        "visits_planned": 7,
+        "visits_attended": 4,
+        "compliance_pct": 57.1,
+        "missed_visits": [
+          "WEEK 3",
+          "WEEK 6",
+          "WEEK 12"
+        ]
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0048",
+        "arm": "Psilocybin 1mg (Control)",
+        "visits_planned": 7,
+        "visits_attended": 7,
+        "compliance_pct": 100.0,
+        "missed_visits": []
+      }
+    ]
+  },
+  "dose_compliance": {
+    "per_subject": [
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0001",
+        "arm": "Psilocybin 1mg (Control)",
+        "planned_doses": 80,
+        "administered_doses": 1,
+        "compliance_pct": 1.2,
+        "first_dose_dtc": "2024-04-26",
+        "last_dose_dtc": "2024-07-14",
+        "exposure_days": 79,
+        "total_dose": 1.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0004",
+        "arm": "Psilocybin 25mg",
+        "planned_doses": 62,
+        "administered_doses": 1,
+        "compliance_pct": 1.6,
+        "first_dose_dtc": "2024-04-03",
+        "last_dose_dtc": "2024-06-03",
+        "exposure_days": 61,
+        "total_dose": 25.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0010",
+        "arm": "Psilocybin 10mg",
+        "planned_doses": 35,
+        "administered_doses": 1,
+        "compliance_pct": 2.9,
+        "first_dose_dtc": "2024-03-09",
+        "last_dose_dtc": "2024-04-12",
+        "exposure_days": 34,
+        "total_dose": 10.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0013",
+        "arm": "Psilocybin 25mg",
+        "planned_doses": 62,
+        "administered_doses": 1,
+        "compliance_pct": 1.6,
+        "first_dose_dtc": "2024-03-11",
+        "last_dose_dtc": "2024-05-11",
+        "exposure_days": 61,
+        "total_dose": 25.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0016",
+        "arm": "Psilocybin 25mg",
+        "planned_doses": 81,
+        "administered_doses": 2,
+        "compliance_pct": 2.5,
+        "first_dose_dtc": "2024-05-08",
+        "last_dose_dtc": "2024-07-27",
+        "exposure_days": 80,
+        "total_dose": 37.5,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0019",
+        "arm": "Psilocybin 1mg (Control)",
+        "planned_doses": 37,
+        "administered_doses": 1,
+        "compliance_pct": 2.7,
+        "first_dose_dtc": "2024-04-07",
+        "last_dose_dtc": "2024-05-13",
+        "exposure_days": 36,
+        "total_dose": 1.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0022",
+        "arm": "Psilocybin 25mg",
+        "planned_doses": 3,
+        "administered_doses": 1,
+        "compliance_pct": 33.3,
+        "first_dose_dtc": "2024-03-18",
+        "last_dose_dtc": "2024-03-20",
+        "exposure_days": 2,
+        "total_dose": 25.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0025",
+        "arm": "Psilocybin 10mg",
+        "planned_doses": 71,
+        "administered_doses": 1,
+        "compliance_pct": 1.4,
+        "first_dose_dtc": "2024-04-05",
+        "last_dose_dtc": "2024-06-14",
+        "exposure_days": 70,
+        "total_dose": 10.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0028",
+        "arm": "Psilocybin 1mg (Control)",
+        "planned_doses": 39,
+        "administered_doses": 1,
+        "compliance_pct": 2.6,
+        "first_dose_dtc": "2024-03-18",
+        "last_dose_dtc": "2024-04-25",
+        "exposure_days": 38,
+        "total_dose": 1.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0031",
+        "arm": "Psilocybin 10mg",
+        "planned_doses": 78,
+        "administered_doses": 1,
+        "compliance_pct": 1.3,
+        "first_dose_dtc": "2024-02-27",
+        "last_dose_dtc": "2024-05-14",
+        "exposure_days": 77,
+        "total_dose": 10.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0034",
+        "arm": "Psilocybin 10mg",
+        "planned_doses": 47,
+        "administered_doses": 4,
+        "compliance_pct": 8.5,
+        "first_dose_dtc": "2024-03-31",
+        "last_dose_dtc": "2024-06-03",
+        "exposure_days": 64,
+        "total_dose": 25.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0037",
+        "arm": "Psilocybin 25mg",
+        "planned_doses": 71,
+        "administered_doses": 1,
+        "compliance_pct": 1.4,
+        "first_dose_dtc": "2024-02-05",
+        "last_dose_dtc": "2024-04-15",
+        "exposure_days": 70,
+        "total_dose": 25.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0040",
+        "arm": "Psilocybin 10mg",
+        "planned_doses": 40,
+        "administered_doses": 1,
+        "compliance_pct": 2.5,
+        "first_dose_dtc": "2024-04-28",
+        "last_dose_dtc": "2024-06-06",
+        "exposure_days": 39,
+        "total_dose": 10.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0043",
+        "arm": "Psilocybin 10mg",
+        "planned_doses": 38,
+        "administered_doses": 1,
+        "compliance_pct": 2.6,
+        "first_dose_dtc": "2024-03-06",
+        "last_dose_dtc": "2024-04-12",
+        "exposure_days": 37,
+        "total_dose": 10.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0046",
+        "arm": "Psilocybin 10mg",
+        "planned_doses": 67,
+        "administered_doses": 1,
+        "compliance_pct": 1.5,
+        "first_dose_dtc": "2024-04-13",
+        "last_dose_dtc": "2024-06-18",
+        "exposure_days": 66,
+        "total_dose": 10.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE001-0049",
+        "arm": "Psilocybin 1mg (Control)",
+        "planned_doses": 65,
+        "administered_doses": 1,
+        "compliance_pct": 1.5,
+        "first_dose_dtc": "2024-05-09",
+        "last_dose_dtc": "2024-07-12",
+        "exposure_days": 64,
+        "total_dose": 1.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0008",
+        "arm": "Psilocybin 10mg",
+        "planned_doses": 39,
+        "administered_doses": 1,
+        "compliance_pct": 2.6,
+        "first_dose_dtc": "2024-05-02",
+        "last_dose_dtc": "2024-06-09",
+        "exposure_days": 38,
+        "total_dose": 10.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0011",
+        "arm": "Psilocybin 1mg (Control)",
+        "planned_doses": 58,
+        "administered_doses": 1,
+        "compliance_pct": 1.7,
+        "first_dose_dtc": "2024-03-29",
+        "last_dose_dtc": "2024-05-25",
+        "exposure_days": 57,
+        "total_dose": 1.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0014",
+        "arm": "Psilocybin 1mg (Control)",
+        "planned_doses": 29,
+        "administered_doses": 1,
+        "compliance_pct": 3.4,
+        "first_dose_dtc": "2024-03-05",
+        "last_dose_dtc": "2024-04-02",
+        "exposure_days": 28,
+        "total_dose": 1.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0017",
+        "arm": "Psilocybin 1mg (Control)",
+        "planned_doses": 66,
+        "administered_doses": 1,
+        "compliance_pct": 1.5,
+        "first_dose_dtc": "2024-04-01",
+        "last_dose_dtc": "2024-06-05",
+        "exposure_days": 65,
+        "total_dose": 1.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0020",
+        "arm": "Psilocybin 10mg",
+        "planned_doses": 61,
+        "administered_doses": 2,
+        "compliance_pct": 3.3,
+        "first_dose_dtc": "2024-02-01",
+        "last_dose_dtc": "2024-04-01",
+        "exposure_days": 60,
+        "total_dose": 15.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0026",
+        "arm": "Psilocybin 25mg",
+        "planned_doses": 77,
+        "administered_doses": 1,
+        "compliance_pct": 1.3,
+        "first_dose_dtc": "2024-03-08",
+        "last_dose_dtc": "2024-05-23",
+        "exposure_days": 76,
+        "total_dose": 25.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0029",
+        "arm": "Psilocybin 25mg",
+        "planned_doses": 77,
+        "administered_doses": 1,
+        "compliance_pct": 1.3,
+        "first_dose_dtc": "2024-01-31",
+        "last_dose_dtc": "2024-04-16",
+        "exposure_days": 76,
+        "total_dose": 25.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0041",
+        "arm": "Psilocybin 10mg",
+        "planned_doses": 77,
+        "administered_doses": 1,
+        "compliance_pct": 1.3,
+        "first_dose_dtc": "2024-03-03",
+        "last_dose_dtc": "2024-05-18",
+        "exposure_days": 76,
+        "total_dose": 5.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0044",
+        "arm": "Psilocybin 25mg",
+        "planned_doses": 44,
+        "administered_doses": 1,
+        "compliance_pct": 2.3,
+        "first_dose_dtc": "2024-03-23",
+        "last_dose_dtc": "2024-05-05",
+        "exposure_days": 43,
+        "total_dose": 25.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0047",
+        "arm": "Psilocybin 10mg",
+        "planned_doses": 44,
+        "administered_doses": 2,
+        "compliance_pct": 4.5,
+        "first_dose_dtc": "2024-04-04",
+        "last_dose_dtc": "2024-05-17",
+        "exposure_days": 43,
+        "total_dose": 15.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE002-0050",
+        "arm": "Psilocybin 25mg",
+        "planned_doses": 68,
+        "administered_doses": 1,
+        "compliance_pct": 1.5,
+        "first_dose_dtc": "2024-03-13",
+        "last_dose_dtc": "2024-05-19",
+        "exposure_days": 67,
+        "total_dose": 25.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0003",
+        "arm": "Psilocybin 1mg (Control)",
+        "planned_doses": 63,
+        "administered_doses": 1,
+        "compliance_pct": 1.6,
+        "first_dose_dtc": "2024-02-04",
+        "last_dose_dtc": "2024-04-06",
+        "exposure_days": 62,
+        "total_dose": 1.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0006",
+        "arm": "Psilocybin 10mg",
+        "planned_doses": 43,
+        "administered_doses": 1,
+        "compliance_pct": 2.3,
+        "first_dose_dtc": "2024-04-30",
+        "last_dose_dtc": "2024-06-11",
+        "exposure_days": 42,
+        "total_dose": 10.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0009",
+        "arm": "Psilocybin 10mg",
+        "planned_doses": 59,
+        "administered_doses": 1,
+        "compliance_pct": 1.7,
+        "first_dose_dtc": "2024-03-21",
+        "last_dose_dtc": "2024-05-18",
+        "exposure_days": 58,
+        "total_dose": 10.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0012",
+        "arm": "Psilocybin 25mg",
+        "planned_doses": 77,
+        "administered_doses": 1,
+        "compliance_pct": 1.3,
+        "first_dose_dtc": "2024-02-13",
+        "last_dose_dtc": "2024-04-29",
+        "exposure_days": 76,
+        "total_dose": 25.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0015",
+        "arm": "Psilocybin 10mg",
+        "planned_doses": 78,
+        "administered_doses": 1,
+        "compliance_pct": 1.3,
+        "first_dose_dtc": "2024-03-21",
+        "last_dose_dtc": "2024-06-06",
+        "exposure_days": 77,
+        "total_dose": 10.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0018",
+        "arm": "Psilocybin 25mg",
+        "planned_doses": 42,
+        "administered_doses": 1,
+        "compliance_pct": 2.4,
+        "first_dose_dtc": "2024-04-03",
+        "last_dose_dtc": "2024-05-14",
+        "exposure_days": 41,
+        "total_dose": 25.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0021",
+        "arm": "Psilocybin 1mg (Control)",
+        "planned_doses": 63,
+        "administered_doses": 2,
+        "compliance_pct": 3.2,
+        "first_dose_dtc": "2024-03-30",
+        "last_dose_dtc": "2024-05-31",
+        "exposure_days": 62,
+        "total_dose": 1.5,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0024",
+        "arm": "Psilocybin 1mg (Control)",
+        "planned_doses": 34,
+        "administered_doses": 1,
+        "compliance_pct": 2.9,
+        "first_dose_dtc": "2024-02-27",
+        "last_dose_dtc": "2024-03-31",
+        "exposure_days": 33,
+        "total_dose": 1.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0027",
+        "arm": "Psilocybin 1mg (Control)",
+        "planned_doses": 56,
+        "administered_doses": 1,
+        "compliance_pct": 1.8,
+        "first_dose_dtc": "2024-03-17",
+        "last_dose_dtc": "2024-05-11",
+        "exposure_days": 55,
+        "total_dose": 1.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0030",
+        "arm": "Psilocybin 10mg",
+        "planned_doses": 54,
+        "administered_doses": 1,
+        "compliance_pct": 1.9,
+        "first_dose_dtc": "2024-04-04",
+        "last_dose_dtc": "2024-05-27",
+        "exposure_days": 53,
+        "total_dose": 10.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0033",
+        "arm": "Psilocybin 25mg",
+        "planned_doses": 71,
+        "administered_doses": 2,
+        "compliance_pct": 2.8,
+        "first_dose_dtc": "2024-02-04",
+        "last_dose_dtc": "2024-04-14",
+        "exposure_days": 70,
+        "total_dose": 37.5,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0036",
+        "arm": "Psilocybin 1mg (Control)",
+        "planned_doses": 40,
+        "administered_doses": 1,
+        "compliance_pct": 2.5,
+        "first_dose_dtc": "2024-03-05",
+        "last_dose_dtc": "2024-04-13",
+        "exposure_days": 39,
+        "total_dose": 1.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0039",
+        "arm": "Psilocybin 10mg",
+        "planned_doses": 41,
+        "administered_doses": 1,
+        "compliance_pct": 2.4,
+        "first_dose_dtc": "2024-05-09",
+        "last_dose_dtc": "2024-06-18",
+        "exposure_days": 40,
+        "total_dose": 10.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0042",
+        "arm": "Psilocybin 10mg",
+        "planned_doses": 41,
+        "administered_doses": 1,
+        "compliance_pct": 2.4,
+        "first_dose_dtc": "2024-02-27",
+        "last_dose_dtc": "2024-04-07",
+        "exposure_days": 40,
+        "total_dose": 10.0,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0045",
+        "arm": "Psilocybin 1mg (Control)",
+        "planned_doses": 12,
+        "administered_doses": 2,
+        "compliance_pct": 16.7,
+        "first_dose_dtc": "2024-01-23",
+        "last_dose_dtc": "2024-02-03",
+        "exposure_days": 11,
+        "total_dose": 1.5,
+        "dose_unit": "mg"
+      },
+      {
+        "usubjid": "TERPSIS-MDD-201-SITE003-0048",
+        "arm": "Psilocybin 1mg (Control)",
+        "planned_doses": 79,
+        "administered_doses": 1,
+        "compliance_pct": 1.3,
+        "first_dose_dtc": "2024-04-24",
+        "last_dose_dtc": "2024-07-11",
+        "exposure_days": 78,
+        "total_dose": 1.0,
+        "dose_unit": "mg"
+      }
+    ],
+    "summary": {
+      "mean_compliance_pct": 3.3,
+      "subjects_below_80pct": [
+        "TERPSIS-MDD-201-SITE001-0001",
+        "TERPSIS-MDD-201-SITE001-0004",
+        "TERPSIS-MDD-201-SITE001-0010",
+        "TERPSIS-MDD-201-SITE001-0013",
+        "TERPSIS-MDD-201-SITE001-0016",
+        "TERPSIS-MDD-201-SITE001-0019",
+        "TERPSIS-MDD-201-SITE001-0022",
+        "TERPSIS-MDD-201-SITE001-0025",
+        "TERPSIS-MDD-201-SITE001-0028",
+        "TERPSIS-MDD-201-SITE001-0031",
+        "TERPSIS-MDD-201-SITE001-0034",
+        "TERPSIS-MDD-201-SITE001-0037",
+        "TERPSIS-MDD-201-SITE001-0040",
+        "TERPSIS-MDD-201-SITE001-0043",
+        "TERPSIS-MDD-201-SITE001-0046",
+        "TERPSIS-MDD-201-SITE001-0049",
+        "TERPSIS-MDD-201-SITE002-0008",
+        "TERPSIS-MDD-201-SITE002-0011",
+        "TERPSIS-MDD-201-SITE002-0014",
+        "TERPSIS-MDD-201-SITE002-0017",
+        "TERPSIS-MDD-201-SITE002-0020",
+        "TERPSIS-MDD-201-SITE002-0026",
+        "TERPSIS-MDD-201-SITE002-0029",
+        "TERPSIS-MDD-201-SITE002-0041",
+        "TERPSIS-MDD-201-SITE002-0044",
+        "TERPSIS-MDD-201-SITE002-0047",
+        "TERPSIS-MDD-201-SITE002-0050",
+        "TERPSIS-MDD-201-SITE003-0003",
+        "TERPSIS-MDD-201-SITE003-0006",
+        "TERPSIS-MDD-201-SITE003-0009",
+        "TERPSIS-MDD-201-SITE003-0012",
+        "TERPSIS-MDD-201-SITE003-0015",
+        "TERPSIS-MDD-201-SITE003-0018",
+        "TERPSIS-MDD-201-SITE003-0021",
+        "TERPSIS-MDD-201-SITE003-0024",
+        "TERPSIS-MDD-201-SITE003-0027",
+        "TERPSIS-MDD-201-SITE003-0030",
+        "TERPSIS-MDD-201-SITE003-0033",
+        "TERPSIS-MDD-201-SITE003-0036",
+        "TERPSIS-MDD-201-SITE003-0039",
+        "TERPSIS-MDD-201-SITE003-0042",
+        "TERPSIS-MDD-201-SITE003-0045",
+        "TERPSIS-MDD-201-SITE003-0048"
+      ]
+    }
+  },
+  "screen_failures": {
+    "total": 7,
+    "by_reason": {
+      "ELIGIBILITY CRITERIA NOT MET": 7,
+      "INFORMED CONSENT OBTAINED": 7
+    },
+    "by_ie_criterion": {
+      "EXCL01": {
+        "test": "Subject has a known hypersensitivity to study drug or excipients",
+        "category": "EXCLUSION",
+        "failed_count": 1
+      },
+      "EXCL02": {
+        "test": "Subject is pregnant or breastfeeding",
+        "category": "EXCLUSION",
+        "failed_count": 1
+      },
+      "EXCL04": {
+        "test": "Subject has uncontrolled concurrent illness",
+        "category": "EXCLUSION",
+        "failed_count": 1
+      },
+      "EXCL05": {
+        "test": "Subject has participated in another clinical trial within 30 days",
+        "category": "EXCLUSION",
+        "failed_count": 2
+      },
+      "INCL03": {
+        "test": "Subject meets diagnosis criteria for the study indication",
+        "category": "INCLUSION",
+        "failed_count": 1
+      },
+      "INCL04": {
+        "test": "Subject has adequate organ function based on screening labs",
+        "category": "INCLUSION",
+        "failed_count": 1
+      }
+    },
+    "by_site": {
+      "SITE002": 6,
+      "SITE001": 1
+    }
+  }
+}

@@ -1,0 +1,4 @@
+STUDYID,DOMAIN,ETCD,ELEMENT,TESTRL,TEENRL,TEDUR
+GB001-ASTHMA-201,TE,FU,Follow-up,End of treatment,End of study,P28D
+GB001-ASTHMA-201,TE,SCRN,Screening,Informed consent,Before randomization,P28D
+GB001-ASTHMA-201,TE,TRT,Treatment,Randomization,End of treatment,P84D

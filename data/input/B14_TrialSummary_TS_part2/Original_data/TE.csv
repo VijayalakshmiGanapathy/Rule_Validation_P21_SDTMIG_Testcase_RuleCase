@@ -1,0 +1,4 @@
+STUDYID,DOMAIN,ETCD,ELEMENT,TESTRL,TEENRL,TEDUR
+VISION-NSCLC,TE,FU,Follow-up,End of treatment,End of study,P30D
+VISION-NSCLC,TE,SCRN,Screening,Informed consent,Before randomization,P28D
+VISION-NSCLC,TE,TRT,Treatment,Randomization,End of treatment,P168D

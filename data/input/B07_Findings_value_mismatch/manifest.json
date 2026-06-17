@@ -1,0 +1,6422 @@
+{
+  "generated_at": "2026-06-16T10:01:01.507602",
+  "seed": 42,
+  "mode": "compound",
+  "source_dir": "/tmp/sdtm_uploads_c_b7mz6l",
+  "profile": "all",
+  "rate": 0.05,
+  "density_cap": 5,
+  "rules_available": 467,
+  "rules_injectable": 11,
+  "rules_skipped": 0,
+  "rules_injected": 8,
+  "total_mutations": 265,
+  "skipped_rules": [
+    {
+      "rule_id": "SD1045",
+      "reason": "every eligible row's target cell was taken by an earlier rule \u2014 re-run in a separate batch"
+    },
+    {
+      "rule_id": "SD1275",
+      "reason": "every eligible row's target cell was taken by an earlier rule \u2014 re-run in a separate batch"
+    },
+    {
+      "rule_id": "SD0018",
+      "reason": "every eligible row's target cell was taken by an earlier rule \u2014 re-run in a separate batch"
+    }
+  ],
+  "errors": [
+    {
+      "error_id": "INJ-SD1046-IE-001",
+      "rule_id": "SD1046",
+      "rule_message": "Inconsistent values for IEORRES/IECAT",
+      "category": "FND1",
+      "primitive": "mismatch_pair",
+      "domain": "IE",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0029",
+      "row_index": 1,
+      "csv_line": 3,
+      "seq_value": "1",
+      "variables_modified": {
+        "IEORRES": {
+          "original": "N",
+          "injected": "N_X"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1
+    },
+    {
+      "error_id": "INJ-SD0085-IE-001",
+      "rule_id": "SD0085",
+      "rule_message": "Mismatch between IEORRES and IESTRESC values",
+      "category": "FND1",
+      "primitive": "mismatch_pair",
+      "domain": "IE",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0002",
+      "row_index": 0,
+      "csv_line": 2,
+      "seq_value": "1",
+      "variables_modified": {
+        "IESTRESC": {
+          "original": "Y",
+          "injected": "Y_X"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 0
+    },
+    {
+      "error_id": "INJ-SD0007-LB-001",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0012",
+      "row_index": 1535,
+      "csv_line": 1537,
+      "seq_value": "3",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "umol/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1535
+    },
+    {
+      "error_id": "INJ-SD0007-LB-002",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0021",
+      "row_index": 1681,
+      "csv_line": 1683,
+      "seq_value": "9",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "U/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1681
+    },
+    {
+      "error_id": "INJ-SD0007-LB-003",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0044",
+      "row_index": 1295,
+      "csv_line": 1297,
+      "seq_value": "1",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "U/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1295
+    },
+    {
+      "error_id": "INJ-SD0007-LB-004",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0014",
+      "row_index": 898,
+      "csv_line": 900,
+      "seq_value": "17",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "umol/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 898
+    },
+    {
+      "error_id": "INJ-SD0007-LB-005",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0033",
+      "row_index": 1864,
+      "csv_line": 1866,
+      "seq_value": "3",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "umol/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1864
+    },
+    {
+      "error_id": "INJ-SD0007-LB-006",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0025",
+      "row_index": 392,
+      "csv_line": 394,
+      "seq_value": "29",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "U/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 392
+    },
+    {
+      "error_id": "INJ-SD0007-LB-007",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0007",
+      "row_index": 126,
+      "csv_line": 128,
+      "seq_value": "36",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "U/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 126
+    },
+    {
+      "error_id": "INJ-SD0007-LB-008",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0013",
+      "row_index": 185,
+      "csv_line": 187,
+      "seq_value": "32",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "mmol/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 185
+    },
+    {
+      "error_id": "INJ-SD0007-LB-009",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0014",
+      "row_index": 886,
+      "csv_line": 888,
+      "seq_value": "5",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "g/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 886
+    },
+    {
+      "error_id": "INJ-SD0007-LB-010",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0032",
+      "row_index": 1092,
+      "csv_line": 1094,
+      "seq_value": "1",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "U/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1092
+    },
+    {
+      "error_id": "INJ-SD0007-LB-011",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0032",
+      "row_index": 1114,
+      "csv_line": 1116,
+      "seq_value": "23",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "U/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1114
+    },
+    {
+      "error_id": "INJ-SD0007-LB-012",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0005",
+      "row_index": 802,
+      "csv_line": 804,
+      "seq_value": "19",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "g/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 802
+    },
+    {
+      "error_id": "INJ-SD0007-LB-013",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0015",
+      "row_index": 1584,
+      "csv_line": 1586,
+      "seq_value": "10",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "umol/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1584
+    },
+    {
+      "error_id": "INJ-SD0007-LB-014",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0006",
+      "row_index": 1467,
+      "csv_line": 1469,
+      "seq_value": "12",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "g/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1467
+    },
+    {
+      "error_id": "INJ-SD0007-LB-015",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0013",
+      "row_index": 169,
+      "csv_line": 171,
+      "seq_value": "16",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "U/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 169
+    },
+    {
+      "error_id": "INJ-SD0007-LB-016",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0011",
+      "row_index": 866,
+      "csv_line": 868,
+      "seq_value": "34",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "10^9/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 866
+    },
+    {
+      "error_id": "INJ-SD0007-LB-017",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0014",
+      "row_index": 895,
+      "csv_line": 897,
+      "seq_value": "14",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "10^9/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 895
+    },
+    {
+      "error_id": "INJ-SD0007-LB-018",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0009",
+      "row_index": 1520,
+      "csv_line": 1522,
+      "seq_value": "44",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "U/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1520
+    },
+    {
+      "error_id": "INJ-SD0007-LB-019",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0012",
+      "row_index": 1546,
+      "csv_line": 1548,
+      "seq_value": "14",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "10^9/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1546
+    },
+    {
+      "error_id": "INJ-SD0007-LB-020",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0014",
+      "row_index": 900,
+      "csv_line": 902,
+      "seq_value": "19",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "g/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 900
+    },
+    {
+      "error_id": "INJ-SD0007-LB-021",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0042",
+      "row_index": 1951,
+      "csv_line": 1953,
+      "seq_value": "6",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "10^9/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1951
+    },
+    {
+      "error_id": "INJ-SD0007-LB-022",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0022",
+      "row_index": 362,
+      "csv_line": 364,
+      "seq_value": "55",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "10^9/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 362
+    },
+    {
+      "error_id": "INJ-SD0007-LB-023",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0021",
+      "row_index": 1673,
+      "csv_line": 1675,
+      "seq_value": "1",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "U/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1673
+    },
+    {
+      "error_id": "INJ-SD0007-LB-024",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0007",
+      "row_index": 135,
+      "csv_line": 137,
+      "seq_value": "45",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "umol/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 135
+    },
+    {
+      "error_id": "INJ-SD0007-LB-025",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0003",
+      "row_index": 1420,
+      "csv_line": 1422,
+      "seq_value": "7",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "10^9/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1420
+    },
+    {
+      "error_id": "INJ-SD0007-LB-026",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0023",
+      "row_index": 1043,
+      "csv_line": 1045,
+      "seq_value": "15",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "U/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1043
+    },
+    {
+      "error_id": "INJ-SD0007-LB-027",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0024",
+      "row_index": 1736,
+      "csv_line": 1738,
+      "seq_value": "15",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "U/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1736
+    },
+    {
+      "error_id": "INJ-SD0007-LB-028",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0046",
+      "row_index": 737,
+      "csv_line": 739,
+      "seq_value": "10",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "umol/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 737
+    },
+    {
+      "error_id": "INJ-SD0007-LB-029",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0021",
+      "row_index": 1707,
+      "csv_line": 1709,
+      "seq_value": "35",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "10^9/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1707
+    },
+    {
+      "error_id": "INJ-SD0007-LB-030",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0012",
+      "row_index": 1572,
+      "csv_line": 1574,
+      "seq_value": "40",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "g/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1572
+    },
+    {
+      "error_id": "INJ-SD0007-LB-031",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0050",
+      "row_index": 1386,
+      "csv_line": 1388,
+      "seq_value": "29",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "U/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1386
+    },
+    {
+      "error_id": "INJ-SD0007-LB-032",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0030",
+      "row_index": 1815,
+      "csv_line": 1817,
+      "seq_value": "3",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "umol/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1815
+    },
+    {
+      "error_id": "INJ-SD0007-LB-033",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0043",
+      "row_index": 712,
+      "csv_line": 714,
+      "seq_value": "41",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "10^9/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 712
+    },
+    {
+      "error_id": "INJ-SD0007-LB-034",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0050",
+      "row_index": 1375,
+      "csv_line": 1377,
+      "seq_value": "18",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "mmol/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1375
+    },
+    {
+      "error_id": "INJ-SD0007-LB-035",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0034",
+      "row_index": 555,
+      "csv_line": 557,
+      "seq_value": "38",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "umol/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 555
+    },
+    {
+      "error_id": "INJ-SD0007-LB-036",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0045",
+      "row_index": 1975,
+      "csv_line": 1977,
+      "seq_value": "2",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "U/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1975
+    },
+    {
+      "error_id": "INJ-SD0007-LB-037",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0003",
+      "row_index": 1433,
+      "csv_line": 1435,
+      "seq_value": "20",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "10^9/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1433
+    },
+    {
+      "error_id": "INJ-SD0007-LB-038",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0019",
+      "row_index": 252,
+      "csv_line": 254,
+      "seq_value": "1",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "U/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 252
+    },
+    {
+      "error_id": "INJ-SD0007-LB-039",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0041",
+      "row_index": 1273,
+      "csv_line": 1275,
+      "seq_value": "35",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "10^9/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1273
+    },
+    {
+      "error_id": "INJ-SD0007-LB-040",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0020",
+      "row_index": 1021,
+      "csv_line": 1023,
+      "seq_value": "42",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "10^9/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1021
+    },
+    {
+      "error_id": "INJ-SD0007-LB-041",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0013",
+      "row_index": 183,
+      "csv_line": 185,
+      "seq_value": "30",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "U/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 183
+    },
+    {
+      "error_id": "INJ-SD0007-LB-042",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0022",
+      "row_index": 332,
+      "csv_line": 334,
+      "seq_value": "25",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "mmol/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 332
+    },
+    {
+      "error_id": "INJ-SD0007-LB-043",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0028",
+      "row_index": 454,
+      "csv_line": 456,
+      "seq_value": "42",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "10^9/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 454
+    },
+    {
+      "error_id": "INJ-SD0007-LB-044",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0027",
+      "row_index": 1793,
+      "csv_line": 1795,
+      "seq_value": "30",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "U/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1793
+    },
+    {
+      "error_id": "INJ-SD0007-LB-045",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0025",
+      "row_index": 397,
+      "csv_line": 399,
+      "seq_value": "34",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "10^9/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 397
+    },
+    {
+      "error_id": "INJ-SD0007-LB-046",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0018",
+      "row_index": 1655,
+      "csv_line": 1657,
+      "seq_value": "32",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "mmol/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1655
+    },
+    {
+      "error_id": "INJ-SD0007-LB-047",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0011",
+      "row_index": 855,
+      "csv_line": 857,
+      "seq_value": "23",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "U/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 855
+    },
+    {
+      "error_id": "INJ-SD0007-LB-048",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0041",
+      "row_index": 1288,
+      "csv_line": 1290,
+      "seq_value": "50",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "U/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1288
+    },
+    {
+      "error_id": "INJ-SD0007-LB-049",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0012",
+      "row_index": 1571,
+      "csv_line": 1573,
+      "seq_value": "39",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "mmol/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1571
+    },
+    {
+      "error_id": "INJ-SD0007-LB-050",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0020",
+      "row_index": 996,
+      "csv_line": 998,
+      "seq_value": "17",
+      "variables_modified": {
+        "LBSTRESU": {
+          "original": "umol/L",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 996
+    },
+    {
+      "error_id": "INJ-SD0007-VS-051",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0011",
+      "row_index": 984,
+      "csv_line": 986,
+      "seq_value": "20",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "beats/min",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 984
+    },
+    {
+      "error_id": "INJ-SD0007-VS-052",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0012",
+      "row_index": 1855,
+      "csv_line": 1857,
+      "seq_value": "64",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "kg",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1855
+    },
+    {
+      "error_id": "INJ-SD0007-VS-053",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0015",
+      "row_index": 1865,
+      "csv_line": 1867,
+      "seq_value": "10",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "mmHg",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1865
+    },
+    {
+      "error_id": "INJ-SD0007-VS-054",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0019",
+      "row_index": 335,
+      "csv_line": 337,
+      "seq_value": "32",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "kg",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 335
+    },
+    {
+      "error_id": "INJ-SD0007-VS-055",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0015",
+      "row_index": 1905,
+      "csv_line": 1907,
+      "seq_value": "50",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "mmHg",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1905
+    },
+    {
+      "error_id": "INJ-SD0007-VS-056",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0013",
+      "row_index": 219,
+      "csv_line": 221,
+      "seq_value": "12",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "beats/min",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 219
+    },
+    {
+      "error_id": "INJ-SD0007-VS-057",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0045",
+      "row_index": 2362,
+      "csv_line": 2364,
+      "seq_value": "20",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "beats/min",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 2362
+    },
+    {
+      "error_id": "INJ-SD0007-VS-058",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0018",
+      "row_index": 1983,
+      "csv_line": 1985,
+      "seq_value": "64",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "kg",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1983
+    },
+    {
+      "error_id": "INJ-SD0007-VS-059",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0020",
+      "row_index": 1205,
+      "csv_line": 1207,
+      "seq_value": "50",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "cm",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1205
+    },
+    {
+      "error_id": "INJ-SD0007-VS-060",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0047",
+      "row_index": 1578,
+      "csv_line": 1580,
+      "seq_value": "2",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "mmHg",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1578
+    },
+    {
+      "error_id": "INJ-SD0007-VS-061",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0004",
+      "row_index": 75,
+      "csv_line": 77,
+      "seq_value": "12",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "beats/min",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 75
+    },
+    {
+      "error_id": "INJ-SD0007-VS-062",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0045",
+      "row_index": 2390,
+      "csv_line": 2392,
+      "seq_value": "48",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "kg",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 2390
+    },
+    {
+      "error_id": "INJ-SD0007-VS-063",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0044",
+      "row_index": 1521,
+      "csv_line": 1523,
+      "seq_value": "1",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "kg/m2",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1521
+    },
+    {
+      "error_id": "INJ-SD0007-VS-064",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0015",
+      "row_index": 1907,
+      "csv_line": 1909,
+      "seq_value": "52",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "beats/min",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1907
+    },
+    {
+      "error_id": "INJ-SD0007-VS-065",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0038",
+      "row_index": 1448,
+      "csv_line": 1450,
+      "seq_value": "31",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "C",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1448
+    },
+    {
+      "error_id": "INJ-SD0007-VS-066",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0017",
+      "row_index": 1120,
+      "csv_line": 1122,
+      "seq_value": "28",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "beats/min",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1120
+    },
+    {
+      "error_id": "INJ-SD0007-VS-067",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0003",
+      "row_index": 1676,
+      "csv_line": 1678,
+      "seq_value": "36",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "breaths/min",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1676
+    },
+    {
+      "error_id": "INJ-SD0007-VS-068",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0007",
+      "row_index": 190,
+      "csv_line": 192,
+      "seq_value": "63",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "C",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 190
+    },
+    {
+      "error_id": "INJ-SD0007-VS-069",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0037",
+      "row_index": 659,
+      "csv_line": 661,
+      "seq_value": "5",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "breaths/min",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 659
+    },
+    {
+      "error_id": "INJ-SD0007-VS-070",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0024",
+      "row_index": 2042,
+      "csv_line": 2044,
+      "seq_value": "3",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "cm",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 2042
+    },
+    {
+      "error_id": "INJ-SD0007-VS-071",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0014",
+      "row_index": 1048,
+      "csv_line": 1050,
+      "seq_value": "20",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "beats/min",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1048
+    },
+    {
+      "error_id": "INJ-SD0007-VS-072",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0037",
+      "row_index": 667,
+      "csv_line": 669,
+      "seq_value": "13",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "breaths/min",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 667
+    },
+    {
+      "error_id": "INJ-SD0007-VS-073",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0035",
+      "row_index": 1376,
+      "csv_line": 1378,
+      "seq_value": "23",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "C",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1376
+    },
+    {
+      "error_id": "INJ-SD0007-VS-074",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0004",
+      "row_index": 84,
+      "csv_line": 86,
+      "seq_value": "21",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "breaths/min",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 84
+    },
+    {
+      "error_id": "INJ-SD0007-VS-075",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0031",
+      "row_index": 587,
+      "csv_line": 589,
+      "seq_value": "53",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "breaths/min",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 587
+    },
+    {
+      "error_id": "INJ-SD0007-VS-076",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0017",
+      "row_index": 1093,
+      "csv_line": 1095,
+      "seq_value": "1",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "kg/m2",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1093
+    },
+    {
+      "error_id": "INJ-SD0007-VS-077",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0016",
+      "row_index": 275,
+      "csv_line": 277,
+      "seq_value": "28",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "beats/min",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 275
+    },
+    {
+      "error_id": "INJ-SD0007-VS-078",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0031",
+      "row_index": 566,
+      "csv_line": 568,
+      "seq_value": "32",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "kg",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 566
+    },
+    {
+      "error_id": "INJ-SD0007-VS-079",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0017",
+      "row_index": 1126,
+      "csv_line": 1128,
+      "seq_value": "34",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "mmHg",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1126
+    },
+    {
+      "error_id": "INJ-SD0007-VS-080",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0001",
+      "row_index": 18,
+      "csv_line": 20,
+      "seq_value": "19",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "cm",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 18
+    },
+    {
+      "error_id": "INJ-SD0007-VS-081",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0015",
+      "row_index": 1887,
+      "csv_line": 1889,
+      "seq_value": "32",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "kg",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1887
+    },
+    {
+      "error_id": "INJ-SD0007-VS-082",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0028",
+      "row_index": 475,
+      "csv_line": 477,
+      "seq_value": "5",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "breaths/min",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 475
+    },
+    {
+      "error_id": "INJ-SD0007-VS-083",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0040",
+      "row_index": 730,
+      "csv_line": 732,
+      "seq_value": "28",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "beats/min",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 730
+    },
+    {
+      "error_id": "INJ-SD0007-VS-084",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0007",
+      "row_index": 141,
+      "csv_line": 143,
+      "seq_value": "14",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "mmHg",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 141
+    },
+    {
+      "error_id": "INJ-SD0007-VS-085",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0032",
+      "row_index": 1323,
+      "csv_line": 1325,
+      "seq_value": "33",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "mmHg",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1323
+    },
+    {
+      "error_id": "INJ-SD0007-VS-086",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0035",
+      "row_index": 1356,
+      "csv_line": 1358,
+      "seq_value": "3",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "cm",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1356
+    },
+    {
+      "error_id": "INJ-SD0007-VS-087",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0046",
+      "row_index": 837,
+      "csv_line": 839,
+      "seq_value": "17",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "kg/m2",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 837
+    },
+    {
+      "error_id": "INJ-SD0007-VS-088",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0014",
+      "row_index": 1049,
+      "csv_line": 1051,
+      "seq_value": "21",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "breaths/min",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1049
+    },
+    {
+      "error_id": "INJ-SD0007-VS-089",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0004",
+      "row_index": 89,
+      "csv_line": 91,
+      "seq_value": "26",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "mmHg",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 89
+    },
+    {
+      "error_id": "INJ-SD0007-VS-090",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0012",
+      "row_index": 1830,
+      "csv_line": 1832,
+      "seq_value": "39",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "C",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1830
+    },
+    {
+      "error_id": "INJ-SD0007-VS-091",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0028",
+      "row_index": 518,
+      "csv_line": 520,
+      "seq_value": "48",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "kg",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 518
+    },
+    {
+      "error_id": "INJ-SD0007-VS-092",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0032",
+      "row_index": 1343,
+      "csv_line": 1345,
+      "seq_value": "53",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "mmHg",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1343
+    },
+    {
+      "error_id": "INJ-SD0007-VS-093",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0044",
+      "row_index": 1563,
+      "csv_line": 1565,
+      "seq_value": "43",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "cm",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1563
+    },
+    {
+      "error_id": "INJ-SD0007-VS-094",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0032",
+      "row_index": 1352,
+      "csv_line": 1354,
+      "seq_value": "62",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "C",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1352
+    },
+    {
+      "error_id": "INJ-SD0007-VS-095",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0012",
+      "row_index": 1850,
+      "csv_line": 1852,
+      "seq_value": "59",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "cm",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1850
+    },
+    {
+      "error_id": "INJ-SD0007-VS-096",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0032",
+      "row_index": 1328,
+      "csv_line": 1330,
+      "seq_value": "38",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "C",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1328
+    },
+    {
+      "error_id": "INJ-SD0007-VS-097",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0050",
+      "row_index": 1595,
+      "csv_line": 1597,
+      "seq_value": "3",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "cm",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1595
+    },
+    {
+      "error_id": "INJ-SD0007-VS-098",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0024",
+      "row_index": 2065,
+      "csv_line": 2067,
+      "seq_value": "26",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "mmHg",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 2065
+    },
+    {
+      "error_id": "INJ-SD0007-VS-099",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0024",
+      "row_index": 2056,
+      "csv_line": 2058,
+      "seq_value": "17",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "kg/m2",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 2056
+    },
+    {
+      "error_id": "INJ-SD0007-VS-100",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0035",
+      "row_index": 1355,
+      "csv_line": 1357,
+      "seq_value": "2",
+      "variables_modified": {
+        "VSSTRESU": {
+          "original": "mmHg",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1355
+    },
+    {
+      "error_id": "INJ-SD0007-EG-101",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0019",
+      "row_index": 88,
+      "csv_line": 90,
+      "seq_value": "4",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "msec",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 88
+    },
+    {
+      "error_id": "INJ-SD0007-EG-102",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0025",
+      "row_index": 123,
+      "csv_line": 125,
+      "seq_value": "9",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "msec",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 123
+    },
+    {
+      "error_id": "INJ-SD0007-EG-103",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0017",
+      "row_index": 315,
+      "csv_line": 317,
+      "seq_value": "6",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "beats/min",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 315
+    },
+    {
+      "error_id": "INJ-SD0007-EG-104",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0037",
+      "row_index": 178,
+      "csv_line": 180,
+      "seq_value": "4",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "msec",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 178
+    },
+    {
+      "error_id": "INJ-SD0007-EG-105",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0023",
+      "row_index": 347,
+      "csv_line": 349,
+      "seq_value": "8",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "msec",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 347
+    },
+    {
+      "error_id": "INJ-SD0007-EG-106",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0037",
+      "row_index": 186,
+      "csv_line": 188,
+      "seq_value": "12",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "msec",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 186
+    },
+    {
+      "error_id": "INJ-SD0007-EG-107",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0006",
+      "row_index": 488,
+      "csv_line": 490,
+      "seq_value": "9",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "msec",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 488
+    },
+    {
+      "error_id": "INJ-SD0007-EG-108",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0039",
+      "row_index": 657,
+      "csv_line": 659,
+      "seq_value": "13",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "msec",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 657
+    },
+    {
+      "error_id": "INJ-SD0007-EG-109",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0001",
+      "row_index": 13,
+      "csv_line": 15,
+      "seq_value": "14",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "msec",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 13
+    },
+    {
+      "error_id": "INJ-SD0007-EG-110",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0030",
+      "row_index": 610,
+      "csv_line": 612,
+      "seq_value": "11",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "beats/min",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 610
+    },
+    {
+      "error_id": "INJ-SD0007-EG-111",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0028",
+      "row_index": 140,
+      "csv_line": 142,
+      "seq_value": "11",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "beats/min",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 140
+    },
+    {
+      "error_id": "INJ-SD0007-EG-112",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0009",
+      "row_index": 501,
+      "csv_line": 503,
+      "seq_value": "7",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "msec",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 501
+    },
+    {
+      "error_id": "INJ-SD0007-EG-113",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0037",
+      "row_index": 177,
+      "csv_line": 179,
+      "seq_value": "3",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "msec",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 177
+    },
+    {
+      "error_id": "INJ-SD0007-EG-114",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0037",
+      "row_index": 179,
+      "csv_line": 181,
+      "seq_value": "5",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "msec",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 179
+    },
+    {
+      "error_id": "INJ-SD0007-EG-115",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0017",
+      "row_index": 324,
+      "csv_line": 326,
+      "seq_value": "15",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "msec",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 324
+    },
+    {
+      "error_id": "INJ-SD0007-EG-116",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0003",
+      "row_index": 471,
+      "csv_line": 473,
+      "seq_value": "7",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "msec",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 471
+    },
+    {
+      "error_id": "INJ-SD0007-EG-117",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0049",
+      "row_index": 245,
+      "csv_line": 247,
+      "seq_value": "11",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "beats/min",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 245
+    },
+    {
+      "error_id": "INJ-SD0007-EG-118",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0021",
+      "row_index": 563,
+      "csv_line": 565,
+      "seq_value": "9",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "msec",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 563
+    },
+    {
+      "error_id": "INJ-SD0007-EG-119",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0030",
+      "row_index": 601,
+      "csv_line": 603,
+      "seq_value": "2",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "msec",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 601
+    },
+    {
+      "error_id": "INJ-SD0007-EG-120",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0045",
+      "row_index": 688,
+      "csv_line": 690,
+      "seq_value": "14",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "msec",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 688
+    },
+    {
+      "error_id": "INJ-SD0007-EG-121",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0038",
+      "row_index": 404,
+      "csv_line": 406,
+      "seq_value": "10",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "msec",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 404
+    },
+    {
+      "error_id": "INJ-SD0007-EG-122",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0035",
+      "row_index": 382,
+      "csv_line": 384,
+      "seq_value": "3",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "msec",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 382
+    },
+    {
+      "error_id": "INJ-SD0007-EG-123",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0013",
+      "row_index": 66,
+      "csv_line": 68,
+      "seq_value": "12",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "msec",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 66
+    },
+    {
+      "error_id": "INJ-SD0007-EG-124",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0020",
+      "row_index": 333,
+      "csv_line": 335,
+      "seq_value": "9",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "msec",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 333
+    },
+    {
+      "error_id": "INJ-SD0007-EG-125",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0010",
+      "row_index": 54,
+      "csv_line": 56,
+      "seq_value": "10",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "msec",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 54
+    },
+    {
+      "error_id": "INJ-SD0007-EG-126",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0033",
+      "row_index": 622,
+      "csv_line": 624,
+      "seq_value": "8",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "msec",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 622
+    },
+    {
+      "error_id": "INJ-SD0007-EG-127",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0009",
+      "row_index": 504,
+      "csv_line": 506,
+      "seq_value": "10",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "msec",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 504
+    },
+    {
+      "error_id": "INJ-SD0007-EG-128",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0006",
+      "row_index": 487,
+      "csv_line": 489,
+      "seq_value": "8",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "msec",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 487
+    },
+    {
+      "error_id": "INJ-SD0007-EG-129",
+      "rule_id": "SD0007",
+      "rule_message": "Inconsistent value for Standard Units",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0043",
+      "row_index": 212,
+      "csv_line": 214,
+      "seq_value": "8",
+      "variables_modified": {
+        "EGSTRESU": {
+          "original": "msec",
+          "injected": "mg/dL"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGSTRESU changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 212
+    },
+    {
+      "error_id": "INJ-SD0040-LB-001",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0042",
+      "row_index": 1964,
+      "csv_line": 1966,
+      "seq_value": "19",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Hemoglobin",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1964
+    },
+    {
+      "error_id": "INJ-SD0040-LB-002",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0009",
+      "row_index": 1521,
+      "csv_line": 1523,
+      "seq_value": "45",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Creatinine",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1521
+    },
+    {
+      "error_id": "INJ-SD0040-LB-003",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0004",
+      "row_index": 46,
+      "csv_line": 48,
+      "seq_value": "12",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Hemoglobin",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 46
+    },
+    {
+      "error_id": "INJ-SD0040-LB-004",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0022",
+      "row_index": 332,
+      "csv_line": 334,
+      "seq_value": "25",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Glucose",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 332
+    },
+    {
+      "error_id": "INJ-SD0040-LB-005",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0026",
+      "row_index": 1078,
+      "csv_line": 1080,
+      "seq_value": "1",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Alanine Aminotransferase",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1078
+    },
+    {
+      "error_id": "INJ-SD0040-LB-006",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0019",
+      "row_index": 291,
+      "csv_line": 293,
+      "seq_value": "40",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Hemoglobin",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 291
+    },
+    {
+      "error_id": "INJ-SD0040-LB-007",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0001",
+      "row_index": 20,
+      "csv_line": 22,
+      "seq_value": "21",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Leukocytes",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 20
+    },
+    {
+      "error_id": "INJ-SD0040-LB-008",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0007",
+      "row_index": 133,
+      "csv_line": 135,
+      "seq_value": "43",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Alanine Aminotransferase",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 133
+    },
+    {
+      "error_id": "INJ-SD0040-LB-009",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0020",
+      "row_index": 1001,
+      "csv_line": 1003,
+      "seq_value": "22",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Alanine Aminotransferase",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1001
+    },
+    {
+      "error_id": "INJ-SD0040-LB-010",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0050",
+      "row_index": 1389,
+      "csv_line": 1391,
+      "seq_value": "32",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Glucose",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1389
+    },
+    {
+      "error_id": "INJ-SD0040-LB-011",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0040",
+      "row_index": 629,
+      "csv_line": 631,
+      "seq_value": "7",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Leukocytes",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 629
+    },
+    {
+      "error_id": "INJ-SD0040-LB-012",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0042",
+      "row_index": 1972,
+      "csv_line": 1974,
+      "seq_value": "27",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Platelets",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1972
+    },
+    {
+      "error_id": "INJ-SD0040-LB-013",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0016",
+      "row_index": 226,
+      "csv_line": 228,
+      "seq_value": "31",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Creatinine",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 226
+    },
+    {
+      "error_id": "INJ-SD0040-LB-014",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0038",
+      "row_index": 1208,
+      "csv_line": 1210,
+      "seq_value": "12",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Hemoglobin",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1208
+    },
+    {
+      "error_id": "INJ-SD0040-LB-015",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0021",
+      "row_index": 1716,
+      "csv_line": 1718,
+      "seq_value": "44",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Aspartate Aminotransferase",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1716
+    },
+    {
+      "error_id": "INJ-SD0040-LB-016",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0042",
+      "row_index": 1965,
+      "csv_line": 1967,
+      "seq_value": "20",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Platelets",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1965
+    },
+    {
+      "error_id": "INJ-SD0040-LB-017",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0022",
+      "row_index": 310,
+      "csv_line": 312,
+      "seq_value": "3",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Creatinine",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 310
+    },
+    {
+      "error_id": "INJ-SD0040-LB-018",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0043",
+      "row_index": 686,
+      "csv_line": 688,
+      "seq_value": "15",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Alanine Aminotransferase",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 686
+    },
+    {
+      "error_id": "INJ-SD0040-LB-019",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0004",
+      "row_index": 44,
+      "csv_line": 46,
+      "seq_value": "10",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Creatinine",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 44
+    },
+    {
+      "error_id": "INJ-SD0040-LB-020",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0040",
+      "row_index": 657,
+      "csv_line": 659,
+      "seq_value": "35",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Leukocytes",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 657
+    },
+    {
+      "error_id": "INJ-SD0040-LB-021",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0050",
+      "row_index": 1381,
+      "csv_line": 1383,
+      "seq_value": "24",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Creatinine",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1381
+    },
+    {
+      "error_id": "INJ-SD0040-LB-022",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0033",
+      "row_index": 1863,
+      "csv_line": 1865,
+      "seq_value": "2",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Aspartate Aminotransferase",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1863
+    },
+    {
+      "error_id": "INJ-SD0040-LB-023",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0035",
+      "row_index": 1179,
+      "csv_line": 1181,
+      "seq_value": "39",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Glucose",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1179
+    },
+    {
+      "error_id": "INJ-SD0040-LB-024",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0050",
+      "row_index": 1378,
+      "csv_line": 1380,
+      "seq_value": "21",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Leukocytes",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1378
+    },
+    {
+      "error_id": "INJ-SD0040-LB-025",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0020",
+      "row_index": 989,
+      "csv_line": 991,
+      "seq_value": "10",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Creatinine",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 989
+    },
+    {
+      "error_id": "INJ-SD0040-LB-026",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0031",
+      "row_index": 509,
+      "csv_line": 511,
+      "seq_value": "41",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Platelets",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 509
+    },
+    {
+      "error_id": "INJ-SD0040-LB-027",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0046",
+      "row_index": 754,
+      "csv_line": 756,
+      "seq_value": "27",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Platelets",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 754
+    },
+    {
+      "error_id": "INJ-SD0040-LB-028",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0024",
+      "row_index": 1760,
+      "csv_line": 1762,
+      "seq_value": "39",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Glucose",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1760
+    },
+    {
+      "error_id": "INJ-SD0040-LB-029",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0039",
+      "row_index": 1932,
+      "csv_line": 1934,
+      "seq_value": "22",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Alanine Aminotransferase",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1932
+    },
+    {
+      "error_id": "INJ-SD0040-LB-030",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0020",
+      "row_index": 1010,
+      "csv_line": 1012,
+      "seq_value": "31",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Creatinine",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1010
+    },
+    {
+      "error_id": "INJ-SD0040-LB-031",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0018",
+      "row_index": 1668,
+      "csv_line": 1670,
+      "seq_value": "45",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Creatinine",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1668
+    },
+    {
+      "error_id": "INJ-SD0040-LB-032",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0034",
+      "row_index": 551,
+      "csv_line": 553,
+      "seq_value": "34",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Platelets",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 551
+    },
+    {
+      "error_id": "INJ-SD0040-LB-033",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0009",
+      "row_index": 1527,
+      "csv_line": 1529,
+      "seq_value": "51",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Aspartate Aminotransferase",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1527
+    },
+    {
+      "error_id": "INJ-SD0040-LB-034",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0016",
+      "row_index": 248,
+      "csv_line": 250,
+      "seq_value": "53",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Glucose",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 248
+    },
+    {
+      "error_id": "INJ-SD0040-LB-035",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0050",
+      "row_index": 1402,
+      "csv_line": 1404,
+      "seq_value": "45",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Creatinine",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1402
+    },
+    {
+      "error_id": "INJ-SD0040-LB-036",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0011",
+      "row_index": 857,
+      "csv_line": 859,
+      "seq_value": "25",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Glucose",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 857
+    },
+    {
+      "error_id": "INJ-SD0040-LB-037",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0035",
+      "row_index": 1154,
+      "csv_line": 1156,
+      "seq_value": "14",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Leukocytes",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with LBTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1154
+    },
+    {
+      "error_id": "INJ-SD0040-VS-038",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0041",
+      "row_index": 1463,
+      "csv_line": 1465,
+      "seq_value": "6",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Systolic Blood Pressure",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1463
+    },
+    {
+      "error_id": "INJ-SD0040-VS-039",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0025",
+      "row_index": 437,
+      "csv_line": 439,
+      "seq_value": "15",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Temperature",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 437
+    },
+    {
+      "error_id": "INJ-SD0040-VS-040",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0019",
+      "row_index": 324,
+      "csv_line": 326,
+      "seq_value": "21",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Respiratory Rate",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 324
+    },
+    {
+      "error_id": "INJ-SD0040-VS-041",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0039",
+      "row_index": 2294,
+      "csv_line": 2296,
+      "seq_value": "24",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Weight",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 2294
+    },
+    {
+      "error_id": "INJ-SD0040-VS-042",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0040",
+      "row_index": 759,
+      "csv_line": 761,
+      "seq_value": "57",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Diastolic Blood Pressure",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 759
+    },
+    {
+      "error_id": "INJ-SD0040-VS-043",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0039",
+      "row_index": 2275,
+      "csv_line": 2277,
+      "seq_value": "5",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Respiratory Rate",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 2275
+    },
+    {
+      "error_id": "INJ-SD0040-VS-044",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0022",
+      "row_index": 373,
+      "csv_line": 375,
+      "seq_value": "7",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Temperature",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 373
+    },
+    {
+      "error_id": "INJ-SD0040-VS-045",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0019",
+      "row_index": 353,
+      "csv_line": 355,
+      "seq_value": "50",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Diastolic Blood Pressure",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 353
+    },
+    {
+      "error_id": "INJ-SD0040-VS-046",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0003",
+      "row_index": 1669,
+      "csv_line": 1671,
+      "seq_value": "29",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Systolic Blood Pressure",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1669
+    },
+    {
+      "error_id": "INJ-SD0040-VS-047",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0001",
+      "row_index": 53,
+      "csv_line": 55,
+      "seq_value": "54",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Systolic Blood Pressure",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 53
+    },
+    {
+      "error_id": "INJ-SD0040-VS-048",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0016",
+      "row_index": 298,
+      "csv_line": 300,
+      "seq_value": "51",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Height",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 298
+    },
+    {
+      "error_id": "INJ-SD0040-VS-049",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0049",
+      "row_index": 904,
+      "csv_line": 906,
+      "seq_value": "20",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Pulse Rate",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 904
+    },
+    {
+      "error_id": "INJ-SD0040-VS-050",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0005",
+      "row_index": 921,
+      "csv_line": 923,
+      "seq_value": "13",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Respiratory Rate",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 921
+    },
+    {
+      "error_id": "INJ-SD0040-VS-051",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0030",
+      "row_index": 2172,
+      "csv_line": 2174,
+      "seq_value": "5",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Respiratory Rate",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 2172
+    },
+    {
+      "error_id": "INJ-SD0040-VS-052",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0027",
+      "row_index": 2146,
+      "csv_line": 2148,
+      "seq_value": "43",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Height",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 2146
+    },
+    {
+      "error_id": "INJ-SD0040-VS-053",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0031",
+      "row_index": 585,
+      "csv_line": 587,
+      "seq_value": "51",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Height",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 585
+    },
+    {
+      "error_id": "INJ-SD0040-VS-054",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0045",
+      "row_index": 2388,
+      "csv_line": 2390,
+      "seq_value": "46",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Systolic Blood Pressure",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 2388
+    },
+    {
+      "error_id": "INJ-SD0040-VS-055",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0001",
+      "row_index": 12,
+      "csv_line": 14,
+      "seq_value": "13",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Respiratory Rate",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 12
+    },
+    {
+      "error_id": "INJ-SD0040-VS-056",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0023",
+      "row_index": 1228,
+      "csv_line": 1230,
+      "seq_value": "18",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Diastolic Blood Pressure",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1228
+    },
+    {
+      "error_id": "INJ-SD0040-VS-057",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0025",
+      "row_index": 428,
+      "csv_line": 430,
+      "seq_value": "6",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Systolic Blood Pressure",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 428
+    },
+    {
+      "error_id": "INJ-SD0040-VS-058",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0001",
+      "row_index": 34,
+      "csv_line": 36,
+      "seq_value": "35",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Height",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 34
+    },
+    {
+      "error_id": "INJ-SD0040-VS-059",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0034",
+      "row_index": 636,
+      "csv_line": 638,
+      "seq_value": "46",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Systolic Blood Pressure",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 636
+    },
+    {
+      "error_id": "INJ-SD0040-VS-060",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0043",
+      "row_index": 811,
+      "csv_line": 813,
+      "seq_value": "46",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Temperature",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 811
+    },
+    {
+      "error_id": "INJ-SD0040-VS-061",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0031",
+      "row_index": 564,
+      "csv_line": 566,
+      "seq_value": "30",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Systolic Blood Pressure",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 564
+    },
+    {
+      "error_id": "INJ-SD0040-VS-062",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0043",
+      "row_index": 785,
+      "csv_line": 787,
+      "seq_value": "20",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Pulse Rate",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 785
+    },
+    {
+      "error_id": "INJ-SD0040-VS-063",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0016",
+      "row_index": 300,
+      "csv_line": 302,
+      "seq_value": "53",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Respiratory Rate",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 300
+    },
+    {
+      "error_id": "INJ-SD0040-VS-064",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0011",
+      "row_index": 992,
+      "csv_line": 994,
+      "seq_value": "28",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Pulse Rate",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 992
+    },
+    {
+      "error_id": "INJ-SD0040-VS-065",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0028",
+      "row_index": 480,
+      "csv_line": 482,
+      "seq_value": "10",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Diastolic Blood Pressure",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 480
+    },
+    {
+      "error_id": "INJ-SD0040-VS-066",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0027",
+      "row_index": 2136,
+      "csv_line": 2138,
+      "seq_value": "33",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "BMI",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 2136
+    },
+    {
+      "error_id": "INJ-SD0040-VS-067",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0001",
+      "row_index": 44,
+      "csv_line": 46,
+      "seq_value": "45",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Respiratory Rate",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 44
+    },
+    {
+      "error_id": "INJ-SD0040-VS-068",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0023",
+      "row_index": 1224,
+      "csv_line": 1226,
+      "seq_value": "14",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Systolic Blood Pressure",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1224
+    },
+    {
+      "error_id": "INJ-SD0040-VS-069",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0045",
+      "row_index": 2381,
+      "csv_line": 2383,
+      "seq_value": "39",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Temperature",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 2381
+    },
+    {
+      "error_id": "INJ-SD0040-VS-070",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0049",
+      "row_index": 895,
+      "csv_line": 897,
+      "seq_value": "11",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Height",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 895
+    },
+    {
+      "error_id": "INJ-SD0040-VS-071",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0039",
+      "row_index": 2302,
+      "csv_line": 2304,
+      "seq_value": "32",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Weight",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 2302
+    },
+    {
+      "error_id": "INJ-SD0040-EG-072",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0041",
+      "row_index": 416,
+      "csv_line": 418,
+      "seq_value": "7",
+      "variables_modified": {
+        "EGTEST": {
+          "original": "PR Interval",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 416
+    },
+    {
+      "error_id": "INJ-SD0040-EG-073",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0027",
+      "row_index": 598,
+      "csv_line": 600,
+      "seq_value": "14",
+      "variables_modified": {
+        "EGTEST": {
+          "original": "QTcF Interval",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 598
+    },
+    {
+      "error_id": "INJ-SD0040-EG-074",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0042",
+      "row_index": 672,
+      "csv_line": 674,
+      "seq_value": "13",
+      "variables_modified": {
+        "EGTEST": {
+          "original": "QRS Duration",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 672
+    },
+    {
+      "error_id": "INJ-SD0040-EG-075",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0049",
+      "row_index": 239,
+      "csv_line": 241,
+      "seq_value": "5",
+      "variables_modified": {
+        "EGTEST": {
+          "original": "RR Interval",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 239
+    },
+    {
+      "error_id": "INJ-SD0040-EG-076",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0018",
+      "row_index": 550,
+      "csv_line": 552,
+      "seq_value": "11",
+      "variables_modified": {
+        "EGTEST": {
+          "original": "Heart Rate",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 550
+    },
+    {
+      "error_id": "INJ-SD0040-EG-077",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0027",
+      "row_index": 590,
+      "csv_line": 592,
+      "seq_value": "6",
+      "variables_modified": {
+        "EGTEST": {
+          "original": "Heart Rate",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 590
+    },
+    {
+      "error_id": "INJ-SD0040-EG-078",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0030",
+      "row_index": 723,
+      "csv_line": 725,
+      "seq_value": "2",
+      "variables_modified": {
+        "EGTEST": {
+          "original": "PR Interval",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 723
+    },
+    {
+      "error_id": "INJ-SD0040-EG-079",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0040",
+      "row_index": 204,
+      "csv_line": 206,
+      "seq_value": "15",
+      "variables_modified": {
+        "EGTEST": {
+          "original": "RR Interval",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 204
+    },
+    {
+      "error_id": "INJ-SD0040-EG-080",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0036",
+      "row_index": 636,
+      "csv_line": 638,
+      "seq_value": "7",
+      "variables_modified": {
+        "EGTEST": {
+          "original": "PR Interval",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 636
+    },
+    {
+      "error_id": "INJ-SD0040-EG-081",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0018",
+      "row_index": 544,
+      "csv_line": 546,
+      "seq_value": "5",
+      "variables_modified": {
+        "EGTEST": {
+          "original": "RR Interval",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 544
+    },
+    {
+      "error_id": "INJ-SD0040-EG-082",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0033",
+      "row_index": 626,
+      "csv_line": 628,
+      "seq_value": "12",
+      "variables_modified": {
+        "EGTEST": {
+          "original": "PR Interval",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 626
+    },
+    {
+      "error_id": "INJ-SD0040-EG-083",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0044",
+      "row_index": 436,
+      "csv_line": 438,
+      "seq_value": "12",
+      "variables_modified": {
+        "EGTEST": {
+          "original": "PR Interval",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 436
+    },
+    {
+      "error_id": "INJ-SD0040-EG-084",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0008",
+      "row_index": 272,
+      "csv_line": 274,
+      "seq_value": "8",
+      "variables_modified": {
+        "EGTEST": {
+          "original": "QRS Duration",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 272
+    },
+    {
+      "error_id": "INJ-SD0040-EG-085",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0047",
+      "row_index": 447,
+      "csv_line": 449,
+      "seq_value": "8",
+      "variables_modified": {
+        "EGTEST": {
+          "original": "QRS Duration",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 447
+    },
+    {
+      "error_id": "INJ-SD0040-EG-086",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0018",
+      "row_index": 554,
+      "csv_line": 556,
+      "seq_value": "15",
+      "variables_modified": {
+        "EGTEST": {
+          "original": "RR Interval",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 554
+    },
+    {
+      "error_id": "INJ-SD0040-EG-087",
+      "rule_id": "SD0040",
+      "rule_message": "Inconsistent value for --TEST within --TESTCD",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0034",
+      "row_index": 166,
+      "csv_line": 168,
+      "seq_value": "7",
+      "variables_modified": {
+        "EGTEST": {
+          "original": "PR Interval",
+          "injected": "Inconsistent Test Name"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGTEST changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 166
+    },
+    {
+      "error_id": "INJ-SD0017-DA-001",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "DA",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0008",
+      "row_index": 11893,
+      "csv_line": 11895,
+      "seq_value": "176",
+      "variables_modified": {
+        "DATEST": {
+          "original": "Remaining Amount",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 11893
+    },
+    {
+      "error_id": "INJ-SD0017-DA-002",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "DA",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0033",
+      "row_index": 26437,
+      "csv_line": 26439,
+      "seq_value": "8",
+      "variables_modified": {
+        "DATEST": {
+          "original": "Remaining Amount",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 26437
+    },
+    {
+      "error_id": "INJ-SD0017-DA-003",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "DA",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0046",
+      "row_index": 10676,
+      "csv_line": 10678,
+      "seq_value": "141",
+      "variables_modified": {
+        "DATEST": {
+          "original": "Dispensed Amount",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 10676
+    },
+    {
+      "error_id": "INJ-SD0017-DA-004",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "DA",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0034",
+      "row_index": 8065,
+      "csv_line": 8067,
+      "seq_value": "86",
+      "variables_modified": {
+        "DATEST": {
+          "original": "Returned Amount",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 8065
+    },
+    {
+      "error_id": "INJ-SD0017-DA-005",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "DA",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0023",
+      "row_index": 14967,
+      "csv_line": 14969,
+      "seq_value": "277",
+      "variables_modified": {
+        "DATEST": {
+          "original": "Dispensed Amount",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 14967
+    },
+    {
+      "error_id": "INJ-SD0017-DA-006",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "DA",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0038",
+      "row_index": 16875,
+      "csv_line": 16877,
+      "seq_value": "133",
+      "variables_modified": {
+        "DATEST": {
+          "original": "Dispensed Amount",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 16875
+    },
+    {
+      "error_id": "INJ-SD0017-DA-007",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "DA",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0026",
+      "row_index": 15323,
+      "csv_line": 15325,
+      "seq_value": "9",
+      "variables_modified": {
+        "DATEST": {
+          "original": "Returned Amount",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 15323
+    },
+    {
+      "error_id": "INJ-SD0017-DA-008",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "DA",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0023",
+      "row_index": 14731,
+      "csv_line": 14733,
+      "seq_value": "41",
+      "variables_modified": {
+        "DATEST": {
+          "original": "Remaining Amount",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 14731
+    },
+    {
+      "error_id": "INJ-SD0017-DA-009",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "DA",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0044",
+      "row_index": 18357,
+      "csv_line": 18359,
+      "seq_value": "217",
+      "variables_modified": {
+        "DATEST": {
+          "original": "Dispensed Amount",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 18357
+    },
+    {
+      "error_id": "INJ-SD0017-DA-010",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "DA",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0033",
+      "row_index": 26457,
+      "csv_line": 26459,
+      "seq_value": "28",
+      "variables_modified": {
+        "DATEST": {
+          "original": "Dispensed Amount",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 26457
+    },
+    {
+      "error_id": "INJ-SD0017-DA-011",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "DA",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0046",
+      "row_index": 11238,
+      "csv_line": 11240,
+      "seq_value": "703",
+      "variables_modified": {
+        "DATEST": {
+          "original": "Remaining Amount",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 11238
+    },
+    {
+      "error_id": "INJ-SD0017-DA-012",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "DA",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0005",
+      "row_index": 11550,
+      "csv_line": 11552,
+      "seq_value": "13",
+      "variables_modified": {
+        "DATEST": {
+          "original": "Dispensed Amount",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 11550
+    },
+    {
+      "error_id": "INJ-SD0017-EG-013",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0010",
+      "row_index": 52,
+      "csv_line": 54,
+      "seq_value": "8",
+      "variables_modified": {
+        "EGTEST": {
+          "original": "QRS Duration",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 52
+    },
+    {
+      "error_id": "INJ-SD0017-EG-014",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0048",
+      "row_index": 692,
+      "csv_line": 694,
+      "seq_value": "3",
+      "variables_modified": {
+        "EGTEST": {
+          "original": "QRS Duration",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 692
+    },
+    {
+      "error_id": "INJ-SD0017-EG-015",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0038",
+      "row_index": 402,
+      "csv_line": 404,
+      "seq_value": "8",
+      "variables_modified": {
+        "EGTEST": {
+          "original": "QRS Duration",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 402
+    },
+    {
+      "error_id": "INJ-SD0017-EG-016",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0047",
+      "row_index": 440,
+      "csv_line": 442,
+      "seq_value": "1",
+      "variables_modified": {
+        "EGTEST": {
+          "original": "Heart Rate",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 440
+    },
+    {
+      "error_id": "INJ-SD0017-EG-017",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0049",
+      "row_index": 235,
+      "csv_line": 237,
+      "seq_value": "1",
+      "variables_modified": {
+        "EGTEST": {
+          "original": "Heart Rate",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 235
+    },
+    {
+      "error_id": "INJ-SD0017-IE-018",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "IE",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0029",
+      "row_index": 1,
+      "csv_line": 3,
+      "seq_value": "1",
+      "variables_modified": {
+        "IETEST": {
+          "original": "Subject meets diagnosis criteria for the study indication",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1
+    },
+    {
+      "error_id": "INJ-SD0017-LB-019",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0041",
+      "row_index": 1250,
+      "csv_line": 1252,
+      "seq_value": "12",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Hemoglobin",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1250
+    },
+    {
+      "error_id": "INJ-SD0017-LB-020",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0048",
+      "row_index": 2034,
+      "csv_line": 2036,
+      "seq_value": "12",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Hemoglobin",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 2034
+    },
+    {
+      "error_id": "INJ-SD0017-LB-021",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0008",
+      "row_index": 813,
+      "csv_line": 815,
+      "seq_value": "9",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Aspartate Aminotransferase",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 813
+    },
+    {
+      "error_id": "INJ-SD0017-LB-022",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0036",
+      "row_index": 1891,
+      "csv_line": 1893,
+      "seq_value": "9",
+      "variables_modified": {
+        "LBTEST": {
+          "original": "Aspartate Aminotransferase",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1891
+    },
+    {
+      "error_id": "INJ-SD0017-PE-023",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "PE",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0047",
+      "row_index": 616,
+      "csv_line": 618,
+      "seq_value": "17",
+      "variables_modified": {
+        "PETEST": {
+          "original": "MUSCULOSKELETAL",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 616
+    },
+    {
+      "error_id": "INJ-SD0017-PE-024",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "PE",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0047",
+      "row_index": 611,
+      "csv_line": 613,
+      "seq_value": "12",
+      "variables_modified": {
+        "PETEST": {
+          "original": "CARDIOVASCULAR",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 611
+    },
+    {
+      "error_id": "INJ-SD0017-PE-025",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "PE",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0047",
+      "row_index": 609,
+      "csv_line": 611,
+      "seq_value": "10",
+      "variables_modified": {
+        "PETEST": {
+          "original": "SKIN",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 609
+    },
+    {
+      "error_id": "INJ-SD0017-PE-026",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "PE",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0048",
+      "row_index": 942,
+      "csv_line": 944,
+      "seq_value": "3",
+      "variables_modified": {
+        "PETEST": {
+          "original": "EARS, NOSE, AND THROAT",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 942
+    },
+    {
+      "error_id": "INJ-SD0017-SC-027",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "SC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0008",
+      "row_index": 74,
+      "csv_line": 76,
+      "seq_value": "3",
+      "variables_modified": {
+        "SCTEST": {
+          "original": "Duration of Disease",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 74
+    },
+    {
+      "error_id": "INJ-SD0017-VS-028",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0048",
+      "row_index": 2405,
+      "csv_line": 2407,
+      "seq_value": "15",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Temperature",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 2405
+    },
+    {
+      "error_id": "INJ-SD0017-VS-029",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0036",
+      "row_index": 2247,
+      "csv_line": 2249,
+      "seq_value": "17",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "BMI",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 2247
+    },
+    {
+      "error_id": "INJ-SD0017-VS-030",
+      "rule_id": "SD0017",
+      "rule_message": "Invalid value for --TEST variable",
+      "category": "FA1",
+      "primitive": "set_invalid_value",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0048",
+      "row_index": 2398,
+      "csv_line": 2400,
+      "seq_value": "8",
+      "variables_modified": {
+        "VSTEST": {
+          "original": "Weight",
+          "injected": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789101112"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 2398
+    },
+    {
+      "error_id": "INJ-SD1043-DA-001",
+      "rule_id": "SD1043",
+      "rule_message": "Inconsistent value for --TESTCD within --TEST",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "DA",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0008",
+      "row_index": 11855,
+      "csv_line": 11857,
+      "seq_value": "138",
+      "variables_modified": {
+        "DATESTCD": {
+          "original": "RETAMT",
+          "injected": "ALBX"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with DATESTCD changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 11855
+    },
+    {
+      "error_id": "INJ-SD1043-DA-002",
+      "rule_id": "SD1043",
+      "rule_message": "Inconsistent value for --TESTCD within --TEST",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "DA",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0006",
+      "row_index": 20339,
+      "csv_line": 20341,
+      "seq_value": "27",
+      "variables_modified": {
+        "DATESTCD": {
+          "original": "RETAMT",
+          "injected": "ALBX"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with DATESTCD changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 20339
+    },
+    {
+      "error_id": "INJ-SD1043-DA-003",
+      "rule_id": "SD1043",
+      "rule_message": "Inconsistent value for --TESTCD within --TEST",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "DA",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0008",
+      "row_index": 11942,
+      "csv_line": 11944,
+      "seq_value": "225",
+      "variables_modified": {
+        "DATESTCD": {
+          "original": "RETAMT",
+          "injected": "ALBX"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with DATESTCD changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 11942
+    },
+    {
+      "error_id": "INJ-SD1043-EG-004",
+      "rule_id": "SD1043",
+      "rule_message": "Inconsistent value for --TESTCD within --TEST",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0005",
+      "row_index": 252,
+      "csv_line": 254,
+      "seq_value": "3",
+      "variables_modified": {
+        "EGTESTCD": {
+          "original": "QRSDUR",
+          "injected": "ALBX"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGTESTCD changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 252
+    },
+    {
+      "error_id": "INJ-SD1043-EG-005",
+      "rule_id": "SD1043",
+      "rule_message": "Inconsistent value for --TESTCD within --TEST",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0036",
+      "row_index": 742,
+      "csv_line": 744,
+      "seq_value": "7",
+      "variables_modified": {
+        "EGTESTCD": {
+          "original": "PRINTVL",
+          "injected": "ALBX"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGTESTCD changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 742
+    },
+    {
+      "error_id": "INJ-SD1043-EG-006",
+      "rule_id": "SD1043",
+      "rule_message": "Inconsistent value for --TESTCD within --TEST",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0036",
+      "row_index": 630,
+      "csv_line": 632,
+      "seq_value": "1",
+      "variables_modified": {
+        "EGTESTCD": {
+          "original": "HR",
+          "injected": "ALBX"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGTESTCD changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 630
+    },
+    {
+      "error_id": "INJ-SD1043-EG-007",
+      "rule_id": "SD1043",
+      "rule_message": "Inconsistent value for --TESTCD within --TEST",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0036",
+      "row_index": 636,
+      "csv_line": 638,
+      "seq_value": "7",
+      "variables_modified": {
+        "EGTESTCD": {
+          "original": "PRINTVL",
+          "injected": "ALBX"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGTESTCD changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 636
+    },
+    {
+      "error_id": "INJ-SD1043-EG-008",
+      "rule_id": "SD1043",
+      "rule_message": "Inconsistent value for --TESTCD within --TEST",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0005",
+      "row_index": 263,
+      "csv_line": 265,
+      "seq_value": "14",
+      "variables_modified": {
+        "EGTESTCD": {
+          "original": "QTCF",
+          "injected": "ALBX"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with EGTESTCD changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 263
+    },
+    {
+      "error_id": "INJ-SD1043-IE-009",
+      "rule_id": "SD1043",
+      "rule_message": "Inconsistent value for --TESTCD within --TEST",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "IE",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0029",
+      "row_index": 1,
+      "csv_line": 3,
+      "seq_value": "1",
+      "variables_modified": {
+        "IETESTCD": {
+          "original": "INCL03",
+          "injected": "ALBX"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with IETESTCD changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1
+    },
+    {
+      "error_id": "INJ-SD1043-PE-010",
+      "rule_id": "SD1043",
+      "rule_message": "Inconsistent value for --TESTCD within --TEST",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "PE",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0006",
+      "row_index": 668,
+      "csv_line": 670,
+      "seq_value": "9",
+      "variables_modified": {
+        "PETESTCD": {
+          "original": "RESPIRAT",
+          "injected": "ALBX"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with PETESTCD changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 668
+    },
+    {
+      "error_id": "INJ-SD1043-PE-011",
+      "rule_id": "SD1043",
+      "rule_message": "Inconsistent value for --TESTCD within --TEST",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "PE",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0006",
+      "row_index": 673,
+      "csv_line": 675,
+      "seq_value": "14",
+      "variables_modified": {
+        "PETESTCD": {
+          "original": "EYES",
+          "injected": "ALBX"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with PETESTCD changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 673
+    },
+    {
+      "error_id": "INJ-SD1043-PE-012",
+      "rule_id": "SD1043",
+      "rule_message": "Inconsistent value for --TESTCD within --TEST",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "PE",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0010",
+      "row_index": 79,
+      "csv_line": 81,
+      "seq_value": "20",
+      "variables_modified": {
+        "PETESTCD": {
+          "original": "SKIN",
+          "injected": "ALBX"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with PETESTCD changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 79
+    },
+    {
+      "error_id": "INJ-SD1043-PE-013",
+      "rule_id": "SD1043",
+      "rule_message": "Inconsistent value for --TESTCD within --TEST",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "PE",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0026",
+      "row_index": 480,
+      "csv_line": 482,
+      "seq_value": "1",
+      "variables_modified": {
+        "PETESTCD": {
+          "original": "ABDOMEN",
+          "injected": "ALBX"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with PETESTCD changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 480
+    },
+    {
+      "error_id": "INJ-SD1043-VS-014",
+      "rule_id": "SD1043",
+      "rule_message": "Inconsistent value for --TESTCD within --TEST",
+      "category": "FA1",
+      "primitive": "duplicate_with_mutation",
+      "domain": "VS",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0026",
+      "row_index": 1282,
+      "csv_line": 1284,
+      "seq_value": "8",
+      "variables_modified": {
+        "VSTESTCD": {
+          "original": "WEIGHT",
+          "injected": "ALBX"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "duplicated row with VSTESTCD changed on the copy",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1282
+    },
+    {
+      "error_id": "INJ-SD1212-LB-002",
+      "rule_id": "SD1212",
+      "rule_message": "--STRESN does not equal --STRESC",
+      "category": "FA2",
+      "primitive": "mismatch_pair",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0026",
+      "row_index": 1087,
+      "csv_line": 1089,
+      "seq_value": "10",
+      "variables_modified": {
+        "LBSTRESN": {
+          "original": "61.97",
+          "injected": "61.97_X"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1087
+    },
+    {
+      "error_id": "INJ-SD1272-EG-001",
+      "rule_id": "SD1272",
+      "rule_message": "--TESTCD equals 'OTHER'",
+      "category": "FA2",
+      "primitive": "set_invalid_value",
+      "domain": "EG",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0010",
+      "row_index": 47,
+      "csv_line": 49,
+      "seq_value": "3",
+      "variables_modified": {
+        "EGTESTCD": {
+          "original": "QRSDUR",
+          "injected": "OTHER"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 47
+    },
+    {
+      "error_id": "INJ-SD1272-LB-002",
+      "rule_id": "SD1272",
+      "rule_message": "--TESTCD equals 'OTHER'",
+      "category": "FA2",
+      "primitive": "set_invalid_value",
+      "domain": "LB",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0010",
+      "row_index": 147,
+      "csv_line": 149,
+      "seq_value": "8",
+      "variables_modified": {
+        "LBTESTCD": {
+          "original": "ALT",
+          "injected": "OTHER"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 147
+    }
+  ],
+  "summary_by_rule": {
+    "SD1046": 1,
+    "SD0085": 1,
+    "SD0007": 129,
+    "SD0040": 87,
+    "SD0017": 30,
+    "SD1043": 14,
+    "SD1212": 1,
+    "SD1272": 2
+  },
+  "summary_by_category": {
+    "FND1": 2,
+    "FA1": 260,
+    "FA2": 3
+  },
+  "summary_by_domain": {
+    "IE": 4,
+    "LB": 93,
+    "VS": 88,
+    "EG": 56,
+    "DA": 15,
+    "PE": 8,
+    "SC": 1
+  },
+  "summary_status": {
+    "injected": 265,
+    "overwritten": 0,
+    "failed_self_validation": 0
+  },
+  "warnings": [
+    "Re-derivation skipped: ConformanceLayer not importable. Derived fields (--DY, EPOCH) may not reflect injected errors."
+  ]
+}

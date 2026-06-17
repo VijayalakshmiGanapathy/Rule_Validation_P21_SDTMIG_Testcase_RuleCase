@@ -1,0 +1,408 @@
+{
+  "generated_at": "2026-06-16T11:39:38.374607",
+  "seed": 42,
+  "mode": "compound",
+  "source_dir": "/tmp/sdtm_uploads_p2cz0jvf",
+  "profile": "all",
+  "rate": 0.05,
+  "density_cap": 5,
+  "rules_available": 467,
+  "rules_injectable": 15,
+  "rules_skipped": 0,
+  "rules_injected": 15,
+  "total_mutations": 15,
+  "skipped_rules": [],
+  "errors": [
+    {
+      "error_id": "INJ-SD2213-TS-001",
+      "rule_id": "SD2213",
+      "rule_message": "Missing TITLE Trial Summary Parameter",
+      "category": "PARMI1/PARMV1",
+      "primitive": "delete_row",
+      "domain": "TS",
+      "usubjid": null,
+      "row_index": null,
+      "csv_line": null,
+      "seq_value": "1",
+      "variables_modified": {
+        "TSPARMCD": {
+          "original": "TITLE",
+          "injected": "(row deleted)"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 0
+    },
+    {
+      "error_id": "INJ-SD2214-TS-001",
+      "rule_id": "SD2214",
+      "rule_message": "Missing TPHASE Trial Summary Parameter",
+      "category": "PARMI1/PARMV1",
+      "primitive": "delete_row",
+      "domain": "TS",
+      "usubjid": null,
+      "row_index": null,
+      "csv_line": null,
+      "seq_value": "1",
+      "variables_modified": {
+        "TSPARMCD": {
+          "original": "TPHASE",
+          "injected": "(row deleted)"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 1
+    },
+    {
+      "error_id": "INJ-SD2215-TS-001",
+      "rule_id": "SD2215",
+      "rule_message": "Missing TTYPE Trial Summary Parameter",
+      "category": "PARMI1/PARMV1",
+      "primitive": "delete_row",
+      "domain": "TS",
+      "usubjid": null,
+      "row_index": null,
+      "csv_line": null,
+      "seq_value": "1",
+      "variables_modified": {
+        "TSPARMCD": {
+          "original": "TTYPE",
+          "injected": "(row deleted)"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 27
+    },
+    {
+      "error_id": "INJ-SD2217-TS-001",
+      "rule_id": "SD2217",
+      "rule_message": "Missing OBJPRIM Trial Summary Parameter",
+      "category": "PARMI1/PARMV1",
+      "primitive": "delete_row",
+      "domain": "TS",
+      "usubjid": null,
+      "row_index": null,
+      "csv_line": null,
+      "seq_value": "1",
+      "variables_modified": {
+        "TSPARMCD": {
+          "original": "OBJPRIM",
+          "injected": "(row deleted)"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 24
+    },
+    {
+      "error_id": "INJ-SD2218-TS-001",
+      "rule_id": "SD2218",
+      "rule_message": "Missing SPONSOR Trial Summary Parameter",
+      "category": "PARMI1/PARMV1",
+      "primitive": "delete_row",
+      "domain": "TS",
+      "usubjid": null,
+      "row_index": null,
+      "csv_line": null,
+      "seq_value": "1",
+      "variables_modified": {
+        "TSPARMCD": {
+          "original": "SPONSOR",
+          "injected": "(row deleted)"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 23
+    },
+    {
+      "error_id": "INJ-SD2221-TS-001",
+      "rule_id": "SD2221",
+      "rule_message": "Missing REGID Trial Summary Parameter",
+      "category": "PARMI1/PARMV1",
+      "primitive": "delete_row",
+      "domain": "TS",
+      "usubjid": null,
+      "row_index": null,
+      "csv_line": null,
+      "seq_value": "1",
+      "variables_modified": {
+        "TSPARMCD": {
+          "original": "REGID",
+          "injected": "(row deleted)"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 31
+    },
+    {
+      "error_id": "INJ-SD2222-TS-001",
+      "rule_id": "SD2222",
+      "rule_message": "Missing OUTMSPRI Trial Summary Parameter",
+      "category": "PARMI1/PARMV1",
+      "primitive": "delete_row",
+      "domain": "TS",
+      "usubjid": null,
+      "row_index": null,
+      "csv_line": null,
+      "seq_value": "1",
+      "variables_modified": {
+        "TSPARMCD": {
+          "original": "OUTMSPRI",
+          "injected": "(row deleted)"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 26
+    },
+    {
+      "error_id": "INJ-SD2224-TS-001",
+      "rule_id": "SD2224",
+      "rule_message": "Missing FCNTRY Trial Summary Parameter",
+      "category": "PARMI1/PARMV1",
+      "primitive": "delete_row",
+      "domain": "TS",
+      "usubjid": null,
+      "row_index": null,
+      "csv_line": null,
+      "seq_value": "1",
+      "variables_modified": {
+        "TSPARMCD": {
+          "original": "FCNTRY",
+          "injected": "(row deleted)"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 30
+    },
+    {
+      "error_id": "INJ-SD2225-TS-001",
+      "rule_id": "SD2225",
+      "rule_message": "Missing ADAPT Trial Summary Parameter",
+      "category": "PARMI1/PARMV1",
+      "primitive": "delete_row",
+      "domain": "TS",
+      "usubjid": null,
+      "row_index": null,
+      "csv_line": null,
+      "seq_value": "1",
+      "variables_modified": {
+        "TSPARMCD": {
+          "original": "ADAPT",
+          "injected": "(row deleted)"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 9
+    },
+    {
+      "error_id": "INJ-SD2226-TS-001",
+      "rule_id": "SD2226",
+      "rule_message": "Missing DCUTDTC Trial Summary Parameter",
+      "category": "PARMI1/PARMV1",
+      "primitive": "delete_row",
+      "domain": "TS",
+      "usubjid": null,
+      "row_index": null,
+      "csv_line": null,
+      "seq_value": "1",
+      "variables_modified": {
+        "TSPARMCD": {
+          "original": "DCUTDTC",
+          "injected": "(row deleted)"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 33
+    },
+    {
+      "error_id": "INJ-SD2227-TS-001",
+      "rule_id": "SD2227",
+      "rule_message": "Missing DCUTDESC Trial Summary Parameter",
+      "category": "PARMI1/PARMV1",
+      "primitive": "delete_row",
+      "domain": "TS",
+      "usubjid": null,
+      "row_index": null,
+      "csv_line": null,
+      "seq_value": "1",
+      "variables_modified": {
+        "TSPARMCD": {
+          "original": "DCUTDESC",
+          "injected": "(row deleted)"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 34
+    },
+    {
+      "error_id": "INJ-SD2229-TS-001",
+      "rule_id": "SD2229",
+      "rule_message": "Missing NARMS Trial Summary Parameter",
+      "category": "PARMI1/PARMV1",
+      "primitive": "delete_row",
+      "domain": "TS",
+      "usubjid": null,
+      "row_index": null,
+      "csv_line": null,
+      "seq_value": "1",
+      "variables_modified": {
+        "TSPARMCD": {
+          "original": "NARMS",
+          "injected": "(row deleted)"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 12
+    },
+    {
+      "error_id": "INJ-SD2230-TS-001",
+      "rule_id": "SD2230",
+      "rule_message": "Missing STYPE Trial Summary Parameter",
+      "category": "PARMI1/PARMV1",
+      "primitive": "delete_row",
+      "domain": "TS",
+      "usubjid": null,
+      "row_index": null,
+      "csv_line": null,
+      "seq_value": "1",
+      "variables_modified": {
+        "TSPARMCD": {
+          "original": "STYPE",
+          "injected": "(row deleted)"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 2
+    },
+    {
+      "error_id": "INJ-SD2232-TS-001",
+      "rule_id": "SD2232",
+      "rule_message": "Missing SSTDTC Trial Summary Parameter",
+      "category": "PARMI1/PARMV1",
+      "primitive": "delete_row",
+      "domain": "TS",
+      "usubjid": null,
+      "row_index": null,
+      "csv_line": null,
+      "seq_value": "1",
+      "variables_modified": {
+        "TSPARMCD": {
+          "original": "SSTDTC",
+          "injected": "(row deleted)"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 18
+    },
+    {
+      "error_id": "INJ-SD2233-TS-001",
+      "rule_id": "SD2233",
+      "rule_message": "Missing SENDTC Trial Summary Parameter",
+      "category": "PARMI1/PARMV1",
+      "primitive": "delete_row",
+      "domain": "TS",
+      "usubjid": null,
+      "row_index": null,
+      "csv_line": null,
+      "seq_value": "1",
+      "variables_modified": {
+        "TSPARMCD": {
+          "original": "SENDTC",
+          "injected": "(row deleted)"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 35
+    }
+  ],
+  "summary_by_rule": {
+    "SD2213": 1,
+    "SD2214": 1,
+    "SD2215": 1,
+    "SD2217": 1,
+    "SD2218": 1,
+    "SD2221": 1,
+    "SD2222": 1,
+    "SD2224": 1,
+    "SD2225": 1,
+    "SD2226": 1,
+    "SD2227": 1,
+    "SD2229": 1,
+    "SD2230": 1,
+    "SD2232": 1,
+    "SD2233": 1
+  },
+  "summary_by_category": {
+    "PARMI1/PARMV1": 15
+  },
+  "summary_by_domain": {
+    "TS": 15
+  },
+  "summary_status": {
+    "injected": 15,
+    "overwritten": 0,
+    "failed_self_validation": 0
+  },
+  "warnings": [
+    "Re-derivation skipped: ConformanceLayer not importable. Derived fields (--DY, EPOCH) may not reflect injected errors."
+  ]
+}

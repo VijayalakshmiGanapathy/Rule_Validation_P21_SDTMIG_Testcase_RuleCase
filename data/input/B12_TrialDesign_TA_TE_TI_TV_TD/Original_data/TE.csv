@@ -1,0 +1,4 @@
+STUDYID,DOMAIN,ETCD,ELEMENT,TESTRL,TEENRL,TEDUR
+TERPSIS-MDD-201,TE,FU,Follow-up,End of observation,Final visit,P1D
+TERPSIS-MDD-201,TE,SCRN,Screening,Informed consent,Before dosing,P28D
+TERPSIS-MDD-201,TE,TRT,Treatment/Observation,Dosing,Week 12 observation,P85D

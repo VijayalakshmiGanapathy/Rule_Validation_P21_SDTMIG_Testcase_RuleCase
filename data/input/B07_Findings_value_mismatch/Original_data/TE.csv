@@ -1,0 +1,4 @@
+STUDYID,DOMAIN,ETCD,ELEMENT,TESTRL,TEENRL,TEDUR
+EMPEROR-HFPEF,TE,FU,Follow-up,End of treatment,End of study,P30D
+EMPEROR-HFPEF,TE,SCRN,Screening,Informed consent,Before randomization,P14D
+EMPEROR-HFPEF,TE,TRT,Treatment,Randomization,End of treatment,P364D

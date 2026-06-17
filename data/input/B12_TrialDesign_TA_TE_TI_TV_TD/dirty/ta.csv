@@ -1,0 +1,11 @@
+STUDYID,DOMAIN,ARMCD,ARM,TAETORD,ETCD,ELEMENT,TABRANCH,TATRANS,EPOCH
+TERPSIS-MDD-201,TA,ZZZSD1354,Psilocybin 1mg (Control),1,SCRN,Screening,,Transition to Treatment/Observation,SCREENING
+TERPSIS-MDD-201,TA,PSI1,Psilocybin 1mg (Control),2,TRT,Treatment/Observation,,Transition to Follow-up,TREATMENT
+TERPSIS-MDD-201,TA,SCRNFAIL,Psilocybin 1mg (Control),3,FU,Follow-up,,,FOLLOW-UP
+TERPSIS-MDD-201,TA,PSI10,Psilocybin 10mg,1,SCRN,Screening,,Transition to Treatment/Observation,SCREENING
+TERPSIS-MDD-201,TA,PSI10,Psilocybin 10mg,2,TRT,Treatment/Observation,,Transition to Follow-up,TREATMENT
+TERPSIS-MDD-201,TA,PSI10,Psilocybin 10mg,3,FU,Follow-up,,,FOLLOW-UP
+TERPSIS-MDD-201,TA,PSI25,Psilocybin 25mg,1,SCRN,Screening,,Transition to Treatment/Observation,SCREENING
+TERPSIS-MDD-201,TA,PSI25,Psilocybin 25mg,2,TRT,Treatment/Observation,,Transition to Follow-up,TREATMENT
+TERPSIS-MDD-201,TA,PSI25,Psilocybin 25mg,INVALID,FU,Follow-up,,,FOLLOW-UP
+TERPSIS-MDD-201,TA,PSI10,Psilocybin 10mg,1,SCRN,Screening,,Transition to Treatment/Observation,SCREENING

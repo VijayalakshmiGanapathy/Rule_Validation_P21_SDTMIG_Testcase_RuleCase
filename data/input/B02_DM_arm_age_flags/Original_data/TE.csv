@@ -1,0 +1,4 @@
+STUDYID,DOMAIN,ETCD,ELEMENT,TESTRL,TEENRL,TEDUR
+COVID-THER-301,TE,FU,Follow-up,End of treatment,End of study,P23D
+COVID-THER-301,TE,SCRN,Screening,Informed consent,Before randomization,P1D
+COVID-THER-301,TE,TRT,Treatment,Randomization,End of treatment,P5D

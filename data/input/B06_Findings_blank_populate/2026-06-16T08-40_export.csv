@@ -1,0 +1,13 @@
+﻿rule_id,injected,overwritten,failed_self_validation,total,failure_reason
+SD0047,282,0,0,282,
+SD0029,246,0,3,249,"guard no longer holds: isnumeric(LBSTRESC) and LBSTRESC != """" | guard no longer holds: isnumeric(SCSTRESC) and SCSTRESC != """""
+SD0030,245,0,0,245,
+SD0026,200,0,0,200,
+SD0027,200,0,0,200,
+SD1320,196,0,0,196,
+SD1122,188,0,0,188,
+SD1448,106,0,0,106,
+SD1131,103,0,0,103,
+SD1372,58,0,0,58,
+SD1371,47,0,0,47,
+SD1316,17,0,0,17,

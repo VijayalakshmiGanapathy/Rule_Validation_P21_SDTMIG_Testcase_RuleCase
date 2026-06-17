@@ -1,0 +1,3089 @@
+{
+  "generated_at": "2026-06-16T10:55:03.033495",
+  "seed": 42,
+  "mode": "compound",
+  "source_dir": "/tmp/sdtm_uploads_mpor5lei",
+  "profile": "all",
+  "rate": 0.05,
+  "density_cap": 5,
+  "rules_available": 467,
+  "rules_injectable": 7,
+  "rules_skipped": 0,
+  "rules_injected": 7,
+  "total_mutations": 127,
+  "skipped_rules": [],
+  "errors": [
+    {
+      "error_id": "INJ-SD0075-RELREC-001",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0039",
+      "row_index": 306,
+      "csv_line": 308,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 306
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-002",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0014",
+      "row_index": 152,
+      "csv_line": 154,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 152
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-003",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0008",
+      "row_index": 135,
+      "csv_line": 137,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "CMSEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 135
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-004",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0013",
+      "row_index": 25,
+      "csv_line": 27,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "CMSEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 25
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-005",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0018",
+      "row_index": 256,
+      "csv_line": 258,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 256
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-006",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0042",
+      "row_index": 316,
+      "csv_line": 318,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 316
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-007",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0038",
+      "row_index": 197,
+      "csv_line": 199,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "CMSEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 197
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-008",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0003",
+      "row_index": 226,
+      "csv_line": 228,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 226
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-009",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0034",
+      "row_index": 88,
+      "csv_line": 90,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 88
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-010",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0014",
+      "row_index": 145,
+      "csv_line": 147,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "CMSEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 145
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-011",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0043",
+      "row_index": 114,
+      "csv_line": 116,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 114
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-012",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0048",
+      "row_index": 328,
+      "csv_line": 330,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 328
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-013",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0046",
+      "row_index": 123,
+      "csv_line": 125,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "CMSEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 123
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-014",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0007",
+      "row_index": 22,
+      "csv_line": 24,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 22
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-015",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0003",
+      "row_index": 232,
+      "csv_line": 234,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 232
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-016",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0014",
+      "row_index": 153,
+      "csv_line": 155,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "CMSEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 153
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-017",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0014",
+      "row_index": 150,
+      "csv_line": 152,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 150
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-018",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0009",
+      "row_index": 244,
+      "csv_line": 246,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 244
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-019",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0025",
+      "row_index": 58,
+      "csv_line": 60,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 58
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-020",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0012",
+      "row_index": 251,
+      "csv_line": 253,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "CMSEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 251
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-021",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0023",
+      "row_index": 174,
+      "csv_line": 176,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 174
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-022",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0012",
+      "row_index": 253,
+      "csv_line": 255,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "CMSEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 253
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-023",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0025",
+      "row_index": 53,
+      "csv_line": 55,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "CMSEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 53
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-024",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0041",
+      "row_index": 200,
+      "csv_line": 202,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 200
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-025",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0030",
+      "row_index": 279,
+      "csv_line": 281,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "CMSEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 279
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-026",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0039",
+      "row_index": 292,
+      "csv_line": 294,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 292
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-027",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0046",
+      "row_index": 124,
+      "csv_line": 126,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 124
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-028",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0013",
+      "row_index": 28,
+      "csv_line": 30,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 28
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-029",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0009",
+      "row_index": 245,
+      "csv_line": 247,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "CMSEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 245
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-030",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0030",
+      "row_index": 281,
+      "csv_line": 283,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "CMSEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 281
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-031",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0041",
+      "row_index": 202,
+      "csv_line": 204,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 202
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-032",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0032",
+      "row_index": 185,
+      "csv_line": 187,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "CMSEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 185
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-033",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0050",
+      "row_index": 215,
+      "csv_line": 217,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "CMSEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 215
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-034",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0014",
+      "row_index": 140,
+      "csv_line": 142,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 140
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-035",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0033",
+      "row_index": 284,
+      "csv_line": 286,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 284
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-036",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0044",
+      "row_index": 211,
+      "csv_line": 213,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "CMSEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 211
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-037",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0007",
+      "row_index": 20,
+      "csv_line": 22,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 20
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-038",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0003",
+      "row_index": 223,
+      "csv_line": 225,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "CMSEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 223
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-039",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0011",
+      "row_index": 137,
+      "csv_line": 139,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "CMSEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 137
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-040",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0024",
+      "row_index": 272,
+      "csv_line": 274,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 272
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-041",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0020",
+      "row_index": 168,
+      "csv_line": 170,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 168
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-042",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0034",
+      "row_index": 70,
+      "csv_line": 72,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 70
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-043",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0013",
+      "row_index": 24,
+      "csv_line": 26,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 24
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-044",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0009",
+      "row_index": 238,
+      "csv_line": 240,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 238
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-045",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0050",
+      "row_index": 218,
+      "csv_line": 220,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 218
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-046",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0025",
+      "row_index": 55,
+      "csv_line": 57,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "CMSEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 55
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-047",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0043",
+      "row_index": 111,
+      "csv_line": 113,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "CMSEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 111
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-048",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0013",
+      "row_index": 38,
+      "csv_line": 40,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 38
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-049",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0013",
+      "row_index": 27,
+      "csv_line": 29,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "CMSEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 27
+    },
+    {
+      "error_id": "INJ-SD0075-RELREC-050",
+      "rule_id": "SD0075",
+      "rule_message": "Invalid IDVAR",
+      "category": "Re-order",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0021",
+      "row_index": 263,
+      "csv_line": 265,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "CMSEQ",
+          "injected": "ZZZSD0075"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 263
+    },
+    {
+      "error_id": "INJ-SD0077-RELREC-001",
+      "rule_id": "SD0077",
+      "rule_message": "Invalid referenced record",
+      "category": "REL1",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0003",
+      "row_index": 229,
+      "csv_line": 231,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "4",
+          "injected": "ZZZSD0077"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 229
+    },
+    {
+      "error_id": "INJ-SD0077-RELREC-002",
+      "rule_id": "SD0077",
+      "rule_message": "Invalid referenced record",
+      "category": "REL1",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0031",
+      "row_index": 63,
+      "csv_line": 65,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "1",
+          "injected": "ZZZSD0077"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 63
+    },
+    {
+      "error_id": "INJ-SD0077-RELREC-003",
+      "rule_id": "SD0077",
+      "rule_message": "Invalid referenced record",
+      "category": "REL1",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0034",
+      "row_index": 90,
+      "csv_line": 92,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "22",
+          "injected": "ZZZSD0077"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 90
+    },
+    {
+      "error_id": "INJ-SD0077-RELREC-004",
+      "rule_id": "SD0077",
+      "rule_message": "Invalid referenced record",
+      "category": "REL1",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0020",
+      "row_index": 166,
+      "csv_line": 168,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "3",
+          "injected": "ZZZSD0077"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 166
+    },
+    {
+      "error_id": "INJ-SD0077-RELREC-005",
+      "rule_id": "SD0077",
+      "rule_message": "Invalid referenced record",
+      "category": "REL1",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0012",
+      "row_index": 251,
+      "csv_line": 253,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "2",
+          "injected": "ZZZSD0077"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 251
+    },
+    {
+      "error_id": "INJ-SD0077-RELREC-006",
+      "rule_id": "SD0077",
+      "rule_message": "Invalid referenced record",
+      "category": "REL1",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0050",
+      "row_index": 214,
+      "csv_line": 216,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "5",
+          "injected": "ZZZSD0077"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 214
+    },
+    {
+      "error_id": "INJ-SD0077-RELREC-007",
+      "rule_id": "SD0077",
+      "rule_message": "Invalid referenced record",
+      "category": "REL1",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0048",
+      "row_index": 326,
+      "csv_line": 328,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "4",
+          "injected": "ZZZSD0077"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 326
+    },
+    {
+      "error_id": "INJ-SD0077-RELREC-008",
+      "rule_id": "SD0077",
+      "rule_message": "Invalid referenced record",
+      "category": "REL1",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0015",
+      "row_index": 254,
+      "csv_line": 256,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "2",
+          "injected": "ZZZSD0077"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 254
+    },
+    {
+      "error_id": "INJ-SD0077-RELREC-009",
+      "rule_id": "SD0077",
+      "rule_message": "Invalid referenced record",
+      "category": "REL1",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0012",
+      "row_index": 252,
+      "csv_line": 254,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "6",
+          "injected": "ZZZSD0077"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 252
+    },
+    {
+      "error_id": "INJ-SD0077-RELREC-010",
+      "rule_id": "SD0077",
+      "rule_message": "Invalid referenced record",
+      "category": "REL1",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0001",
+      "row_index": 2,
+      "csv_line": 4,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "9",
+          "injected": "ZZZSD0077"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 2
+    },
+    {
+      "error_id": "INJ-SD0077-RELREC-011",
+      "rule_id": "SD0077",
+      "rule_message": "Invalid referenced record",
+      "category": "REL1",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0032",
+      "row_index": 182,
+      "csv_line": 184,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "9",
+          "injected": "ZZZSD0077"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 182
+    },
+    {
+      "error_id": "INJ-SD0077-RELREC-012",
+      "rule_id": "SD0077",
+      "rule_message": "Invalid referenced record",
+      "category": "REL1",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0015",
+      "row_index": 255,
+      "csv_line": 257,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "1",
+          "injected": "ZZZSD0077"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 255
+    },
+    {
+      "error_id": "INJ-SD0077-RELREC-013",
+      "rule_id": "SD0077",
+      "rule_message": "Invalid referenced record",
+      "category": "REL1",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0021",
+      "row_index": 263,
+      "csv_line": 265,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "1",
+          "injected": "ZZZSD0077"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 263
+    },
+    {
+      "error_id": "INJ-SD0077-RELREC-014",
+      "rule_id": "SD0077",
+      "rule_message": "Invalid referenced record",
+      "category": "REL1",
+      "primitive": "cross_domain_mismatch",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0022",
+      "row_index": 44,
+      "csv_line": 46,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "2",
+          "injected": "ZZZSD0077"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": "vs AE.AESEQ (not_in_target_set); target_set_size=23",
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 44
+    },
+    {
+      "error_id": "INJ-SD1026-RELREC-001",
+      "rule_id": "SD1026",
+      "rule_message": "Invalid value for RELTYPE variable",
+      "category": "REL1",
+      "primitive": "set_invalid_value",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0042",
+      "row_index": 321,
+      "csv_line": 323,
+      "seq_value": null,
+      "variables_modified": {
+        "RELTYPE": {
+          "original": "",
+          "injected": "ONE"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 321
+    },
+    {
+      "error_id": "INJ-SD1026-RELREC-002",
+      "rule_id": "SD1026",
+      "rule_message": "Invalid value for RELTYPE variable",
+      "category": "REL1",
+      "primitive": "set_invalid_value",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0011",
+      "row_index": 138,
+      "csv_line": 140,
+      "seq_value": null,
+      "variables_modified": {
+        "RELTYPE": {
+          "original": "",
+          "injected": "ONE"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 138
+    },
+    {
+      "error_id": "INJ-SD1026-RELREC-003",
+      "rule_id": "SD1026",
+      "rule_message": "Invalid value for RELTYPE variable",
+      "category": "REL1",
+      "primitive": "set_invalid_value",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0042",
+      "row_index": 318,
+      "csv_line": 320,
+      "seq_value": null,
+      "variables_modified": {
+        "RELTYPE": {
+          "original": "",
+          "injected": "ONE"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 318
+    },
+    {
+      "error_id": "INJ-SD1026-RELREC-004",
+      "rule_id": "SD1026",
+      "rule_message": "Invalid value for RELTYPE variable",
+      "category": "REL1",
+      "primitive": "set_invalid_value",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0015",
+      "row_index": 255,
+      "csv_line": 257,
+      "seq_value": null,
+      "variables_modified": {
+        "RELTYPE": {
+          "original": "",
+          "injected": "ONE"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 255
+    },
+    {
+      "error_id": "INJ-SD1026-RELREC-005",
+      "rule_id": "SD1026",
+      "rule_message": "Invalid value for RELTYPE variable",
+      "category": "REL1",
+      "primitive": "set_invalid_value",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0004",
+      "row_index": 8,
+      "csv_line": 10,
+      "seq_value": null,
+      "variables_modified": {
+        "RELTYPE": {
+          "original": "",
+          "injected": "ONE"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 8
+    },
+    {
+      "error_id": "INJ-SD1026-RELREC-006",
+      "rule_id": "SD1026",
+      "rule_message": "Invalid value for RELTYPE variable",
+      "category": "REL1",
+      "primitive": "set_invalid_value",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0034",
+      "row_index": 94,
+      "csv_line": 96,
+      "seq_value": null,
+      "variables_modified": {
+        "RELTYPE": {
+          "original": "",
+          "injected": "ONE"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 94
+    },
+    {
+      "error_id": "INJ-SD1026-RELREC-007",
+      "rule_id": "SD1026",
+      "rule_message": "Invalid value for RELTYPE variable",
+      "category": "REL1",
+      "primitive": "set_invalid_value",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0023",
+      "row_index": 172,
+      "csv_line": 174,
+      "seq_value": null,
+      "variables_modified": {
+        "RELTYPE": {
+          "original": "",
+          "injected": "ONE"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 172
+    },
+    {
+      "error_id": "INJ-SD1026-RELREC-008",
+      "rule_id": "SD1026",
+      "rule_message": "Invalid value for RELTYPE variable",
+      "category": "REL1",
+      "primitive": "set_invalid_value",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0035",
+      "row_index": 190,
+      "csv_line": 192,
+      "seq_value": null,
+      "variables_modified": {
+        "RELTYPE": {
+          "original": "",
+          "injected": "ONE"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 190
+    },
+    {
+      "error_id": "INJ-SD1026-RELREC-009",
+      "rule_id": "SD1026",
+      "rule_message": "Invalid value for RELTYPE variable",
+      "category": "REL1",
+      "primitive": "set_invalid_value",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0034",
+      "row_index": 89,
+      "csv_line": 91,
+      "seq_value": null,
+      "variables_modified": {
+        "RELTYPE": {
+          "original": "",
+          "injected": "ONE"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 89
+    },
+    {
+      "error_id": "INJ-SD1026-RELREC-010",
+      "rule_id": "SD1026",
+      "rule_message": "Invalid value for RELTYPE variable",
+      "category": "REL1",
+      "primitive": "set_invalid_value",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0040",
+      "row_index": 107,
+      "csv_line": 109,
+      "seq_value": null,
+      "variables_modified": {
+        "RELTYPE": {
+          "original": "",
+          "injected": "ONE"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 107
+    },
+    {
+      "error_id": "INJ-SD1026-RELREC-011",
+      "rule_id": "SD1026",
+      "rule_message": "Invalid value for RELTYPE variable",
+      "category": "REL1",
+      "primitive": "set_invalid_value",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0023",
+      "row_index": 175,
+      "csv_line": 177,
+      "seq_value": null,
+      "variables_modified": {
+        "RELTYPE": {
+          "original": "",
+          "injected": "ONE"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 175
+    },
+    {
+      "error_id": "INJ-SD1026-RELREC-012",
+      "rule_id": "SD1026",
+      "rule_message": "Invalid value for RELTYPE variable",
+      "category": "REL1",
+      "primitive": "set_invalid_value",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0031",
+      "row_index": 69,
+      "csv_line": 71,
+      "seq_value": null,
+      "variables_modified": {
+        "RELTYPE": {
+          "original": "",
+          "injected": "ONE"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 69
+    },
+    {
+      "error_id": "INJ-SD1026-RELREC-013",
+      "rule_id": "SD1026",
+      "rule_message": "Invalid value for RELTYPE variable",
+      "category": "REL1",
+      "primitive": "set_invalid_value",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0008",
+      "row_index": 130,
+      "csv_line": 132,
+      "seq_value": null,
+      "variables_modified": {
+        "RELTYPE": {
+          "original": "",
+          "injected": "ONE"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 130
+    },
+    {
+      "error_id": "INJ-SD1066-RELREC-001",
+      "rule_id": "SD1066",
+      "rule_message": "IDVARVAL value is populated, when RELTYPE values is populated",
+      "category": "REL1",
+      "primitive": "populate_forbidden",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0023",
+      "row_index": 175,
+      "csv_line": 177,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "4",
+          "injected": "X"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 175
+    },
+    {
+      "error_id": "INJ-SD1066-RELREC-002",
+      "rule_id": "SD1066",
+      "rule_message": "IDVARVAL value is populated, when RELTYPE values is populated",
+      "category": "REL1",
+      "primitive": "populate_forbidden",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0008",
+      "row_index": 134,
+      "csv_line": 136,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "2",
+          "injected": "X"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 134
+    },
+    {
+      "error_id": "INJ-SD1066-RELREC-003",
+      "rule_id": "SD1066",
+      "rule_message": "IDVARVAL value is populated, when RELTYPE values is populated",
+      "category": "REL1",
+      "primitive": "populate_forbidden",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0009",
+      "row_index": 248,
+      "csv_line": 250,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "15",
+          "injected": "X"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 248
+    },
+    {
+      "error_id": "INJ-SD1066-RELREC-004",
+      "rule_id": "SD1066",
+      "rule_message": "IDVARVAL value is populated, when RELTYPE values is populated",
+      "category": "REL1",
+      "primitive": "populate_forbidden",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0044",
+      "row_index": 211,
+      "csv_line": 213,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "5",
+          "injected": "X"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 211
+    },
+    {
+      "error_id": "INJ-SD1066-RELREC-005",
+      "rule_id": "SD1066",
+      "rule_message": "IDVARVAL value is populated, when RELTYPE values is populated",
+      "category": "REL1",
+      "primitive": "populate_forbidden",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0042",
+      "row_index": 316,
+      "csv_line": 318,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "4",
+          "injected": "X"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 316
+    },
+    {
+      "error_id": "INJ-SD1066-RELREC-006",
+      "rule_id": "SD1066",
+      "rule_message": "IDVARVAL value is populated, when RELTYPE values is populated",
+      "category": "REL1",
+      "primitive": "populate_forbidden",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0021",
+      "row_index": 262,
+      "csv_line": 264,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "1",
+          "injected": "X"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 262
+    },
+    {
+      "error_id": "INJ-SD1066-RELREC-007",
+      "rule_id": "SD1066",
+      "rule_message": "IDVARVAL value is populated, when RELTYPE values is populated",
+      "category": "REL1",
+      "primitive": "populate_forbidden",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0008",
+      "row_index": 130,
+      "csv_line": 132,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "5",
+          "injected": "X"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 130
+    },
+    {
+      "error_id": "INJ-SD1066-RELREC-008",
+      "rule_id": "SD1066",
+      "rule_message": "IDVARVAL value is populated, when RELTYPE values is populated",
+      "category": "REL1",
+      "primitive": "populate_forbidden",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0004",
+      "row_index": 7,
+      "csv_line": 9,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "2",
+          "injected": "X"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 7
+    },
+    {
+      "error_id": "INJ-SD1066-RELREC-009",
+      "rule_id": "SD1066",
+      "rule_message": "IDVARVAL value is populated, when RELTYPE values is populated",
+      "category": "REL1",
+      "primitive": "populate_forbidden",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0017",
+      "row_index": 159,
+      "csv_line": 161,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "3",
+          "injected": "X"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 159
+    },
+    {
+      "error_id": "INJ-SD1066-RELREC-010",
+      "rule_id": "SD1066",
+      "rule_message": "IDVARVAL value is populated, when RELTYPE values is populated",
+      "category": "REL1",
+      "primitive": "populate_forbidden",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0040",
+      "row_index": 104,
+      "csv_line": 106,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "10",
+          "injected": "X"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 104
+    },
+    {
+      "error_id": "INJ-SD1066-RELREC-011",
+      "rule_id": "SD1066",
+      "rule_message": "IDVARVAL value is populated, when RELTYPE values is populated",
+      "category": "REL1",
+      "primitive": "populate_forbidden",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0042",
+      "row_index": 320,
+      "csv_line": 322,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "7",
+          "injected": "X"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 320
+    },
+    {
+      "error_id": "INJ-SD1066-RELREC-012",
+      "rule_id": "SD1066",
+      "rule_message": "IDVARVAL value is populated, when RELTYPE values is populated",
+      "category": "REL1",
+      "primitive": "populate_forbidden",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0025",
+      "row_index": 54,
+      "csv_line": 56,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "2",
+          "injected": "X"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 54
+    },
+    {
+      "error_id": "INJ-SD1066-RELREC-013",
+      "rule_id": "SD1066",
+      "rule_message": "IDVARVAL value is populated, when RELTYPE values is populated",
+      "category": "REL1",
+      "primitive": "populate_forbidden",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0043",
+      "row_index": 108,
+      "csv_line": 110,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "2",
+          "injected": "X"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 108
+    },
+    {
+      "error_id": "INJ-SD1067-RELREC-001",
+      "rule_id": "SD1067",
+      "rule_message": "USUBJID value is populated, when RELTYPE values is populated",
+      "category": "REL1",
+      "primitive": "populate_forbidden",
+      "domain": "RELREC",
+      "usubjid": "X",
+      "row_index": 115,
+      "csv_line": 117,
+      "seq_value": null,
+      "variables_modified": {
+        "USUBJID": {
+          "original": "EMPEROR-HFPEF-SITE001-0043",
+          "injected": "X"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 115
+    },
+    {
+      "error_id": "INJ-SD1067-RELREC-002",
+      "rule_id": "SD1067",
+      "rule_message": "USUBJID value is populated, when RELTYPE values is populated",
+      "category": "REL1",
+      "primitive": "populate_forbidden",
+      "domain": "RELREC",
+      "usubjid": "X",
+      "row_index": 230,
+      "csv_line": 232,
+      "seq_value": null,
+      "variables_modified": {
+        "USUBJID": {
+          "original": "EMPEROR-HFPEF-SITE003-0003",
+          "injected": "X"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 230
+    },
+    {
+      "error_id": "INJ-SD1067-RELREC-003",
+      "rule_id": "SD1067",
+      "rule_message": "USUBJID value is populated, when RELTYPE values is populated",
+      "category": "REL1",
+      "primitive": "populate_forbidden",
+      "domain": "RELREC",
+      "usubjid": "X",
+      "row_index": 193,
+      "csv_line": 195,
+      "seq_value": null,
+      "variables_modified": {
+        "USUBJID": {
+          "original": "EMPEROR-HFPEF-SITE002-0035",
+          "injected": "X"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 193
+    },
+    {
+      "error_id": "INJ-SD1067-RELREC-004",
+      "rule_id": "SD1067",
+      "rule_message": "USUBJID value is populated, when RELTYPE values is populated",
+      "category": "REL1",
+      "primitive": "populate_forbidden",
+      "domain": "RELREC",
+      "usubjid": "X",
+      "row_index": 298,
+      "csv_line": 300,
+      "seq_value": null,
+      "variables_modified": {
+        "USUBJID": {
+          "original": "EMPEROR-HFPEF-SITE003-0039",
+          "injected": "X"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 298
+    },
+    {
+      "error_id": "INJ-SD1067-RELREC-005",
+      "rule_id": "SD1067",
+      "rule_message": "USUBJID value is populated, when RELTYPE values is populated",
+      "category": "REL1",
+      "primitive": "populate_forbidden",
+      "domain": "RELREC",
+      "usubjid": "X",
+      "row_index": 308,
+      "csv_line": 310,
+      "seq_value": null,
+      "variables_modified": {
+        "USUBJID": {
+          "original": "EMPEROR-HFPEF-SITE003-0039",
+          "injected": "X"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 308
+    },
+    {
+      "error_id": "INJ-SD1067-RELREC-006",
+      "rule_id": "SD1067",
+      "rule_message": "USUBJID value is populated, when RELTYPE values is populated",
+      "category": "REL1",
+      "primitive": "populate_forbidden",
+      "domain": "RELREC",
+      "usubjid": "X",
+      "row_index": 216,
+      "csv_line": 218,
+      "seq_value": null,
+      "variables_modified": {
+        "USUBJID": {
+          "original": "EMPEROR-HFPEF-SITE002-0050",
+          "injected": "X"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 216
+    },
+    {
+      "error_id": "INJ-SD1067-RELREC-007",
+      "rule_id": "SD1067",
+      "rule_message": "USUBJID value is populated, when RELTYPE values is populated",
+      "category": "REL1",
+      "primitive": "populate_forbidden",
+      "domain": "RELREC",
+      "usubjid": "X",
+      "row_index": 110,
+      "csv_line": 112,
+      "seq_value": null,
+      "variables_modified": {
+        "USUBJID": {
+          "original": "EMPEROR-HFPEF-SITE001-0043",
+          "injected": "X"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 110
+    },
+    {
+      "error_id": "INJ-SD1067-RELREC-008",
+      "rule_id": "SD1067",
+      "rule_message": "USUBJID value is populated, when RELTYPE values is populated",
+      "category": "REL1",
+      "primitive": "populate_forbidden",
+      "domain": "RELREC",
+      "usubjid": "X",
+      "row_index": 162,
+      "csv_line": 164,
+      "seq_value": null,
+      "variables_modified": {
+        "USUBJID": {
+          "original": "EMPEROR-HFPEF-SITE002-0020",
+          "injected": "X"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 162
+    },
+    {
+      "error_id": "INJ-SD1067-RELREC-009",
+      "rule_id": "SD1067",
+      "rule_message": "USUBJID value is populated, when RELTYPE values is populated",
+      "category": "REL1",
+      "primitive": "populate_forbidden",
+      "domain": "RELREC",
+      "usubjid": "X",
+      "row_index": 119,
+      "csv_line": 121,
+      "seq_value": null,
+      "variables_modified": {
+        "USUBJID": {
+          "original": "EMPEROR-HFPEF-SITE001-0046",
+          "injected": "X"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 119
+    },
+    {
+      "error_id": "INJ-SD1067-RELREC-010",
+      "rule_id": "SD1067",
+      "rule_message": "USUBJID value is populated, when RELTYPE values is populated",
+      "category": "REL1",
+      "primitive": "populate_forbidden",
+      "domain": "RELREC",
+      "usubjid": "X",
+      "row_index": 324,
+      "csv_line": 326,
+      "seq_value": null,
+      "variables_modified": {
+        "USUBJID": {
+          "original": "EMPEROR-HFPEF-SITE003-0045",
+          "injected": "X"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 324
+    },
+    {
+      "error_id": "INJ-SD1067-RELREC-011",
+      "rule_id": "SD1067",
+      "rule_message": "USUBJID value is populated, when RELTYPE values is populated",
+      "category": "REL1",
+      "primitive": "populate_forbidden",
+      "domain": "RELREC",
+      "usubjid": "X",
+      "row_index": 200,
+      "csv_line": 202,
+      "seq_value": null,
+      "variables_modified": {
+        "USUBJID": {
+          "original": "EMPEROR-HFPEF-SITE002-0041",
+          "injected": "X"
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 200
+    },
+    {
+      "error_id": "INJ-SD1072-RELREC-001",
+      "rule_id": "SD1072",
+      "rule_message": "Missing IDVAR value, when RDOMAIN value is provided",
+      "category": "REL1",
+      "primitive": "blank_field",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0004",
+      "row_index": 6,
+      "csv_line": 8,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": ""
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 6
+    },
+    {
+      "error_id": "INJ-SD1072-RELREC-002",
+      "rule_id": "SD1072",
+      "rule_message": "Missing IDVAR value, when RDOMAIN value is provided",
+      "category": "REL1",
+      "primitive": "blank_field",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0025",
+      "row_index": 57,
+      "csv_line": 59,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "CMSEQ",
+          "injected": ""
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 57
+    },
+    {
+      "error_id": "INJ-SD1072-RELREC-003",
+      "rule_id": "SD1072",
+      "rule_message": "Missing IDVAR value, when RDOMAIN value is provided",
+      "category": "REL1",
+      "primitive": "blank_field",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0032",
+      "row_index": 187,
+      "csv_line": 189,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "CMSEQ",
+          "injected": ""
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 187
+    },
+    {
+      "error_id": "INJ-SD1072-RELREC-004",
+      "rule_id": "SD1072",
+      "rule_message": "Missing IDVAR value, when RDOMAIN value is provided",
+      "category": "REL1",
+      "primitive": "blank_field",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0030",
+      "row_index": 280,
+      "csv_line": 282,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": ""
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 280
+    },
+    {
+      "error_id": "INJ-SD1072-RELREC-005",
+      "rule_id": "SD1072",
+      "rule_message": "Missing IDVAR value, when RDOMAIN value is provided",
+      "category": "REL1",
+      "primitive": "blank_field",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0009",
+      "row_index": 249,
+      "csv_line": 251,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "CMSEQ",
+          "injected": ""
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 249
+    },
+    {
+      "error_id": "INJ-SD1072-RELREC-006",
+      "rule_id": "SD1072",
+      "rule_message": "Missing IDVAR value, when RDOMAIN value is provided",
+      "category": "REL1",
+      "primitive": "blank_field",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0016",
+      "row_index": 40,
+      "csv_line": 42,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": ""
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 40
+    },
+    {
+      "error_id": "INJ-SD1072-RELREC-007",
+      "rule_id": "SD1072",
+      "rule_message": "Missing IDVAR value, when RDOMAIN value is provided",
+      "category": "REL1",
+      "primitive": "blank_field",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0018",
+      "row_index": 260,
+      "csv_line": 262,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": ""
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 260
+    },
+    {
+      "error_id": "INJ-SD1072-RELREC-008",
+      "rule_id": "SD1072",
+      "rule_message": "Missing IDVAR value, when RDOMAIN value is provided",
+      "category": "REL1",
+      "primitive": "blank_field",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0031",
+      "row_index": 64,
+      "csv_line": 66,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": ""
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 64
+    },
+    {
+      "error_id": "INJ-SD1072-RELREC-009",
+      "rule_id": "SD1072",
+      "rule_message": "Missing IDVAR value, when RDOMAIN value is provided",
+      "category": "REL1",
+      "primitive": "blank_field",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0040",
+      "row_index": 98,
+      "csv_line": 100,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "AESEQ",
+          "injected": ""
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 98
+    },
+    {
+      "error_id": "INJ-SD1072-RELREC-010",
+      "rule_id": "SD1072",
+      "rule_message": "Missing IDVAR value, when RDOMAIN value is provided",
+      "category": "REL1",
+      "primitive": "blank_field",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0032",
+      "row_index": 177,
+      "csv_line": 179,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVAR": {
+          "original": "CMSEQ",
+          "injected": ""
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 177
+    },
+    {
+      "error_id": "INJ-SD1264-RELREC-001",
+      "rule_id": "SD1264",
+      "rule_message": "IDVAR equals --SEQ when IDVARVAL is null and USUBJID is null",
+      "category": "REL1",
+      "primitive": "blank_field",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0037",
+      "row_index": 96,
+      "csv_line": 98,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "1",
+          "injected": ""
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 96
+    },
+    {
+      "error_id": "INJ-SD1264-RELREC-001",
+      "rule_id": "SD1264",
+      "rule_message": "IDVAR equals --SEQ when IDVARVAL is null and USUBJID is null",
+      "category": "REL1",
+      "primitive": "blank_field",
+      "domain": "RELREC",
+      "usubjid": "",
+      "row_index": 96,
+      "csv_line": 98,
+      "seq_value": null,
+      "variables_modified": {
+        "USUBJID": {
+          "original": "EMPEROR-HFPEF-SITE001-0037",
+          "injected": ""
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 96
+    },
+    {
+      "error_id": "INJ-SD1264-RELREC-002",
+      "rule_id": "SD1264",
+      "rule_message": "IDVAR equals --SEQ when IDVARVAL is null and USUBJID is null",
+      "category": "REL1",
+      "primitive": "blank_field",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0045",
+      "row_index": 323,
+      "csv_line": 325,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "1",
+          "injected": ""
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 323
+    },
+    {
+      "error_id": "INJ-SD1264-RELREC-002",
+      "rule_id": "SD1264",
+      "rule_message": "IDVAR equals --SEQ when IDVARVAL is null and USUBJID is null",
+      "category": "REL1",
+      "primitive": "blank_field",
+      "domain": "RELREC",
+      "usubjid": "",
+      "row_index": 323,
+      "csv_line": 325,
+      "seq_value": null,
+      "variables_modified": {
+        "USUBJID": {
+          "original": "EMPEROR-HFPEF-SITE003-0045",
+          "injected": ""
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 323
+    },
+    {
+      "error_id": "INJ-SD1264-RELREC-003",
+      "rule_id": "SD1264",
+      "rule_message": "IDVAR equals --SEQ when IDVARVAL is null and USUBJID is null",
+      "category": "REL1",
+      "primitive": "blank_field",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0018",
+      "row_index": 261,
+      "csv_line": 263,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "3",
+          "injected": ""
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 261
+    },
+    {
+      "error_id": "INJ-SD1264-RELREC-003",
+      "rule_id": "SD1264",
+      "rule_message": "IDVAR equals --SEQ when IDVARVAL is null and USUBJID is null",
+      "category": "REL1",
+      "primitive": "blank_field",
+      "domain": "RELREC",
+      "usubjid": "",
+      "row_index": 261,
+      "csv_line": 263,
+      "seq_value": null,
+      "variables_modified": {
+        "USUBJID": {
+          "original": "EMPEROR-HFPEF-SITE003-0018",
+          "injected": ""
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 261
+    },
+    {
+      "error_id": "INJ-SD1264-RELREC-004",
+      "rule_id": "SD1264",
+      "rule_message": "IDVAR equals --SEQ when IDVARVAL is null and USUBJID is null",
+      "category": "REL1",
+      "primitive": "blank_field",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0044",
+      "row_index": 208,
+      "csv_line": 210,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "1",
+          "injected": ""
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 208
+    },
+    {
+      "error_id": "INJ-SD1264-RELREC-004",
+      "rule_id": "SD1264",
+      "rule_message": "IDVAR equals --SEQ when IDVARVAL is null and USUBJID is null",
+      "category": "REL1",
+      "primitive": "blank_field",
+      "domain": "RELREC",
+      "usubjid": "",
+      "row_index": 208,
+      "csv_line": 210,
+      "seq_value": null,
+      "variables_modified": {
+        "USUBJID": {
+          "original": "EMPEROR-HFPEF-SITE002-0044",
+          "injected": ""
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 208
+    },
+    {
+      "error_id": "INJ-SD1264-RELREC-005",
+      "rule_id": "SD1264",
+      "rule_message": "IDVAR equals --SEQ when IDVARVAL is null and USUBJID is null",
+      "category": "REL1",
+      "primitive": "blank_field",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE002-0035",
+      "row_index": 189,
+      "csv_line": 191,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "2",
+          "injected": ""
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 189
+    },
+    {
+      "error_id": "INJ-SD1264-RELREC-005",
+      "rule_id": "SD1264",
+      "rule_message": "IDVAR equals --SEQ when IDVARVAL is null and USUBJID is null",
+      "category": "REL1",
+      "primitive": "blank_field",
+      "domain": "RELREC",
+      "usubjid": "",
+      "row_index": 189,
+      "csv_line": 191,
+      "seq_value": null,
+      "variables_modified": {
+        "USUBJID": {
+          "original": "EMPEROR-HFPEF-SITE002-0035",
+          "injected": ""
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 189
+    },
+    {
+      "error_id": "INJ-SD1264-RELREC-006",
+      "rule_id": "SD1264",
+      "rule_message": "IDVAR equals --SEQ when IDVARVAL is null and USUBJID is null",
+      "category": "REL1",
+      "primitive": "blank_field",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0040",
+      "row_index": 102,
+      "csv_line": 104,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "9",
+          "injected": ""
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 102
+    },
+    {
+      "error_id": "INJ-SD1264-RELREC-006",
+      "rule_id": "SD1264",
+      "rule_message": "IDVAR equals --SEQ when IDVARVAL is null and USUBJID is null",
+      "category": "REL1",
+      "primitive": "blank_field",
+      "domain": "RELREC",
+      "usubjid": "",
+      "row_index": 102,
+      "csv_line": 104,
+      "seq_value": null,
+      "variables_modified": {
+        "USUBJID": {
+          "original": "EMPEROR-HFPEF-SITE001-0040",
+          "injected": ""
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 102
+    },
+    {
+      "error_id": "INJ-SD1264-RELREC-007",
+      "rule_id": "SD1264",
+      "rule_message": "IDVAR equals --SEQ when IDVARVAL is null and USUBJID is null",
+      "category": "REL1",
+      "primitive": "blank_field",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE001-0022",
+      "row_index": 46,
+      "csv_line": 48,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "3",
+          "injected": ""
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 46
+    },
+    {
+      "error_id": "INJ-SD1264-RELREC-007",
+      "rule_id": "SD1264",
+      "rule_message": "IDVAR equals --SEQ when IDVARVAL is null and USUBJID is null",
+      "category": "REL1",
+      "primitive": "blank_field",
+      "domain": "RELREC",
+      "usubjid": "",
+      "row_index": 46,
+      "csv_line": 48,
+      "seq_value": null,
+      "variables_modified": {
+        "USUBJID": {
+          "original": "EMPEROR-HFPEF-SITE001-0022",
+          "injected": ""
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 46
+    },
+    {
+      "error_id": "INJ-SD1264-RELREC-008",
+      "rule_id": "SD1264",
+      "rule_message": "IDVAR equals --SEQ when IDVARVAL is null and USUBJID is null",
+      "category": "REL1",
+      "primitive": "blank_field",
+      "domain": "RELREC",
+      "usubjid": "EMPEROR-HFPEF-SITE003-0039",
+      "row_index": 307,
+      "csv_line": 309,
+      "seq_value": null,
+      "variables_modified": {
+        "IDVARVAL": {
+          "original": "7",
+          "injected": ""
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 307
+    },
+    {
+      "error_id": "INJ-SD1264-RELREC-008",
+      "rule_id": "SD1264",
+      "rule_message": "IDVAR equals --SEQ when IDVARVAL is null and USUBJID is null",
+      "category": "REL1",
+      "primitive": "blank_field",
+      "domain": "RELREC",
+      "usubjid": "",
+      "row_index": 307,
+      "csv_line": 309,
+      "seq_value": null,
+      "variables_modified": {
+        "USUBJID": {
+          "original": "EMPEROR-HFPEF-SITE003-0039",
+          "injected": ""
+        }
+      },
+      "re_derived": {},
+      "expected_co_violations": [],
+      "notes": null,
+      "status": "injected",
+      "failure_reason": null,
+      "clean_row_index": 307
+    }
+  ],
+  "summary_by_rule": {
+    "SD0075": 50,
+    "SD0077": 14,
+    "SD1026": 13,
+    "SD1066": 13,
+    "SD1067": 11,
+    "SD1072": 10,
+    "SD1264": 16
+  },
+  "summary_by_category": {
+    "Re-order": 50,
+    "REL1": 77
+  },
+  "summary_by_domain": {
+    "RELREC": 127
+  },
+  "summary_status": {
+    "injected": 127,
+    "overwritten": 0,
+    "failed_self_validation": 0
+  },
+  "warnings": [
+    "Re-derivation skipped: ConformanceLayer not importable. Derived fields (--DY, EPOCH) may not reflect injected errors."
+  ]
+}

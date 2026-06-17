@@ -1,0 +1,21 @@
+STUDYID,DOMAIN,IETESTCD,IETEST,IECAT,IESCAT,TIRL,TIVERS
+VISION-NSCLC,aaa,EXCL01,Subject has a known hypersensitivity to study drug or excipients,EXCLUSION,,,1
+VISION-NSCLC,aaa,EXCL02,Subject is pregnant or breastfeeding,EXCLUSION,,,1
+VISION-NSCLC,aaa,EXCL03,Subject has severe hepatic impairment (ALT/AST > 5x ULN),EXCLUSION,,,1
+VISION-NSCLC,aaa,EXCL04,Subject has uncontrolled concurrent illness,EXCLUSION,,,1
+VISION-NSCLC,aaa,EXCL05,Subject has participated in another clinical trial within 30 days,EXCLUSION,,,1
+VISION-NSCLC,aaa,INCL01,Subject is >= 18 years of age,INCLUSION,,,1
+VISION-NSCLC,aaa,INCL02,Subject has provided written informed consent,INCLUSION,,,1
+VISION-NSCLC,aaa,INCL03,Subject meets diagnosis criteria for the study indication,INCLUSION,,,1
+VISION-NSCLC,aaa,INCL04,Subject has adequate organ function based on screening labs,INCLUSION,,,1
+VISION-NSCLC,aaa,INCL05,Subject is willing to comply with study procedures,INCLUSION,,,1
+VISION-NSCLC,INVALID,EXCL01,Subject has a known hypersensitivity to study drug or excipients,EXCLUSION,,,1
+VISION-NSCLC,INVALID,EXCL02,Subject is pregnant or breastfeeding,EXCLUSION,,,1
+VISION-NSCLC,INVALID,EXCL03,Subject has severe hepatic impairment (ALT/AST > 5x ULN),EXCLUSION,,,1
+VISION-NSCLC,INVALID,EXCL04,Subject has uncontrolled concurrent illness,EXCLUSION,,,1
+VISION-NSCLC,INVALID,EXCL05,Subject has participated in another clinical trial within 30 days,EXCLUSION,,,1
+VISION-NSCLC,INVALID,INCL01,Subject is >= 18 years of age,INCLUSION,,,1
+VISION-NSCLC,INVALID,INCL02,Subject has provided written informed consent,INCLUSION,,,1
+VISION-NSCLC,INVALID,INCL03,Subject meets diagnosis criteria for the study indication,INCLUSION,,,1
+VISION-NSCLC,INVALID,INCL04,Subject has adequate organ function based on screening labs,INCLUSION,,,1
+VISION-NSCLC,INVALID,INCL05,Subject is willing to comply with study procedures,INCLUSION,,,1

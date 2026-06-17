@@ -1,0 +1,12 @@
+﻿error_id,rule_id,status,domain,USUBJID,row_index,primitive,variables_modified,re_derived,failure_reason
+INJ-SD1064-TE-001,SD1064,injected,TE,,0,duplicate_record,"{""__row__"": {""original"": ""unique"", ""injected"": ""duplicated""}}",,
+INJ-SD1068-TE-001,SD1068,injected,TE,,3,duplicate_record,"{""__row__"": {""original"": ""unique"", ""injected"": ""duplicated""}}",,
+INJ-SD1378-TE-001,SD1378,injected,TE,,3,cross_domain_mismatch,"{""ETCD"": {""original"": ""FU"", ""injected"": ""ZZZSD1378""}}",,
+INJ-SD1379-TE-001,SD1379,injected,TE,,2,cross_domain_mismatch,"{""ETCD"": {""original"": ""TRT"", ""injected"": ""ZZZSD1379""}}",,
+INJ-SD1052-TA-001,SD1052,injected,TA,,3,duplicate_record,"{""__row__"": {""original"": ""unique"", ""injected"": ""duplicated""}}",,
+INJ-SD1267-TA-001,SD1267,injected,TA,,8,set_invalid_value,"{""TAETORD"": {""original"": ""3"", ""injected"": ""INVALID""}}",,
+INJ-SD1354-TA-001,SD1354,injected,TA,,0,cross_domain_mismatch,"{""ARMCD"": {""original"": ""PSI1"", ""injected"": ""ZZZSD1354""}}",,
+INJ-SD1286-TI-001,SD1286,injected,TI,,6,duplicate_record,"{""__row__"": {""original"": ""unique"", ""injected"": ""duplicated""}}",,
+INJ-SD1053-TA-001,SD1053,injected,TA,,2,set_invalid_value,"{""ARMCD"": {""original"": ""PSI1"", ""injected"": ""SCRNFAIL""}}",,
+INJ-SD1053-TV-002,SD1053,injected,TV,,1,set_invalid_value,"{""ARMCD"": {""original"": ""PSI10"", ""injected"": ""SCRNFAIL""}}",,
+INJ-SD1053-TV-003,SD1053,injected,TV,,11,set_invalid_value,"{""ARMCD"": {""original"": ""PSI25"", ""injected"": ""SCRNFAIL""}}",,
